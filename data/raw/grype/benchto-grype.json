@@ -1,0 +1,170 @@
+{
+  "total_vulnerabilities": 14,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 14
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "hadoop-common",
+      "current_version": "2.6.0-cdh5.4.5",
+      "vuln_id": "GHSA-8wm5-8h9c-47pc",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Hadoop argument injection vulnerability",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "2.6.0-cdh5.4.5",
+      "vuln_id": "GHSA-7q56-mp4c-gggg",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Improper Access Control in Apache Hadoop",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "2.6.0-cdh5.4.5",
+      "vuln_id": "GHSA-rmpj-7c96-mrg8",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Hadoop heap overflow before v2.10.2, v3.2.3, v3.3.2",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hive-jdbc",
+      "current_version": "1.1.0-cdh5.4.5",
+      "vuln_id": "GHSA-jf2m-435m-mxw8",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "SQL Injection in hive-jdbc",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "2.6.0-cdh5.4.5",
+      "vuln_id": "GHSA-mf7c-35mq-75pj",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Insecure Inherited Permissions in  Apache Hadoop",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "2.6.0-cdh5.4.5",
+      "vuln_id": "GHSA-h24p-qwf4-84q8",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Hadoop's LinuxContainerExecutor runs docker commands as root with insufficient input validation",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "2.6.0-cdh5.4.5",
+      "vuln_id": "GHSA-gx2c-fvhc-ph4j",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Path traversal in Hadoop",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hive-jdbc",
+      "current_version": "1.1.0-cdh5.4.5",
+      "vuln_id": "GHSA-jmf4-pq78-f8vj",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Moderate severity vulnerability that affects org.apache.hive:hive-jdbc",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "2.6.0-cdh5.4.5",
+      "vuln_id": "GHSA-f8vc-wfc8-hxqh",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Improper Privilege Management in Apache Hadoop",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "2.6.0-cdh5.4.5",
+      "vuln_id": "GHSA-8r28-r8cp-g6cp",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Exposure of Sensitive Information to an Unauthorized Actor in Apache Hadoop",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "2.6.0-cdh5.4.5",
+      "vuln_id": "GHSA-g48f-ff5h-5f64",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Exposure of Sensitive Information to an Unauthorized Actor in Apache Hadoop",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postgresql",
+      "current_version": "42.7.4",
+      "vuln_id": "GHSA-hq9p-pm7w-8p54",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "pgjdbc Client Allows Fallback to Insecure Authentication Despite channelBinding=require Configuration",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "2.6.0-cdh5.4.5",
+      "vuln_id": "GHSA-f5fw-25gw-5m92",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Hadoop: Temporary File Local Information Disclosure",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postgresql",
+      "current_version": "42.7.4",
+      "vuln_id": "GHSA-98qh-xjc8-98pq",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "pgjdbc: Unbounded PBKDF2 iterations in SCRAM authentication allows CPU exhaustion DoS",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/benchto"
+  }
+}

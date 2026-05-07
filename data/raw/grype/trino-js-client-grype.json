@@ -1,0 +1,203 @@
+{
+  "total_vulnerabilities": 17,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 17
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-pf86-5x62-jrwf",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios: Prototype Pollution Gadgets - Response Tampering, Data Exfiltration, and Request Hijacking",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-6chq-wfr3-2hj9",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios: Header Injection via Prototype Pollution",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-3w6x-2g7m-8v23",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios: Invisible JSON Response Tampering via Prototype Pollution Gadget in `parseReviver`",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-w9j2-pvgh-6h63",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios: Authentication Bypass via Prototype Pollution Gadget in `validateStatus` Merge Strategy",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-43fc-jf86-j433",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios is Vulnerable to Denial of Service via __proto__ Key in mergeConfig",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-pmwg-cvhr-8vh7",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios: Incomplete Fix for CVE-2025-62718 — NO_PROXY Protection Bypassed via RFC 1122 Loopback Subnet (127.0.0.0/8) in Axios 1.15.0",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-62hf-57xw-28j9",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios: unbounded recursion in toFormData causes DoS via deeply nested request data",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-445q-vr5w-6q77",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios: CRLF Injection in multipart/form-data body via unsanitized blob.type in formDataToStream",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-5c9x-8gcm-mpgx",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios' HTTP adapter-streamed uploads bypass maxBodyLength when maxRedirects: 0",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-vf2m-468p-8v99",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios: HTTP adapter streamed responses bypass maxContentLength",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-m7pr-hjqh-92cm",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios: no_proxy bypass via IP alias allows SSRF",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-3p68-rc4w-qgx5",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-xx6v-rp6x-q39c",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios: XSRF Token Cross-Origin Leakage via Prototype Pollution Gadget in `withXSRFToken` Boolean Coercion",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-xhjh-pmcv-23jw",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios: Null Byte Injection via Reverse-Encoding in AxiosURLSearchParams",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-fvcv-3m26-pcqx",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.2",
+      "vuln_id": "GHSA-q8qp-cvcw-x6jj",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios has prototype pollution read-side gadgets in HTTP adapter that allow credential injection and request hijacking",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "follow-redirects",
+      "current_version": "1.15.6",
+      "vuln_id": "GHSA-r4q5-vmmm-2653",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "follow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/trino-js-client"
+  }
+}

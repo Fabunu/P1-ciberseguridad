@@ -1,0 +1,170 @@
+{
+  "total_vulnerabilities": 14,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 14
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "requests",
+      "current_version": "2.32.2",
+      "vuln_id": "GHSA-9hjg-9r4m-mvj7",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Requests vulnerable to .netrc credentials leak via malicious URLs",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "urllib3",
+      "current_version": "2.2.2",
+      "vuln_id": "GHSA-pq67-6m6q-mj2v",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "urllib3",
+      "current_version": "2.2.2",
+      "vuln_id": "GHSA-48p4-8xcf-vxj5",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "urllib3 does not control redirects in browsers and Node.js",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "urllib3",
+      "current_version": "2.2.2",
+      "vuln_id": "GHSA-38jv-5279-wg99",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Decompression-bomb safeguards bypassed when following HTTP redirects (streaming API)",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "urllib3",
+      "current_version": "2.2.2",
+      "vuln_id": "GHSA-gm62-xv2j-4w53",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "urllib3 allows an unbounded number of links in the decompression chain",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "pillow",
+      "current_version": "10.3.0",
+      "vuln_id": "GHSA-whj4-6x5x-4v2j",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "FITS GZIP decompression bomb in Pillow",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "urllib3",
+      "current_version": "2.2.2",
+      "vuln_id": "GHSA-2xpw-w6gg-jr37",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "urllib3 streaming API improperly handles highly compressed data",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "pillow",
+      "current_version": "10.3.0",
+      "vuln_id": "GHSA-cfh3-3jmp-rvhc",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Pillow affected by out-of-bounds write when loading PSD images",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "requests",
+      "current_version": "2.32.2",
+      "vuln_id": "GHSA-gc5v-m9x4-r6x2",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "pygments",
+      "current_version": "2.17.2",
+      "vuln_id": "GHSA-5239-wwwm-4pmq",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Pygments has Regular Expression Denial of Service (ReDoS) due to Inefficient Regex for GUID Matching",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "actions/download-artifact",
+      "current_version": "v4",
+      "vuln_id": "GHSA-cxww-7g56-2vh6",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "@actions/download-artifact has an Arbitrary File Write via artifact extraction",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "pillow",
+      "current_version": "10.3.0",
+      "vuln_id": "GHSA-pwv6-vv43-88gr",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Pillow has an OOB Write with Invalid PSD Tile Extents (Integer Overflow)",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "pillow",
+      "current_version": "10.3.0",
+      "vuln_id": "GHSA-r73j-pqj5-w3x7",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Pillow has a PDF Parsing Trailer Infinite Loop (DoS)",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "pillow",
+      "current_version": "10.3.0",
+      "vuln_id": "GHSA-wjx4-4jcj-g98j",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Pillow has an integer overflow when processing fonts",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/docker-images"
+  }
+}

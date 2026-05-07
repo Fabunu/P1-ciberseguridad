@@ -1,0 +1,4823 @@
+{
+  "artifacts": [
+    {
+      "id": "7b459b197d7d9523",
+      "name": "actions/checkout",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v2"
+      }
+    },
+    {
+      "id": "745aab81f6933dfb",
+      "name": "actions/setup-java",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-java@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-java@v2"
+      }
+    },
+    {
+      "id": "89410e91c4cc4604",
+      "name": "annotations",
+      "version": "19.0.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.jetbrains:annotations:19.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:annotations:annotations:19.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jetbrains:annotations:19.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains/annotations@19.0.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.jetbrains",
+          "artifactId": "annotations",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "b22c9680ad4d0b80",
+      "name": "assertj-core",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:assertj-core:assertj-core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:assertj-core:assertj_core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:assertj_core:assertj-core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:assertj_core:assertj_core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.assertj:assertj-core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.assertj:assertj_core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:assertj:assertj-core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:assertj:assertj_core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.assertj/assertj-core",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.assertj",
+          "artifactId": "assertj-core",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "431945a116bb6cd5",
+      "name": "bcprov-jdk15on",
+      "version": "1.51",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.bouncycastle:bcprov-jdk15on:1.51:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.bouncycastle:bcprov_jdk15on:1.51:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:bcprov-jdk15on:bcprov-jdk15on:1.51:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:bcprov-jdk15on:bcprov_jdk15on:1.51:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:bcprov_jdk15on:bcprov-jdk15on:1.51:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:bcprov_jdk15on:bcprov_jdk15on:1.51:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:bouncycastle:bcprov-jdk15on:1.51:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:bouncycastle:bcprov_jdk15on:1.51:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:bcprov:bcprov-jdk15on:1.51:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:bcprov:bcprov_jdk15on:1.51:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.51",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.bouncycastle",
+          "artifactId": "bcprov-jdk15on",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "2b91a9dcdfd19649",
+      "name": "byte-buddy",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:net.bytebuddy:byte-buddy:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:net.bytebuddy:byte_buddy:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:byte-buddy:byte-buddy:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:byte-buddy:byte_buddy:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:byte_buddy:byte-buddy:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:byte_buddy:byte_buddy:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:bytebuddy:byte-buddy:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:bytebuddy:byte_buddy:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:byte:byte-buddy:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:byte:byte_buddy:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/net.bytebuddy/byte-buddy",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "net.bytebuddy",
+          "artifactId": "byte-buddy",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "faab05ac72f51d22",
+      "name": "commons-cli",
+      "version": "1.8.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-runner/pom.xml",
+          "accessPath": "/tempto-runner/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:commons-cli:commons-cli:1.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons-cli:commons_cli:1.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons_cli:commons-cli:1.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons_cli:commons_cli:1.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons:commons-cli:1.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons:commons_cli:1.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/commons-cli/commons-cli@1.8.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "commons-cli",
+          "artifactId": "commons-cli",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "76f009bc2ce795ce",
+      "name": "commons-dbcp2",
+      "version": "2.1",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:commons-dbcp2:2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:commons_dbcp2:2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:commons:2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-dbcp2@2.1",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.commons",
+          "artifactId": "commons-dbcp2",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "20bd6b1de572b381",
+      "name": "commons-dbutils",
+      "version": "1.6",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:commons-dbutils:commons-dbutils:1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons-dbutils:commons_dbutils:1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons_dbutils:commons-dbutils:1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons_dbutils:commons_dbutils:1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons:commons-dbutils:1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons:commons_dbutils:1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/commons-dbutils/commons-dbutils@1.6",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "commons-dbutils",
+          "artifactId": "commons-dbutils",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "5df60f9cc0359c49",
+      "name": "commons-io",
+      "version": "2.16.1",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:commons-io:commons-io:2.16.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons-io:commons_io:2.16.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons_io:commons-io:2.16.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons_io:commons_io:2.16.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons:commons-io:2.16.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons:commons_io:2.16.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/commons-io/commons-io@2.16.1",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "commons-io",
+          "artifactId": "commons-io",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "b4f7df78e266ef30",
+      "name": "commons-lang3",
+      "version": "3.12.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:commons-lang3:3.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:commons_lang3:3.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:commons:3.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.commons",
+          "artifactId": "commons-lang3",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "e03aec9e5d3ff6ba",
+      "name": "freemarker",
+      "version": "2.3.22",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.freemarker:freemarker:2.3.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:freemarker:freemarker:2.3.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.freemarker/freemarker@2.3.22",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.freemarker",
+          "artifactId": "freemarker",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "0652138bf82736d8",
+      "name": "groovy",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:groovy:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.groovy/groovy",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.groovy",
+          "artifactId": "groovy",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "a0452175ab15420c",
+      "name": "guava",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.google.guava:guava:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:guava:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guava:guava:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "2130c3743b95aae9",
+      "name": "guice",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.google.inject:guice:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:guice:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:inject:guice:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guice:guice:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.google.inject/guice",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.google.inject",
+          "artifactId": "guice",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "633c6f944505ff25",
+      "name": "hive-apache",
+      "version": "3.1.2-22",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.hive:hive-apache:3.1.2-22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.hive:hive_apache:3.1.2-22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-apache:hive-apache:3.1.2-22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-apache:hive_apache:3.1.2-22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_apache:hive-apache:3.1.2-22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_apache:hive_apache:3.1.2-22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.hive:hive:3.1.2-22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:hive-apache:3.1.2-22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:hive_apache:3.1.2-22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-apache:hive:3.1.2-22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive:hive-apache:3.1.2-22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive:hive_apache:3.1.2-22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_apache:hive:3.1.2-22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:hive:3.1.2-22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive:hive:3.1.2-22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.hive/hive-apache@3.1.2-22",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.trino.hive",
+          "artifactId": "hive-apache",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "ac836c564a01ad28",
+      "name": "hive-apache-jdbc",
+      "version": "0.13.1-9",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-examples/pom.xml",
+          "accessPath": "/tempto-examples/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:hive-apache-jdbc:hive-apache-jdbc:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-apache-jdbc:hive_apache_jdbc:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_apache_jdbc:hive-apache-jdbc:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_apache_jdbc:hive_apache_jdbc:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.hive:hive-apache-jdbc:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.hive:hive_apache_jdbc:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-apache:hive-apache-jdbc:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-apache:hive_apache_jdbc:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_apache:hive-apache-jdbc:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_apache:hive_apache_jdbc:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:hive-apache-jdbc:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:hive_apache_jdbc:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-apache-jdbc:hive:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive:hive-apache-jdbc:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive:hive_apache_jdbc:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_apache_jdbc:hive:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.hive:hive:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-apache:hive:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_apache:hive:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:hive:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive:hive:0.13.1-9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.hive/hive-apache-jdbc@0.13.1-9",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.trino.hive",
+          "artifactId": "hive-apache-jdbc",
+          "version": "",
+          "scope": "runtime"
+        }
+      }
+    },
+    {
+      "id": "d9c003b833338eb6",
+      "name": "hsqldb",
+      "version": "2.3.2",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.hsqldb:hsqldb:2.3.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hsqldb:hsqldb:2.3.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.hsqldb/hsqldb@2.3.2",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.hsqldb",
+          "artifactId": "hsqldb",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "15657d01df3808f6",
+      "name": "httpclient",
+      "version": "4.5.14",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:httpclient:4.5.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.httpcomponents",
+          "artifactId": "httpclient",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "18247bfa2b8206f6",
+      "name": "httpcore",
+      "version": "4.4.16",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:httpcore:4.4.16:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.16",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.httpcomponents",
+          "artifactId": "httpcore",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "5b4183bc4a79b65d",
+      "name": "jackson-annotations",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.core:jackson-annotations:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.core:jackson_annotations:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-annotations:jackson-annotations:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-annotations:jackson_annotations:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_annotations:jackson-annotations:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_annotations:jackson_annotations:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.core:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson-annotations:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson_annotations:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-annotations:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson-annotations:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson_annotations:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_annotations:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson-annotations:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson_annotations:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-annotations",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "e7e9eba3da816ccc",
+      "name": "jackson-core",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.core:jackson-core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.core:jackson_core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.core:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.core:core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-core:jackson-core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-core:jackson_core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_core:jackson-core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_core:jackson_core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson-core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson_core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-core:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson-core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson_core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_core:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson-core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson_core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-core:core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_core:core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-core",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "34cac493e8c6cae3",
+      "name": "jackson-databind",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.core:jackson-databind:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.core:jackson_databind:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.core:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-databind:jackson-databind:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-databind:jackson_databind:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_databind:jackson-databind:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_databind:jackson_databind:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson-databind:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson_databind:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-databind:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson-databind:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson_databind:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_databind:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson-databind:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson_databind:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-databind",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "2ee986e50a562444",
+      "name": "jackson-datatype-jdk8",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.datatype:jackson-datatype-jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.datatype:jackson_datatype_jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-datatype-jdk8:jackson-datatype-jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-datatype-jdk8:jackson_datatype_jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_datatype_jdk8:jackson-datatype-jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_datatype_jdk8:jackson_datatype_jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.datatype:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-datatype:jackson-datatype-jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-datatype:jackson_datatype_jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_datatype:jackson-datatype-jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_datatype:jackson_datatype_jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson-datatype-jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson_datatype_jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:datatype:jackson-datatype-jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:datatype:jackson_datatype_jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-datatype-jdk8:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson-datatype-jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson_datatype_jdk8:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_datatype_jdk8:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-datatype:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_datatype:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:datatype:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.fasterxml.jackson.datatype",
+          "artifactId": "jackson-datatype-jdk8",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "24ca89a3599580c7",
+      "name": "jakarta.inject-api",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:jakarta.inject-api:jakarta.inject-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jakarta.inject-api:jakarta.inject_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jakarta.inject_api:jakarta.inject-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jakarta.inject_api:jakarta.inject_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jakarta.inject:jakarta.inject-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jakarta.inject:jakarta.inject_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/jakarta.inject/jakarta.inject-api",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "jakarta.inject",
+          "artifactId": "jakarta.inject-api",
+          "version": "",
+          "scope": "runtime"
+        }
+      }
+    },
+    {
+      "id": "cf37c692eeb20a0d",
+      "name": "java-driver-core",
+      "version": "4.14.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.datastax.oss:java-driver-core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.datastax.oss:java_driver_core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:java-driver-core:java-driver-core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:java-driver-core:java_driver_core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:java_driver_core:java-driver-core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:java_driver_core:java_driver_core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:java-driver:java-driver-core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:java-driver:java_driver_core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:java_driver:java-driver-core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:java_driver:java_driver_core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:datastax:java-driver-core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:datastax:java_driver_core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:java:java-driver-core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:java:java_driver_core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:oss:java-driver-core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:oss:java_driver_core:4.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.datastax.oss/java-driver-core@4.14.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.datastax.oss",
+          "artifactId": "java-driver-core",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "d9fb33809a453c5c",
+      "name": "jcl-over-slf4j",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:jcl-over-slf4j:jcl-over-slf4j:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl-over-slf4j:jcl_over_slf4j:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl_over_slf4j:jcl-over-slf4j:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl_over_slf4j:jcl_over_slf4j:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:jcl-over-slf4j:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:jcl_over_slf4j:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl-over:jcl-over-slf4j:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl-over:jcl_over_slf4j:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl_over:jcl-over-slf4j:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl_over:jcl_over_slf4j:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:jcl-over-slf4j:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:jcl_over_slf4j:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl:jcl-over-slf4j:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl:jcl_over_slf4j:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/jcl-over-slf4j",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.slf4j",
+          "artifactId": "jcl-over-slf4j",
+          "version": "",
+          "scope": "runtime"
+        }
+      }
+    },
+    {
+      "id": "a0e2eed794936c9a",
+      "name": "jsch",
+      "version": "0.1.55",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.jcraft:jsch:0.1.55:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcraft:jsch:0.1.55:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jsch:jsch:0.1.55:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.jcraft/jsch@0.1.55",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.jcraft",
+          "artifactId": "jsch",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "3ec65dace148b96d",
+      "name": "jsr305",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.google.code.findbugs:jsr305:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:findbugs:jsr305:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:jsr305:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jsr305:jsr305:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:code:jsr305:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.findbugs/jsr305",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.google.code.findbugs",
+          "artifactId": "jsr305",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "69562ac8c1f3cd84",
+      "name": "junit-jupiter-api",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter-api:junit-jupiter-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter-api:junit_jupiter_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter_api:junit-jupiter-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter_api:junit_jupiter_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.junit.jupiter:junit-jupiter-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.junit.jupiter:junit_jupiter_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter:junit-jupiter-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter:junit_jupiter_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter:junit-jupiter-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter:junit_jupiter_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jupiter:junit-jupiter-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jupiter:junit_jupiter_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit:junit-jupiter-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit:junit_jupiter_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-api",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "3bf6e6d3bb1281f8",
+      "name": "junit-jupiter-engine",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter-engine:junit-jupiter-engine:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter-engine:junit_jupiter_engine:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter_engine:junit-jupiter-engine:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter_engine:junit_jupiter_engine:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.junit.jupiter:junit-jupiter-engine:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.junit.jupiter:junit_jupiter_engine:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter:junit-jupiter-engine:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter:junit_jupiter_engine:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter:junit-jupiter-engine:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter:junit_jupiter_engine:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jupiter:junit-jupiter-engine:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jupiter:junit_jupiter_engine:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit:junit-jupiter-engine:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit:junit_jupiter_engine:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "516bac92878ba27d",
+      "name": "junit-jupiter-params",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-examples/pom.xml",
+          "accessPath": "/tempto-examples/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter-params:junit-jupiter-params:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter-params:junit_jupiter_params:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter_params:junit-jupiter-params:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter_params:junit_jupiter_params:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.junit.jupiter:junit-jupiter-params:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.junit.jupiter:junit_jupiter_params:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter:junit-jupiter-params:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter:junit_jupiter_params:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter:junit-jupiter-params:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter:junit_jupiter_params:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jupiter:junit-jupiter-params:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jupiter:junit_jupiter_params:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit:junit-jupiter-params:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit:junit_jupiter_params:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-params",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-params",
+          "version": "",
+          "scope": "runtime"
+        }
+      }
+    },
+    {
+      "id": "903b85395168c96a",
+      "name": "kafka-clients",
+      "version": "2.4.1",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-kafka/pom.xml",
+          "accessPath": "/tempto-kafka/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:kafka-clients:2.4.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:kafka_clients:2.4.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:kafka:2.4.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.kafka/kafka-clients@2.4.1",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.kafka",
+          "artifactId": "kafka-clients",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "fc0d41de87d5411d",
+      "name": "libthrift",
+      "version": "0.20.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:libthrift:0.20.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:thrift:0.20.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.thrift/libthrift@0.20.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.thrift",
+          "artifactId": "libthrift",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "2dc37e033baa7597",
+      "name": "objenesis",
+      "version": "3.2",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.objenesis:objenesis:3.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:objenesis:objenesis:3.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.objenesis/objenesis@3.2",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.objenesis",
+          "artifactId": "objenesis",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "15d36374d0d42f60",
+      "name": "postgresql",
+      "version": "9.4-1201-jdbc41",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-examples/pom.xml",
+          "accessPath": "/tempto-examples/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.postgresql:postgresql:9.4-1201-jdbc41:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:postgresql:postgresql:9.4-1201-jdbc41:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.postgresql/postgresql@9.4-1201-jdbc41",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.postgresql",
+          "artifactId": "postgresql",
+          "version": "",
+          "scope": "runtime"
+        }
+      }
+    },
+    {
+      "id": "dfe6812583c86c89",
+      "name": "slf4j-api",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:slf4j-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:slf4j_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j-api:slf4j-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j-api:slf4j_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j_api:slf4j-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j_api:slf4j_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:slf4j-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:slf4j_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "39044ea38598cdf3",
+      "name": "slf4j-log4j12",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:slf4j-log4j12:slf4j-log4j12:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j-log4j12:slf4j_log4j12:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j_log4j12:slf4j-log4j12:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j_log4j12:slf4j_log4j12:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:slf4j-log4j12:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:slf4j_log4j12:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:slf4j-log4j12:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:slf4j_log4j12:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-log4j12",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "a952361907bba58f",
+      "name": "snakeyaml",
+      "version": "2.2",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:snakeyaml:snakeyaml:2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.yaml:snakeyaml:2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:yaml:snakeyaml:2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.yaml/snakeyaml@2.2",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.yaml",
+          "artifactId": "snakeyaml",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "4ee6b6971fbd368b",
+      "name": "spock-core",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.spockframework:spock-core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.spockframework:spock_core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spockframework:spock-core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spockframework:spock_core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spock-core:spock-core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spock-core:spock_core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spock_core:spock-core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spock_core:spock_core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spock:spock-core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spock:spock_core:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.spockframework/spock-core",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.spockframework",
+          "artifactId": "spock-core",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "078382756b112717",
+      "name": "sshd-core",
+      "version": "0.14.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:sshd-core:0.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:sshd_core:0.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:sshd:0.14.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.sshd/sshd-core@0.14.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.sshd",
+          "artifactId": "sshd-core",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "d55fec4bdcfe72af",
+      "name": "tempto-core",
+      "version": "203-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto-core:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto_core:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-core:tempto-core:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-core:tempto_core:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_core:tempto-core:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_core:tempto_core:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-core:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto-core:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto_core:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_core:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto-core:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto_core:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.tempto/tempto-core@203-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "io.trino.tempto",
+            "artifactId": "tempto-root",
+            "version": "203-SNAPSHOT"
+          },
+          "groupId": "io.trino.tempto",
+          "artifactId": "tempto-core",
+          "version": "203-SNAPSHOT",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "aa799844599c5e7f",
+      "name": "tempto-examples",
+      "version": "203-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-examples/pom.xml",
+          "accessPath": "/tempto-examples/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto-examples:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto_examples:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-examples:tempto-examples:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-examples:tempto_examples:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_examples:tempto-examples:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_examples:tempto_examples:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-examples:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto-examples:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto_examples:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_examples:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto-examples:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto_examples:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.tempto/tempto-examples@203-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "io.trino.tempto",
+            "artifactId": "tempto-root",
+            "version": "203-SNAPSHOT"
+          },
+          "groupId": "io.trino.tempto",
+          "artifactId": "tempto-examples",
+          "version": "203-SNAPSHOT",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "dedbff7eb49ca2f4",
+      "name": "tempto-kafka",
+      "version": "203-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-kafka/pom.xml",
+          "accessPath": "/tempto-kafka/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto-kafka:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto_kafka:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-kafka:tempto-kafka:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-kafka:tempto_kafka:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_kafka:tempto-kafka:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_kafka:tempto_kafka:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-kafka:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto-kafka:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto_kafka:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_kafka:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto-kafka:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto_kafka:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.tempto/tempto-kafka@203-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "io.trino.tempto",
+            "artifactId": "tempto-root",
+            "version": "203-SNAPSHOT"
+          },
+          "groupId": "io.trino.tempto",
+          "artifactId": "tempto-kafka",
+          "version": "203-SNAPSHOT",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "e2f56b2e1e7cb7e7",
+      "name": "tempto-ldap",
+      "version": "203-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-ldap/pom.xml",
+          "accessPath": "/tempto-ldap/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto-ldap:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto_ldap:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-ldap:tempto-ldap:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-ldap:tempto_ldap:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_ldap:tempto-ldap:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_ldap:tempto_ldap:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-ldap:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto-ldap:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto_ldap:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_ldap:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto-ldap:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto_ldap:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.tempto/tempto-ldap@203-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "io.trino.tempto",
+            "artifactId": "tempto-root",
+            "version": "203-SNAPSHOT"
+          },
+          "groupId": "io.trino.tempto",
+          "artifactId": "tempto-ldap",
+          "version": "203-SNAPSHOT",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "54b6bce919bfc007",
+      "name": "tempto-root",
+      "version": "203-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache-2.0",
+          "spdxExpression": "Apache-2.0",
+          "type": "concluded",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/LICENSE",
+              "accessPath": "/LICENSE"
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto-root:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto_root:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-root:tempto-root:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-root:tempto_root:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_root:tempto-root:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_root:tempto_root:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.airlift:tempto-root:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.airlift:tempto_root:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:airlift:tempto-root:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:airlift:tempto_root:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-root:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto-root:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto_root:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_root:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.airlift:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto-root:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto_root:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:airlift:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.tempto/tempto-root@203-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "io.airlift",
+            "artifactId": "airbase",
+            "version": "157"
+          },
+          "groupId": "io.trino.tempto",
+          "artifactId": "tempto-root",
+          "version": "203-SNAPSHOT",
+          "name": "",
+          "description": "Tempto - test framework",
+          "url": "https://github.com/trinodb/tempto"
+        }
+      }
+    },
+    {
+      "id": "dfebe9064167bde1",
+      "name": "tempto-runner",
+      "version": "203-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-runner/pom.xml",
+          "accessPath": "/tempto-runner/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto-runner:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto_runner:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-runner:tempto-runner:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-runner:tempto_runner:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_runner:tempto-runner:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_runner:tempto_runner:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.tempto:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-runner:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto-runner:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto_runner:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_runner:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto-runner:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto_runner:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tempto:203-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.tempto/tempto-runner@203-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "io.trino.tempto",
+            "artifactId": "tempto-root",
+            "version": "203-SNAPSHOT"
+          },
+          "groupId": "io.trino.tempto",
+          "artifactId": "tempto-runner",
+          "version": "203-SNAPSHOT",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "66aef9a35205b4a1",
+      "name": "testng",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.testng:testng:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testng:testng:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.testng/testng",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.testng",
+          "artifactId": "testng",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "c7af9dffa1800e7e",
+      "name": "tpcds",
+      "version": "1.4",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.tpcds:tpcds:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tpcds:tpcds:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tpcds:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.tpcds/tpcds@1.4",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.trino.tpcds",
+          "artifactId": "tpcds",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "d6ef4df278280dc6",
+      "name": "tpch",
+      "version": "1.4",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-core/pom.xml",
+          "accessPath": "/tempto-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.tpch:tpch:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:tpch:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tpch:tpch:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.tpch/tpch@1.4",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.trino.tpch",
+          "artifactId": "tpch",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "f7798481ba2a851f",
+      "name": "trino-jdbc",
+      "version": "356",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/tempto-examples/pom.xml",
+          "accessPath": "/tempto-examples/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:trino-jdbc:trino-jdbc:356:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino-jdbc:trino_jdbc:356:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino_jdbc:trino-jdbc:356:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino_jdbc:trino_jdbc:356:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino:trino-jdbc:356:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino:trino_jdbc:356:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:trino-jdbc:356:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:trino_jdbc:356:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino/trino-jdbc@356",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.trino",
+          "artifactId": "trino-jdbc",
+          "version": "",
+          "scope": "runtime"
+        }
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "0652138bf82736d8",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "0652138bf82736d8",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "078382756b112717",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "078382756b112717",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "15657d01df3808f6",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "15657d01df3808f6",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "15d36374d0d42f60",
+      "child": "36c33270135ee353",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "15d36374d0d42f60",
+      "child": "aa799844599c5e7f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "18247bfa2b8206f6",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "18247bfa2b8206f6",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "20bd6b1de572b381",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "20bd6b1de572b381",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "2130c3743b95aae9",
+      "child": "aa799844599c5e7f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "2130c3743b95aae9",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2130c3743b95aae9",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "2130c3743b95aae9",
+      "child": "dedbff7eb49ca2f4",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "2130c3743b95aae9",
+      "child": "e2f56b2e1e7cb7e7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "24ca89a3599580c7",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "24ca89a3599580c7",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "2b91a9dcdfd19649",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2b91a9dcdfd19649",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "2dc37e033baa7597",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2dc37e033baa7597",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "2ee986e50a562444",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2ee986e50a562444",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "34cac493e8c6cae3",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "34cac493e8c6cae3",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "39044ea38598cdf3",
+      "child": "aa799844599c5e7f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "39044ea38598cdf3",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "39044ea38598cdf3",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "3bf6e6d3bb1281f8",
+      "child": "aa799844599c5e7f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "3bf6e6d3bb1281f8",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3bf6e6d3bb1281f8",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "3ec65dace148b96d",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3ec65dace148b96d",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "431945a116bb6cd5",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "431945a116bb6cd5",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "4ee6b6971fbd368b",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4ee6b6971fbd368b",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "516bac92878ba27d",
+      "child": "36c33270135ee353",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "516bac92878ba27d",
+      "child": "aa799844599c5e7f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "54b6bce919bfc007",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5b4183bc4a79b65d",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5b4183bc4a79b65d",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "5df60f9cc0359c49",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5df60f9cc0359c49",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "633c6f944505ff25",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "633c6f944505ff25",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "66aef9a35205b4a1",
+      "child": "aa799844599c5e7f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "66aef9a35205b4a1",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "66aef9a35205b4a1",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "66aef9a35205b4a1",
+      "child": "dfebe9064167bde1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "69562ac8c1f3cd84",
+      "child": "aa799844599c5e7f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "69562ac8c1f3cd84",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "69562ac8c1f3cd84",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "745aab81f6933dfb",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "76f009bc2ce795ce",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "76f009bc2ce795ce",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "7b459b197d7d9523",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "89410e91c4cc4604",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "89410e91c4cc4604",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "903b85395168c96a",
+      "child": "4d7f689a5841e1a8",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "903b85395168c96a",
+      "child": "dedbff7eb49ca2f4",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "0652138bf82736d8",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "078382756b112717",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "15657d01df3808f6",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "15d36374d0d42f60",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "18247bfa2b8206f6",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "20bd6b1de572b381",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "2130c3743b95aae9",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "24ca89a3599580c7",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "2b91a9dcdfd19649",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "2dc37e033baa7597",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "2ee986e50a562444",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "34cac493e8c6cae3",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "39044ea38598cdf3",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "3bf6e6d3bb1281f8",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "3ec65dace148b96d",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "431945a116bb6cd5",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "4ee6b6971fbd368b",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "516bac92878ba27d",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "54b6bce919bfc007",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "5b4183bc4a79b65d",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "5df60f9cc0359c49",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "633c6f944505ff25",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "66aef9a35205b4a1",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "69562ac8c1f3cd84",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "745aab81f6933dfb",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "76f009bc2ce795ce",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "7b459b197d7d9523",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "89410e91c4cc4604",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "903b85395168c96a",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "a0452175ab15420c",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "a0e2eed794936c9a",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "a952361907bba58f",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "aa799844599c5e7f",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "ac836c564a01ad28",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "b22c9680ad4d0b80",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "b4f7df78e266ef30",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "c7af9dffa1800e7e",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "cf37c692eeb20a0d",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "d55fec4bdcfe72af",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "d6ef4df278280dc6",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "d9c003b833338eb6",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "d9fb33809a453c5c",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "dedbff7eb49ca2f4",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "dfe6812583c86c89",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "dfebe9064167bde1",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "e03aec9e5d3ff6ba",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "e2f56b2e1e7cb7e7",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "e7e9eba3da816ccc",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "f7798481ba2a851f",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "faab05ac72f51d22",
+      "type": "contains"
+    },
+    {
+      "parent": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+      "child": "fc0d41de87d5411d",
+      "type": "contains"
+    },
+    {
+      "parent": "a0452175ab15420c",
+      "child": "aa799844599c5e7f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a0452175ab15420c",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a0452175ab15420c",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a0452175ab15420c",
+      "child": "dedbff7eb49ca2f4",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a0452175ab15420c",
+      "child": "dfebe9064167bde1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a0452175ab15420c",
+      "child": "e2f56b2e1e7cb7e7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a0e2eed794936c9a",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a0e2eed794936c9a",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a952361907bba58f",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a952361907bba58f",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "aa799844599c5e7f",
+      "child": "36c33270135ee353",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ac836c564a01ad28",
+      "child": "36c33270135ee353",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ac836c564a01ad28",
+      "child": "aa799844599c5e7f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b22c9680ad4d0b80",
+      "child": "aa799844599c5e7f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b22c9680ad4d0b80",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b22c9680ad4d0b80",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b4f7df78e266ef30",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b4f7df78e266ef30",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b4f7df78e266ef30",
+      "child": "dfebe9064167bde1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b4f7df78e266ef30",
+      "child": "e2f56b2e1e7cb7e7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c7af9dffa1800e7e",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c7af9dffa1800e7e",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "cf37c692eeb20a0d",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "cf37c692eeb20a0d",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d55fec4bdcfe72af",
+      "child": "aa799844599c5e7f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d55fec4bdcfe72af",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d55fec4bdcfe72af",
+      "child": "dedbff7eb49ca2f4",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d55fec4bdcfe72af",
+      "child": "dfebe9064167bde1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d55fec4bdcfe72af",
+      "child": "e2f56b2e1e7cb7e7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d6ef4df278280dc6",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d6ef4df278280dc6",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d9c003b833338eb6",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d9c003b833338eb6",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d9fb33809a453c5c",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d9fb33809a453c5c",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "dedbff7eb49ca2f4",
+      "child": "4d7f689a5841e1a8",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "dedbff7eb49ca2f4",
+      "child": "aa799844599c5e7f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "dfe6812583c86c89",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "dfe6812583c86c89",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "dfe6812583c86c89",
+      "child": "dfebe9064167bde1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "dfe6812583c86c89",
+      "child": "e2f56b2e1e7cb7e7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "dfebe9064167bde1",
+      "child": "03da556d98bb478a",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "dfebe9064167bde1",
+      "child": "aa799844599c5e7f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e03aec9e5d3ff6ba",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e03aec9e5d3ff6ba",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e2f56b2e1e7cb7e7",
+      "child": "2355caba47b5b2b1",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e7e9eba3da816ccc",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e7e9eba3da816ccc",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "f7798481ba2a851f",
+      "child": "36c33270135ee353",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f7798481ba2a851f",
+      "child": "aa799844599c5e7f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "faab05ac72f51d22",
+      "child": "03da556d98bb478a",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "faab05ac72f51d22",
+      "child": "dfebe9064167bde1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "fc0d41de87d5411d",
+      "child": "cfb738b346ef9958",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "fc0d41de87d5411d",
+      "child": "d55fec4bdcfe72af",
+      "type": "dependency-of"
+    }
+  ],
+  "files": [
+    {
+      "id": "7561d461b00ff11d",
+      "location": {
+        "path": "/.github/workflows/ci.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 1228
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "968266352a1dfd1d1c1286635347a7f054de3c83"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "427d2c53062bd8919551abb6b3293924891ba19300080ee44dbab75c34663c04"
+        }
+      ]
+    },
+    {
+      "id": "0328106cb52bb1b0",
+      "location": {
+        "path": "/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 7655
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "1a0ad437b0e32ad4df24c3dd3c22166980d63bf5"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "e06b7faf1a683d2325b72bc057a4567935774299ed42158c094b5fc08bc8c635"
+        }
+      ]
+    },
+    {
+      "id": "cfb738b346ef9958",
+      "location": {
+        "path": "/tempto-core/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 7830
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "b25ce6e1f589b4823198aff3d177b4c2e73b066f"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "a81b1258ada9dddda9fe20840eb9f45a4e7405269aa05f8bfc8bdf6b39c65d73"
+        }
+      ]
+    },
+    {
+      "id": "36c33270135ee353",
+      "location": {
+        "path": "/tempto-examples/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 5105
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "b87515b0f8bb4c25f46fc40b0595ea1afad3664c"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "05edd9ac34555cbc6a77a0cfa8237799b792952eb2daa164aee8ef2926efda34"
+        }
+      ]
+    },
+    {
+      "id": "4d7f689a5841e1a8",
+      "location": {
+        "path": "/tempto-kafka/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1348
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "aaa7f900b10aac7f11331342412236785f1d5848"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "fdff76a84e2cdf7fe85f3d0edddee9647d2e17d14580597f48a40d774ba3db22"
+        }
+      ]
+    },
+    {
+      "id": "2355caba47b5b2b1",
+      "location": {
+        "path": "/tempto-ldap/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1444
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "63a3f36e17053a4671462d2b48efb91e9318be95"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "294f5d446f4e95be6e5bf4ce97ffc05e14d12019a792b8a652c4b5c7daaa54d0"
+        }
+      ]
+    },
+    {
+      "id": "03da556d98bb478a",
+      "location": {
+        "path": "/tempto-runner/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1576
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "1c565aab1fc34adab369fb5137f03a1fa504e55b"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "6b668f7f5f3c8397562ce5f440460f38bb91aeeb3241b0d3114d064a16fcc943"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "90594fa5600836ad0c095da1ed0cb7ee5e578d43a7f8840a6f5cc9b7722195c0",
+    "name": "/workspaces/P1-ciberseguridad/data/repos/tempto",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/workspaces/P1-ciberseguridad/data/repos/tempto"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.44.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "deno-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "openldap-search-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/vscode/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/vscode/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}

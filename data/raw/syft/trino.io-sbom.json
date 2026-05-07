@@ -1,0 +1,5088 @@
+{
+  "artifacts": [
+    {
+      "id": "63d0c69f43efcfa6",
+      "name": "addressable",
+      "version": "2.8.7",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:addressable:addressable:2.8.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:addressable:2.8.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:addressable:2.8.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:addressable:2.8.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/addressable@2.8.7"
+    },
+    {
+      "id": "2e8b3816ffb3b54e",
+      "name": "base64",
+      "version": "0.3.0",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:base64:0.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:base64:0.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:base64:base64:0.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:base64:0.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/base64@0.3.0"
+    },
+    {
+      "id": "9f7b19282cea5f5c",
+      "name": "bigdecimal",
+      "version": "3.2.2",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:bigdecimal:bigdecimal:3.2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:bigdecimal:3.2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:bigdecimal:3.2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:bigdecimal:3.2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/bigdecimal@3.2.2"
+    },
+    {
+      "id": "52c591455a377756",
+      "name": "colorator",
+      "version": "1.1.0",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:colorator:colorator:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:colorator:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:colorator:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:colorator:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/colorator@1.1.0"
+    },
+    {
+      "id": "125f14b912e773f4",
+      "name": "concurrent-ruby",
+      "version": "1.3.5",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:concurrent-ruby:concurrent-ruby:1.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:concurrent-ruby:concurrent_ruby:1.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:concurrent_ruby:concurrent-ruby:1.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:concurrent_ruby:concurrent_ruby:1.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:concurrent:concurrent-ruby:1.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:concurrent:concurrent_ruby:1.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:concurrent-ruby:1.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:concurrent_ruby:1.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:concurrent-ruby:1.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:concurrent_ruby:1.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:concurrent-ruby:1.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:concurrent_ruby:1.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/concurrent-ruby@1.3.5"
+    },
+    {
+      "id": "aec5e0059bd6fdf6",
+      "name": "csv",
+      "version": "3.3.5",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:csv:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:csv:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:csv:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:csv:csv:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/csv@3.3.5"
+    },
+    {
+      "id": "9b2dabd79d6de13c",
+      "name": "em-websocket",
+      "version": "0.5.3",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:em-websocket:em-websocket:0.5.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:em-websocket:em_websocket:0.5.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:em_websocket:em-websocket:0.5.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:em_websocket:em_websocket:0.5.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:em-websocket:0.5.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:em_websocket:0.5.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:em-websocket:0.5.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:em_websocket:0.5.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:em-websocket:0.5.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:em_websocket:0.5.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:em:em-websocket:0.5.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:em:em_websocket:0.5.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/em-websocket@0.5.3"
+    },
+    {
+      "id": "93af6b6a8ab0ac73",
+      "name": "eventmachine",
+      "version": "1.2.7",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:eventmachine:eventmachine:1.2.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:eventmachine:1.2.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:eventmachine:1.2.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:eventmachine:1.2.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/eventmachine@1.2.7"
+    },
+    {
+      "id": "3dc19cbd90f73b5d",
+      "name": "ffi",
+      "version": "1.17.2",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:ffi:1.17.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:ffi:1.17.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:ffi:1.17.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ffi:ffi:1.17.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/ffi@1.17.2"
+    },
+    {
+      "id": "94e7fdba9246c32c",
+      "name": "ffi",
+      "version": "1.17.2-aarch64-linux-gnu",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:ffi:1.17.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:ffi:1.17.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:ffi:1.17.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ffi:ffi:1.17.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/ffi@1.17.2-aarch64-linux-gnu"
+    },
+    {
+      "id": "68c7905906b32188",
+      "name": "ffi",
+      "version": "1.17.2-aarch64-linux-musl",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:ffi:1.17.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:ffi:1.17.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:ffi:1.17.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ffi:ffi:1.17.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/ffi@1.17.2-aarch64-linux-musl"
+    },
+    {
+      "id": "a398325cc1254053",
+      "name": "ffi",
+      "version": "1.17.2-arm-linux-gnu",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:ffi:1.17.2-arm-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:ffi:1.17.2-arm-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:ffi:1.17.2-arm-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ffi:ffi:1.17.2-arm-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/ffi@1.17.2-arm-linux-gnu"
+    },
+    {
+      "id": "2a49c2292031d497",
+      "name": "ffi",
+      "version": "1.17.2-arm-linux-musl",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:ffi:1.17.2-arm-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:ffi:1.17.2-arm-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:ffi:1.17.2-arm-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ffi:ffi:1.17.2-arm-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/ffi@1.17.2-arm-linux-musl"
+    },
+    {
+      "id": "9e2c404987e563fa",
+      "name": "ffi",
+      "version": "1.17.2-arm64-darwin",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:ffi:1.17.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:ffi:1.17.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:ffi:1.17.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ffi:ffi:1.17.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/ffi@1.17.2-arm64-darwin"
+    },
+    {
+      "id": "2668a3c5930d7a3a",
+      "name": "ffi",
+      "version": "1.17.2-x86-linux-gnu",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:ffi:1.17.2-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:ffi:1.17.2-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:ffi:1.17.2-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ffi:ffi:1.17.2-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/ffi@1.17.2-x86-linux-gnu"
+    },
+    {
+      "id": "d27250e679f84f01",
+      "name": "ffi",
+      "version": "1.17.2-x86-linux-musl",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:ffi:1.17.2-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:ffi:1.17.2-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:ffi:1.17.2-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ffi:ffi:1.17.2-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/ffi@1.17.2-x86-linux-musl"
+    },
+    {
+      "id": "e6baa17d2ebd9d28",
+      "name": "ffi",
+      "version": "1.17.2-x86_64-darwin",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:ffi:1.17.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:ffi:1.17.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:ffi:1.17.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ffi:ffi:1.17.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/ffi@1.17.2-x86_64-darwin"
+    },
+    {
+      "id": "2452000202ee377f",
+      "name": "ffi",
+      "version": "1.17.2-x86_64-linux-gnu",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:ffi:1.17.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:ffi:1.17.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:ffi:1.17.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ffi:ffi:1.17.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/ffi@1.17.2-x86_64-linux-gnu"
+    },
+    {
+      "id": "2a6c99137f971f4a",
+      "name": "ffi",
+      "version": "1.17.2-x86_64-linux-musl",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:ffi:1.17.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:ffi:1.17.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:ffi:1.17.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ffi:ffi:1.17.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/ffi@1.17.2-x86_64-linux-musl"
+    },
+    {
+      "id": "b509edfe11287a56",
+      "name": "forwardable-extended",
+      "version": "2.6.0",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:forwardable-extended:forwardable-extended:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:forwardable-extended:forwardable_extended:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:forwardable_extended:forwardable-extended:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:forwardable_extended:forwardable_extended:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:forwardable:forwardable-extended:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:forwardable:forwardable_extended:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:forwardable-extended:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:forwardable_extended:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:forwardable-extended:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:forwardable_extended:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:forwardable-extended:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:forwardable_extended:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/forwardable-extended@2.6.0"
+    },
+    {
+      "id": "601514b228854aba",
+      "name": "google-protobuf",
+      "version": "4.31.1",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google-protobuf:4.31.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google_protobuf:4.31.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google-protobuf:4.31.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google_protobuf:4.31.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google-protobuf:4.31.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google_protobuf:4.31.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google-protobuf:4.31.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google_protobuf:4.31.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google-protobuf:4.31.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google_protobuf:4.31.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google-protobuf:4.31.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google_protobuf:4.31.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/google-protobuf@4.31.1"
+    },
+    {
+      "id": "12f638a70ee24c18",
+      "name": "google-protobuf",
+      "version": "4.31.1-aarch64-linux-gnu",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google-protobuf:4.31.1-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google_protobuf:4.31.1-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google-protobuf:4.31.1-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google_protobuf:4.31.1-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google-protobuf:4.31.1-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google_protobuf:4.31.1-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google-protobuf:4.31.1-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google_protobuf:4.31.1-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google-protobuf:4.31.1-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google_protobuf:4.31.1-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google-protobuf:4.31.1-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google_protobuf:4.31.1-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/google-protobuf@4.31.1-aarch64-linux-gnu"
+    },
+    {
+      "id": "9695572a3420e425",
+      "name": "google-protobuf",
+      "version": "4.31.1-aarch64-linux-musl",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google-protobuf:4.31.1-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google_protobuf:4.31.1-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google-protobuf:4.31.1-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google_protobuf:4.31.1-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google-protobuf:4.31.1-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google_protobuf:4.31.1-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google-protobuf:4.31.1-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google_protobuf:4.31.1-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google-protobuf:4.31.1-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google_protobuf:4.31.1-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google-protobuf:4.31.1-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google_protobuf:4.31.1-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/google-protobuf@4.31.1-aarch64-linux-musl"
+    },
+    {
+      "id": "b9685cc430b6c3c7",
+      "name": "google-protobuf",
+      "version": "4.31.1-arm64-darwin",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google-protobuf:4.31.1-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google_protobuf:4.31.1-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google-protobuf:4.31.1-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google_protobuf:4.31.1-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google-protobuf:4.31.1-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google_protobuf:4.31.1-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google-protobuf:4.31.1-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google_protobuf:4.31.1-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google-protobuf:4.31.1-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google_protobuf:4.31.1-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google-protobuf:4.31.1-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google_protobuf:4.31.1-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/google-protobuf@4.31.1-arm64-darwin"
+    },
+    {
+      "id": "9e2fd1f54678672c",
+      "name": "google-protobuf",
+      "version": "4.31.1-x86-linux-gnu",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google-protobuf:4.31.1-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google_protobuf:4.31.1-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google-protobuf:4.31.1-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google_protobuf:4.31.1-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google-protobuf:4.31.1-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google_protobuf:4.31.1-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google-protobuf:4.31.1-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google_protobuf:4.31.1-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google-protobuf:4.31.1-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google_protobuf:4.31.1-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google-protobuf:4.31.1-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google_protobuf:4.31.1-x86-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/google-protobuf@4.31.1-x86-linux-gnu"
+    },
+    {
+      "id": "1adeb234c4ad8ed1",
+      "name": "google-protobuf",
+      "version": "4.31.1-x86-linux-musl",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google-protobuf:4.31.1-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google_protobuf:4.31.1-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google-protobuf:4.31.1-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google_protobuf:4.31.1-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google-protobuf:4.31.1-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google_protobuf:4.31.1-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google-protobuf:4.31.1-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google_protobuf:4.31.1-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google-protobuf:4.31.1-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google_protobuf:4.31.1-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google-protobuf:4.31.1-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google_protobuf:4.31.1-x86-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/google-protobuf@4.31.1-x86-linux-musl"
+    },
+    {
+      "id": "e3c21d75a8126db2",
+      "name": "google-protobuf",
+      "version": "4.31.1-x86_64-darwin",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google-protobuf:4.31.1-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google_protobuf:4.31.1-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google-protobuf:4.31.1-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google_protobuf:4.31.1-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google-protobuf:4.31.1-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google_protobuf:4.31.1-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google-protobuf:4.31.1-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google_protobuf:4.31.1-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google-protobuf:4.31.1-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google_protobuf:4.31.1-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google-protobuf:4.31.1-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google_protobuf:4.31.1-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/google-protobuf@4.31.1-x86_64-darwin"
+    },
+    {
+      "id": "4d7c778111fd8fe9",
+      "name": "google-protobuf",
+      "version": "4.31.1-x86_64-linux-gnu",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google-protobuf:4.31.1-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google_protobuf:4.31.1-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google-protobuf:4.31.1-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google_protobuf:4.31.1-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google-protobuf:4.31.1-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google_protobuf:4.31.1-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google-protobuf:4.31.1-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google_protobuf:4.31.1-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google-protobuf:4.31.1-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google_protobuf:4.31.1-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google-protobuf:4.31.1-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google_protobuf:4.31.1-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/google-protobuf@4.31.1-x86_64-linux-gnu"
+    },
+    {
+      "id": "82f91844a18d5f42",
+      "name": "google-protobuf",
+      "version": "4.31.1-x86_64-linux-musl",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google-protobuf:4.31.1-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google-protobuf:google_protobuf:4.31.1-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google-protobuf:4.31.1-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google_protobuf:google_protobuf:4.31.1-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google-protobuf:4.31.1-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:google_protobuf:4.31.1-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google-protobuf:4.31.1-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:google_protobuf:4.31.1-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google-protobuf:4.31.1-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:google_protobuf:4.31.1-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google-protobuf:4.31.1-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:google_protobuf:4.31.1-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/google-protobuf@4.31.1-x86_64-linux-musl"
+    },
+    {
+      "id": "9c5b4d565c2ddd06",
+      "name": "http_parser.rb",
+      "version": "0.8.0",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:http-parser.rb:http-parser.rb:0.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:http-parser.rb:http_parser.rb:0.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:http_parser.rb:http-parser.rb:0.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:http_parser.rb:http_parser.rb:0.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:http-parser.rb:0.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:http_parser.rb:0.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:http-parser.rb:0.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:http_parser.rb:0.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:http:http-parser.rb:0.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:http:http_parser.rb:0.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:http-parser.rb:0.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:http_parser.rb:0.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/http_parser.rb@0.8.0"
+    },
+    {
+      "id": "2c282416c9450163",
+      "name": "i18n",
+      "version": "1.14.7",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:i18n:1.14.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:i18n:1.14.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:i18n:i18n:1.14.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:i18n:1.14.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/i18n@1.14.7"
+    },
+    {
+      "id": "17920a0223bb6157",
+      "name": "jekyll",
+      "version": "4.3.4",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:jekyll:4.3.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:jekyll:4.3.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll:jekyll:4.3.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:jekyll:4.3.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/jekyll@4.3.4"
+    },
+    {
+      "id": "620201e23783387e",
+      "name": "jekyll-compose",
+      "version": "0.12.0",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:jekyll-compose:jekyll-compose:0.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll-compose:jekyll_compose:0.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_compose:jekyll-compose:0.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_compose:jekyll_compose:0.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:jekyll-compose:0.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:jekyll_compose:0.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:jekyll-compose:0.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:jekyll_compose:0.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll:jekyll-compose:0.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll:jekyll_compose:0.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:jekyll-compose:0.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:jekyll_compose:0.12.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/jekyll-compose@0.12.0"
+    },
+    {
+      "id": "0bddb6bba5a3abb5",
+      "name": "jekyll-paginate",
+      "version": "1.1.0",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:jekyll-paginate:jekyll-paginate:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll-paginate:jekyll_paginate:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_paginate:jekyll-paginate:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_paginate:jekyll_paginate:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:jekyll-paginate:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:jekyll_paginate:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:jekyll-paginate:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:jekyll_paginate:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll:jekyll-paginate:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll:jekyll_paginate:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:jekyll-paginate:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:jekyll_paginate:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/jekyll-paginate@1.1.0"
+    },
+    {
+      "id": "7ca5f23e0604f08b",
+      "name": "jekyll-sass-converter",
+      "version": "3.1.0",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:jekyll-sass-converter:jekyll-sass-converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll-sass-converter:jekyll_sass_converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_sass_converter:jekyll-sass-converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_sass_converter:jekyll_sass_converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll-sass:jekyll-sass-converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll-sass:jekyll_sass_converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_sass:jekyll-sass-converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_sass:jekyll_sass_converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:jekyll-sass-converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:jekyll_sass_converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:jekyll-sass-converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:jekyll_sass_converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll:jekyll-sass-converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll:jekyll_sass_converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:jekyll-sass-converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:jekyll_sass_converter:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/jekyll-sass-converter@3.1.0"
+    },
+    {
+      "id": "fb59d35e2b1ae244",
+      "name": "jekyll-seo-tag",
+      "version": "2.8.0",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:jekyll-seo-tag:jekyll-seo-tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll-seo-tag:jekyll_seo_tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_seo_tag:jekyll-seo-tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_seo_tag:jekyll_seo_tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll-seo:jekyll-seo-tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll-seo:jekyll_seo_tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_seo:jekyll-seo-tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_seo:jekyll_seo_tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:jekyll-seo-tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:jekyll_seo_tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:jekyll-seo-tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:jekyll_seo_tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll:jekyll-seo-tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll:jekyll_seo_tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:jekyll-seo-tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:jekyll_seo_tag:2.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/jekyll-seo-tag@2.8.0"
+    },
+    {
+      "id": "769eb318026d01d0",
+      "name": "jekyll-sitemap",
+      "version": "1.4.0",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:jekyll-sitemap:jekyll-sitemap:1.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll-sitemap:jekyll_sitemap:1.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_sitemap:jekyll-sitemap:1.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_sitemap:jekyll_sitemap:1.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:jekyll-sitemap:1.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:jekyll_sitemap:1.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:jekyll-sitemap:1.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:jekyll_sitemap:1.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll:jekyll-sitemap:1.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll:jekyll_sitemap:1.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:jekyll-sitemap:1.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:jekyll_sitemap:1.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/jekyll-sitemap@1.4.0"
+    },
+    {
+      "id": "5f837e05b033abdc",
+      "name": "jekyll-watch",
+      "version": "2.2.1",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:jekyll-watch:jekyll-watch:2.2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll-watch:jekyll_watch:2.2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_watch:jekyll-watch:2.2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll_watch:jekyll_watch:2.2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:jekyll-watch:2.2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:jekyll_watch:2.2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:jekyll-watch:2.2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:jekyll_watch:2.2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll:jekyll-watch:2.2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jekyll:jekyll_watch:2.2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:jekyll-watch:2.2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:jekyll_watch:2.2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/jekyll-watch@2.2.1"
+    },
+    {
+      "id": "9f6302c482d76675",
+      "name": "kramdown",
+      "version": "2.5.1",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:kramdown_project:kramdown:2.5.1:*:*:*:*:ruby:*:*",
+          "source": "nvd-cpe-dictionary"
+        }
+      ],
+      "purl": "pkg:gem/kramdown@2.5.1"
+    },
+    {
+      "id": "c1c95442f257c646",
+      "name": "kramdown-parser-gfm",
+      "version": "1.1.0",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:kramdown-parser-gfm:kramdown-parser-gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kramdown-parser-gfm:kramdown_parser_gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kramdown_parser_gfm:kramdown-parser-gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kramdown_parser_gfm:kramdown_parser_gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kramdown-parser:kramdown-parser-gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kramdown-parser:kramdown_parser_gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kramdown_parser:kramdown-parser-gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kramdown_parser:kramdown_parser_gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:kramdown-parser-gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:kramdown_parser_gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:kramdown-parser-gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:kramdown_parser_gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kramdown:kramdown-parser-gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kramdown:kramdown_parser_gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:kramdown-parser-gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:kramdown_parser_gfm:1.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/kramdown-parser-gfm@1.1.0"
+    },
+    {
+      "id": "156f1a9ad9f4cdd7",
+      "name": "liquid",
+      "version": "4.0.4",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:liquid:4.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:liquid:4.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:liquid:liquid:4.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:liquid:4.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/liquid@4.0.4"
+    },
+    {
+      "id": "4564458f98df569a",
+      "name": "listen",
+      "version": "3.9.0",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:listen:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:listen:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:listen:listen:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:listen:3.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/listen@3.9.0"
+    },
+    {
+      "id": "f35260b54c67003a",
+      "name": "mercenary",
+      "version": "0.4.0",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:mercenary:mercenary:0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:mercenary:0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:mercenary:0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:mercenary:0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/mercenary@0.4.0"
+    },
+    {
+      "id": "04d8dfa867b9a8d7",
+      "name": "pathutil",
+      "version": "0.16.2",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:pathutil:0.16.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:pathutil:0.16.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pathutil:pathutil:0.16.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:pathutil:0.16.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/pathutil@0.16.2"
+    },
+    {
+      "id": "09194432906e65e8",
+      "name": "public_suffix",
+      "version": "6.0.2",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:public-suffix:public-suffix:6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:public-suffix:public_suffix:6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:public_suffix:public-suffix:6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:public_suffix:public_suffix:6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:public-suffix:6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:public_suffix:6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:public-suffix:6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:public_suffix:6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:public:public-suffix:6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:public:public_suffix:6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:public-suffix:6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:public_suffix:6.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/public_suffix@6.0.2"
+    },
+    {
+      "id": "befc2feb5f9f348f",
+      "name": "rake",
+      "version": "13.3.0",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:rake:13.3.0:*:*:*:*:*:*:*",
+          "source": "nvd-cpe-dictionary"
+        }
+      ],
+      "purl": "pkg:gem/rake@13.3.0"
+    },
+    {
+      "id": "2b943cc3107358ab",
+      "name": "rb-fsevent",
+      "version": "0.11.2",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:rb-fsevent:rb-fsevent:0.11.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rb-fsevent:rb_fsevent:0.11.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rb_fsevent:rb-fsevent:0.11.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rb_fsevent:rb_fsevent:0.11.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:rb-fsevent:0.11.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:rb_fsevent:0.11.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:rb-fsevent:0.11.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:rb_fsevent:0.11.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:rb-fsevent:0.11.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:rb_fsevent:0.11.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rb:rb-fsevent:0.11.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rb:rb_fsevent:0.11.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/rb-fsevent@0.11.2"
+    },
+    {
+      "id": "65acd15931b2d869",
+      "name": "rb-inotify",
+      "version": "0.11.1",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:rb-inotify:rb-inotify:0.11.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rb-inotify:rb_inotify:0.11.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rb_inotify:rb-inotify:0.11.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rb_inotify:rb_inotify:0.11.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:rb-inotify:0.11.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:rb_inotify:0.11.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:rb-inotify:0.11.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:rb_inotify:0.11.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:rb-inotify:0.11.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:rb_inotify:0.11.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rb:rb-inotify:0.11.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rb:rb_inotify:0.11.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/rb-inotify@0.11.1"
+    },
+    {
+      "id": "5cceb4912ca4747d",
+      "name": "rexml",
+      "version": "3.4.2",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:rexml:3.4.2:*:*:*:*:ruby:*:*",
+          "source": "nvd-cpe-dictionary"
+        }
+      ],
+      "purl": "pkg:gem/rexml@3.4.2"
+    },
+    {
+      "id": "5b9876aed6f1fb48",
+      "name": "rouge",
+      "version": "4.5.2",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:rouge:4.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:rouge:4.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rouge:rouge:4.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:rouge:4.5.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/rouge@4.5.2"
+    },
+    {
+      "id": "271e6f9ef3ed549f",
+      "name": "safe_yaml",
+      "version": "1.0.5",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:safe-yaml:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:safe_yaml:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:safe-yaml:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:safe_yaml:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:safe-yaml:safe-yaml:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:safe-yaml:safe_yaml:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:safe_yaml:safe-yaml:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:safe_yaml:safe_yaml:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:safe-yaml:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:safe_yaml:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:safe:safe-yaml:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:safe:safe_yaml:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/safe_yaml@1.0.5"
+    },
+    {
+      "id": "e6524da0d338db5e",
+      "name": "sass-embedded",
+      "version": "1.89.2",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass-embedded:1.89.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass_embedded:1.89.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass-embedded:1.89.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass_embedded:1.89.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass-embedded:1.89.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass_embedded:1.89.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass-embedded:1.89.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass_embedded:1.89.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass-embedded:1.89.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass_embedded:1.89.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass-embedded:1.89.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass_embedded:1.89.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/sass-embedded@1.89.2"
+    },
+    {
+      "id": "1d165fb2fec9050c",
+      "name": "sass-embedded",
+      "version": "1.89.2-aarch64-linux-android",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass-embedded:1.89.2-aarch64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass_embedded:1.89.2-aarch64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass-embedded:1.89.2-aarch64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass_embedded:1.89.2-aarch64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass-embedded:1.89.2-aarch64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass_embedded:1.89.2-aarch64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass-embedded:1.89.2-aarch64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass_embedded:1.89.2-aarch64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass-embedded:1.89.2-aarch64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass_embedded:1.89.2-aarch64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass-embedded:1.89.2-aarch64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass_embedded:1.89.2-aarch64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/sass-embedded@1.89.2-aarch64-linux-android"
+    },
+    {
+      "id": "a0bad7c9df64e083",
+      "name": "sass-embedded",
+      "version": "1.89.2-aarch64-linux-gnu",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass-embedded:1.89.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass_embedded:1.89.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass-embedded:1.89.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass_embedded:1.89.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass-embedded:1.89.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass_embedded:1.89.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass-embedded:1.89.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass_embedded:1.89.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass-embedded:1.89.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass_embedded:1.89.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass-embedded:1.89.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass_embedded:1.89.2-aarch64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/sass-embedded@1.89.2-aarch64-linux-gnu"
+    },
+    {
+      "id": "f5715929cfe5ddfa",
+      "name": "sass-embedded",
+      "version": "1.89.2-aarch64-linux-musl",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass-embedded:1.89.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass_embedded:1.89.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass-embedded:1.89.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass_embedded:1.89.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass-embedded:1.89.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass_embedded:1.89.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass-embedded:1.89.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass_embedded:1.89.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass-embedded:1.89.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass_embedded:1.89.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass-embedded:1.89.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass_embedded:1.89.2-aarch64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/sass-embedded@1.89.2-aarch64-linux-musl"
+    },
+    {
+      "id": "f06347f1a835e6de",
+      "name": "sass-embedded",
+      "version": "1.89.2-arm-linux-androideabi",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass-embedded:1.89.2-arm-linux-androideabi:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass_embedded:1.89.2-arm-linux-androideabi:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass-embedded:1.89.2-arm-linux-androideabi:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass_embedded:1.89.2-arm-linux-androideabi:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass-embedded:1.89.2-arm-linux-androideabi:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass_embedded:1.89.2-arm-linux-androideabi:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass-embedded:1.89.2-arm-linux-androideabi:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass_embedded:1.89.2-arm-linux-androideabi:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass-embedded:1.89.2-arm-linux-androideabi:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass_embedded:1.89.2-arm-linux-androideabi:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass-embedded:1.89.2-arm-linux-androideabi:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass_embedded:1.89.2-arm-linux-androideabi:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/sass-embedded@1.89.2-arm-linux-androideabi"
+    },
+    {
+      "id": "c62d1a9badf3f1ad",
+      "name": "sass-embedded",
+      "version": "1.89.2-arm-linux-gnueabihf",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass-embedded:1.89.2-arm-linux-gnueabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass_embedded:1.89.2-arm-linux-gnueabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass-embedded:1.89.2-arm-linux-gnueabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass_embedded:1.89.2-arm-linux-gnueabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass-embedded:1.89.2-arm-linux-gnueabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass_embedded:1.89.2-arm-linux-gnueabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass-embedded:1.89.2-arm-linux-gnueabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass_embedded:1.89.2-arm-linux-gnueabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass-embedded:1.89.2-arm-linux-gnueabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass_embedded:1.89.2-arm-linux-gnueabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass-embedded:1.89.2-arm-linux-gnueabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass_embedded:1.89.2-arm-linux-gnueabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/sass-embedded@1.89.2-arm-linux-gnueabihf"
+    },
+    {
+      "id": "6ba6e9b524f0b2c6",
+      "name": "sass-embedded",
+      "version": "1.89.2-arm-linux-musleabihf",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass-embedded:1.89.2-arm-linux-musleabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass_embedded:1.89.2-arm-linux-musleabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass-embedded:1.89.2-arm-linux-musleabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass_embedded:1.89.2-arm-linux-musleabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass-embedded:1.89.2-arm-linux-musleabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass_embedded:1.89.2-arm-linux-musleabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass-embedded:1.89.2-arm-linux-musleabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass_embedded:1.89.2-arm-linux-musleabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass-embedded:1.89.2-arm-linux-musleabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass_embedded:1.89.2-arm-linux-musleabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass-embedded:1.89.2-arm-linux-musleabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass_embedded:1.89.2-arm-linux-musleabihf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/sass-embedded@1.89.2-arm-linux-musleabihf"
+    },
+    {
+      "id": "c30dfabd2919a9f7",
+      "name": "sass-embedded",
+      "version": "1.89.2-arm64-darwin",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass-embedded:1.89.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass_embedded:1.89.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass-embedded:1.89.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass_embedded:1.89.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass-embedded:1.89.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass_embedded:1.89.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass-embedded:1.89.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass_embedded:1.89.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass-embedded:1.89.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass_embedded:1.89.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass-embedded:1.89.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass_embedded:1.89.2-arm64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/sass-embedded@1.89.2-arm64-darwin"
+    },
+    {
+      "id": "24342c28f8044500",
+      "name": "sass-embedded",
+      "version": "1.89.2-riscv64-linux-android",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass-embedded:1.89.2-riscv64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass_embedded:1.89.2-riscv64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass-embedded:1.89.2-riscv64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass_embedded:1.89.2-riscv64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass-embedded:1.89.2-riscv64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass_embedded:1.89.2-riscv64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass-embedded:1.89.2-riscv64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass_embedded:1.89.2-riscv64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass-embedded:1.89.2-riscv64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass_embedded:1.89.2-riscv64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass-embedded:1.89.2-riscv64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass_embedded:1.89.2-riscv64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/sass-embedded@1.89.2-riscv64-linux-android"
+    },
+    {
+      "id": "5f999a3534e53edb",
+      "name": "sass-embedded",
+      "version": "1.89.2-riscv64-linux-gnu",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass-embedded:1.89.2-riscv64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass_embedded:1.89.2-riscv64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass-embedded:1.89.2-riscv64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass_embedded:1.89.2-riscv64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass-embedded:1.89.2-riscv64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass_embedded:1.89.2-riscv64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass-embedded:1.89.2-riscv64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass_embedded:1.89.2-riscv64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass-embedded:1.89.2-riscv64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass_embedded:1.89.2-riscv64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass-embedded:1.89.2-riscv64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass_embedded:1.89.2-riscv64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/sass-embedded@1.89.2-riscv64-linux-gnu"
+    },
+    {
+      "id": "9c163e5a0c31c57b",
+      "name": "sass-embedded",
+      "version": "1.89.2-riscv64-linux-musl",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass-embedded:1.89.2-riscv64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass_embedded:1.89.2-riscv64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass-embedded:1.89.2-riscv64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass_embedded:1.89.2-riscv64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass-embedded:1.89.2-riscv64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass_embedded:1.89.2-riscv64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass-embedded:1.89.2-riscv64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass_embedded:1.89.2-riscv64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass-embedded:1.89.2-riscv64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass_embedded:1.89.2-riscv64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass-embedded:1.89.2-riscv64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass_embedded:1.89.2-riscv64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/sass-embedded@1.89.2-riscv64-linux-musl"
+    },
+    {
+      "id": "3b79258c1b9694dd",
+      "name": "sass-embedded",
+      "version": "1.89.2-x86_64-darwin",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass-embedded:1.89.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass_embedded:1.89.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass-embedded:1.89.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass_embedded:1.89.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass-embedded:1.89.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass_embedded:1.89.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass-embedded:1.89.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass_embedded:1.89.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass-embedded:1.89.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass_embedded:1.89.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass-embedded:1.89.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass_embedded:1.89.2-x86_64-darwin:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/sass-embedded@1.89.2-x86_64-darwin"
+    },
+    {
+      "id": "b2ecec83b71c9378",
+      "name": "sass-embedded",
+      "version": "1.89.2-x86_64-linux-android",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass-embedded:1.89.2-x86_64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass_embedded:1.89.2-x86_64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass-embedded:1.89.2-x86_64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass_embedded:1.89.2-x86_64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass-embedded:1.89.2-x86_64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass_embedded:1.89.2-x86_64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass-embedded:1.89.2-x86_64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass_embedded:1.89.2-x86_64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass-embedded:1.89.2-x86_64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass_embedded:1.89.2-x86_64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass-embedded:1.89.2-x86_64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass_embedded:1.89.2-x86_64-linux-android:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/sass-embedded@1.89.2-x86_64-linux-android"
+    },
+    {
+      "id": "a17aa05fed8bb6a6",
+      "name": "sass-embedded",
+      "version": "1.89.2-x86_64-linux-gnu",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass-embedded:1.89.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass_embedded:1.89.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass-embedded:1.89.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass_embedded:1.89.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass-embedded:1.89.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass_embedded:1.89.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass-embedded:1.89.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass_embedded:1.89.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass-embedded:1.89.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass_embedded:1.89.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass-embedded:1.89.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass_embedded:1.89.2-x86_64-linux-gnu:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/sass-embedded@1.89.2-x86_64-linux-gnu"
+    },
+    {
+      "id": "97727134580f11ce",
+      "name": "sass-embedded",
+      "version": "1.89.2-x86_64-linux-musl",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass-embedded:1.89.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass-embedded:sass_embedded:1.89.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass-embedded:1.89.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass_embedded:sass_embedded:1.89.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass-embedded:1.89.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:sass_embedded:1.89.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass-embedded:1.89.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:sass_embedded:1.89.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass-embedded:1.89.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:sass_embedded:1.89.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass-embedded:1.89.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sass:sass_embedded:1.89.2-x86_64-linux-musl:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/sass-embedded@1.89.2-x86_64-linux-musl"
+    },
+    {
+      "id": "cc70a4b40ea7c6f7",
+      "name": "terminal-table",
+      "version": "3.0.2",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:terminal-table:terminal-table:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:terminal-table:terminal_table:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:terminal_table:terminal-table:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:terminal_table:terminal_table:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:terminal-table:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:terminal_table:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:terminal-table:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:terminal_table:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:terminal:terminal-table:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:terminal:terminal_table:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:terminal-table:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:terminal_table:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/terminal-table@3.0.2"
+    },
+    {
+      "id": "7aab175e49406115",
+      "name": "unicode-display_width",
+      "version": "2.6.0",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:unicode-display-width:unicode-display-width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode-display-width:unicode-display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode-display-width:unicode_display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode-display_width:unicode-display-width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode-display_width:unicode-display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode-display_width:unicode_display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode_display_width:unicode-display-width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode_display_width:unicode-display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode_display_width:unicode_display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode-display:unicode-display-width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode-display:unicode-display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode-display:unicode_display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode_display:unicode-display-width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode_display:unicode-display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode_display:unicode_display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:unicode-display-width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:unicode-display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:unicode_display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:unicode-display-width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:unicode-display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby_lang:unicode_display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode:unicode-display-width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode:unicode-display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:unicode:unicode_display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:unicode-display-width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:unicode-display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ruby:unicode_display_width:2.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:gem/unicode-display_width@2.6.0"
+    },
+    {
+      "id": "5d0d265abf0967b7",
+      "name": "webrick",
+      "version": "1.8.2",
+      "type": "gem",
+      "foundBy": "ruby-gemfile-cataloger",
+      "locations": [
+        {
+          "path": "/Gemfile.lock",
+          "accessPath": "/Gemfile.lock",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "ruby",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ruby-lang:webrick:1.8.2:*:*:*:*:ruby:*:*",
+          "source": "nvd-cpe-dictionary"
+        }
+      ],
+      "purl": "pkg:gem/webrick@1.8.2"
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "04d8dfa867b9a8d7",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "09194432906e65e8",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "0bddb6bba5a3abb5",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "125f14b912e773f4",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "12f638a70ee24c18",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "156f1a9ad9f4cdd7",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "17920a0223bb6157",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1adeb234c4ad8ed1",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1d165fb2fec9050c",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "24342c28f8044500",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2452000202ee377f",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2668a3c5930d7a3a",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "271e6f9ef3ed549f",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2a49c2292031d497",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2a6c99137f971f4a",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2b943cc3107358ab",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2c282416c9450163",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2e8b3816ffb3b54e",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3b79258c1b9694dd",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3dc19cbd90f73b5d",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4564458f98df569a",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4d7c778111fd8fe9",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "52c591455a377756",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5b9876aed6f1fb48",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5cceb4912ca4747d",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5d0d265abf0967b7",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5f837e05b033abdc",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5f999a3534e53edb",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "601514b228854aba",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "620201e23783387e",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "63d0c69f43efcfa6",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "65acd15931b2d869",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "68c7905906b32188",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "6ba6e9b524f0b2c6",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "769eb318026d01d0",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "7aab175e49406115",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "7ca5f23e0604f08b",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "82f91844a18d5f42",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "93af6b6a8ab0ac73",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "94e7fdba9246c32c",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9695572a3420e425",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "97727134580f11ce",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9b2dabd79d6de13c",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9c163e5a0c31c57b",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9c5b4d565c2ddd06",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9e2c404987e563fa",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9e2fd1f54678672c",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9f6302c482d76675",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9f7b19282cea5f5c",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a0bad7c9df64e083",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a17aa05fed8bb6a6",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a398325cc1254053",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "aec5e0059bd6fdf6",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b2ecec83b71c9378",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b509edfe11287a56",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b9685cc430b6c3c7",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "befc2feb5f9f348f",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c1c95442f257c646",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c30dfabd2919a9f7",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c62d1a9badf3f1ad",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "cc70a4b40ea7c6f7",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d27250e679f84f01",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "04d8dfa867b9a8d7",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "09194432906e65e8",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "0bddb6bba5a3abb5",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "125f14b912e773f4",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "12f638a70ee24c18",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "156f1a9ad9f4cdd7",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "17920a0223bb6157",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "1adeb234c4ad8ed1",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "1d165fb2fec9050c",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "24342c28f8044500",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "2452000202ee377f",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "2668a3c5930d7a3a",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "271e6f9ef3ed549f",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "2a49c2292031d497",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "2a6c99137f971f4a",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "2b943cc3107358ab",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "2c282416c9450163",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "2e8b3816ffb3b54e",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "3b79258c1b9694dd",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "3dc19cbd90f73b5d",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "4564458f98df569a",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "4d7c778111fd8fe9",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "52c591455a377756",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "5b9876aed6f1fb48",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "5cceb4912ca4747d",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "5d0d265abf0967b7",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "5f837e05b033abdc",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "5f999a3534e53edb",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "601514b228854aba",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "620201e23783387e",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "63d0c69f43efcfa6",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "65acd15931b2d869",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "68c7905906b32188",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "6ba6e9b524f0b2c6",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "769eb318026d01d0",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "7aab175e49406115",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "7ca5f23e0604f08b",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "82f91844a18d5f42",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "93af6b6a8ab0ac73",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "94e7fdba9246c32c",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "9695572a3420e425",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "97727134580f11ce",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "9b2dabd79d6de13c",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "9c163e5a0c31c57b",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "9c5b4d565c2ddd06",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "9e2c404987e563fa",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "9e2fd1f54678672c",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "9f6302c482d76675",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "9f7b19282cea5f5c",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "a0bad7c9df64e083",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "a17aa05fed8bb6a6",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "a398325cc1254053",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "aec5e0059bd6fdf6",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "b2ecec83b71c9378",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "b509edfe11287a56",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "b9685cc430b6c3c7",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "befc2feb5f9f348f",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "c1c95442f257c646",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "c30dfabd2919a9f7",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "c62d1a9badf3f1ad",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "cc70a4b40ea7c6f7",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "d27250e679f84f01",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "e3c21d75a8126db2",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "e6524da0d338db5e",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "e6baa17d2ebd9d28",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "f06347f1a835e6de",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "f35260b54c67003a",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "f5715929cfe5ddfa",
+      "type": "contains"
+    },
+    {
+      "parent": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+      "child": "fb59d35e2b1ae244",
+      "type": "contains"
+    },
+    {
+      "parent": "e3c21d75a8126db2",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e6524da0d338db5e",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e6baa17d2ebd9d28",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f06347f1a835e6de",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f35260b54c67003a",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f5715929cfe5ddfa",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "fb59d35e2b1ae244",
+      "child": "dc1740ee8051eff5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "dc1740ee8051eff5",
+      "location": {
+        "path": "/Gemfile.lock"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 4557
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "09d091b364e0842b507af7f976d34d7a1a9e6f77"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "f9d400e35824784e75dddccc7509facc47bbe2eb4e52f9b5732a3bddff415dad"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "d6eae473bf58335370b3e2efdb5b1a782d72bee53e24a5459317cbe8c9a94591",
+    "name": "/workspaces/P1-ciberseguridad/data/repos/trino.io",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/workspaces/P1-ciberseguridad/data/repos/trino.io"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.44.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "deno-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "openldap-search-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/vscode/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/vscode/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}

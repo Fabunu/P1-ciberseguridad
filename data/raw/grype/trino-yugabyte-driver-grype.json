@@ -1,0 +1,49 @@
+{
+  "total_vulnerabilities": 3,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 3
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "guava",
+      "current_version": "19.0",
+      "vuln_id": "GHSA-mvr2-9pj6-7w5j",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Denial of Service in Google Guava",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "guava",
+      "current_version": "19.0",
+      "vuln_id": "GHSA-7g45-4rm6-3mm3",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Guava vulnerable to insecure use of temporary directory",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "guava",
+      "current_version": "19.0",
+      "vuln_id": "GHSA-5mg8-w23w-74h3",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Information Disclosure in Guava",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/trino-yugabyte-driver"
+  }
+}

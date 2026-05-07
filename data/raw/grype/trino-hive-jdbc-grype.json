@@ -1,0 +1,93 @@
+{
+  "total_vulnerabilities": 7,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 7
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "guava",
+      "current_version": "11.0.2",
+      "vuln_id": "GHSA-mvr2-9pj6-7w5j",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Denial of Service in Google Guava",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hive-jdbc",
+      "current_version": "0.13.1",
+      "vuln_id": "GHSA-jf2m-435m-mxw8",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "SQL Injection in hive-jdbc",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "libthrift",
+      "current_version": "0.12.0",
+      "vuln_id": "GHSA-g2fg-mr77-6vrm",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Uncontrolled Resource Consumption in Apache Thrift",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "libthrift",
+      "current_version": "0.12.0",
+      "vuln_id": "GHSA-rj7p-rfgp-852x",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Loop with Unreachable Exit Condition in Apache Thrift",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hive-jdbc",
+      "current_version": "0.13.1",
+      "vuln_id": "GHSA-jmf4-pq78-f8vj",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Moderate severity vulnerability that affects org.apache.hive:hive-jdbc",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "guava",
+      "current_version": "11.0.2",
+      "vuln_id": "GHSA-7g45-4rm6-3mm3",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Guava vulnerable to insecure use of temporary directory",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "guava",
+      "current_version": "11.0.2",
+      "vuln_id": "GHSA-5mg8-w23w-74h3",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Information Disclosure in Guava",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/trino-hive-jdbc"
+  }
+}

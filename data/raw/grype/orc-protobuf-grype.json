@@ -1,0 +1,27 @@
+{
+  "total_vulnerabilities": 1,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 1
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "protobuf-java",
+      "current_version": "3.19.6",
+      "vuln_id": "GHSA-735f-pc8j-v9w8",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "protobuf-java has potential Denial of Service issue",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/orc-protobuf"
+  }
+}

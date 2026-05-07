@@ -1,0 +1,49 @@
+{
+  "total_vulnerabilities": 3,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 3
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "cassandra-all",
+      "current_version": "2.1.16",
+      "vuln_id": "GHSA-8ffc-79xg-29w8",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Cassandra vulnerable to Code Injection due to unsafe configuration",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "cassandra-all",
+      "current_version": "2.1.16",
+      "vuln_id": "GHSA-2vxm-vp4c-fjfw",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Authentication Bypass in Apache Cassandra",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "cassandra-all",
+      "current_version": "2.1.16",
+      "vuln_id": "GHSA-wmcc-9vch-jmx4",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Cassandra: User with MODIFY permission on ALL KEYSPACES can escalate privileges to superuser via unsafe actions",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/presto-cassandra-server"
+  }
+}

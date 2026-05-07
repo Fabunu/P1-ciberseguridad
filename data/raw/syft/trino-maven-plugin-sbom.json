@@ -1,0 +1,4758 @@
+{
+  "artifacts": [
+    {
+      "id": "2dbca2b415a59b0d",
+      "name": "abstract-plugin-class",
+      "version": "1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/abstract-plugin-class/pom.xml",
+          "accessPath": "/src/test/projects/abstract-plugin-class/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:abstract-plugin-class:abstract-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract-plugin-class:abstract_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract_plugin_class:abstract-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract_plugin_class:abstract_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:abstract-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:abstract_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract-plugin:abstract-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract-plugin:abstract_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract_plugin:abstract-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract_plugin:abstract_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract:abstract-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract:abstract_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract-plugin-class:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract_plugin_class:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:abstract-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:abstract_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:abstract-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:abstract_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract-plugin-class:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract_plugin_class:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:abstract-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:abstract_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract-plugin:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract_plugin:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract-plugin:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract_plugin:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:abstract:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.maven.its/abstract-plugin-class@1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "groupId": "io.trino.maven.its",
+          "artifactId": "abstract-plugin-class",
+          "version": "1.0",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "c99d4339ad7ca6d0",
+      "name": "actions/checkout",
+      "version": "v3",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yaml",
+          "accessPath": "/.github/workflows/ci.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v3",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v3"
+      }
+    },
+    {
+      "id": "17f85c44f7973c32",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release.yml",
+          "accessPath": "/.github/workflows/release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "27a3ef9dd91e45b4",
+      "name": "actions/setup-java",
+      "version": "v3",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yaml",
+          "accessPath": "/.github/workflows/ci.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-java@v3",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-java@v3"
+      }
+    },
+    {
+      "id": "a4b16911174d8317",
+      "name": "actions/setup-java",
+      "version": "v5",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release.yml",
+          "accessPath": "/.github/workflows/release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-java@v5",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-java@v5"
+      }
+    },
+    {
+      "id": "94af7383be2d5b1f",
+      "name": "assertj-core",
+      "version": "3.27.7",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:assertj-core:assertj-core:3.27.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:assertj-core:assertj_core:3.27.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:assertj_core:assertj-core:3.27.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:assertj_core:assertj_core:3.27.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.assertj:assertj-core:3.27.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.assertj:assertj_core:3.27.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:assertj:assertj-core:3.27.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:assertj:assertj_core:3.27.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.assertj/assertj-core@3.27.7",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.assertj",
+          "artifactId": "assertj-core",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "814dcb57a1f59800",
+      "name": "basic",
+      "version": "1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/basic/pom.xml",
+          "accessPath": "/src/test/projects/basic/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:basic:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:basic:basic:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:basic:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:basic:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:basic:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:basic:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:basic:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.maven.its/basic@1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "groupId": "io.trino.maven.its",
+          "artifactId": "basic",
+          "version": "1.0",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "5d9b9465463c521b",
+      "name": "github/lock",
+      "version": "v3",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release.yml",
+          "accessPath": "/.github/workflows/release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:github\\/lock:github\\/lock:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/github/lock@v3",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "github/lock@v3"
+      }
+    },
+    {
+      "id": "51209e56ffb77ad9",
+      "name": "interface-plugin-class",
+      "version": "1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/interface-plugin-class/pom.xml",
+          "accessPath": "/src/test/projects/interface-plugin-class/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:interface-plugin-class:interface-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface-plugin-class:interface_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface_plugin_class:interface-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface_plugin_class:interface_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:interface-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:interface_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface-plugin:interface-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface-plugin:interface_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface_plugin:interface-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface_plugin:interface_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface:interface-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface:interface_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface-plugin-class:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface_plugin_class:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:interface-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:interface_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:interface-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:interface_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface-plugin-class:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface_plugin_class:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:interface-plugin-class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:interface_plugin_class:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface-plugin:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface_plugin:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface-plugin:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface_plugin:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:interface:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.maven.its/interface-plugin-class@1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "groupId": "io.trino.maven.its",
+          "artifactId": "interface-plugin-class",
+          "version": "1.0",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "4428ab351a1cc94a",
+      "name": "invalid-extra",
+      "version": "1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/excluded-extra/pom.xml",
+          "accessPath": "/src/test/projects/excluded-extra/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.maven.its/invalid-extra@1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "groupId": "io.trino.maven.its",
+          "artifactId": "invalid-extra",
+          "version": "1.0",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "825ffdfe41972172",
+      "name": "invalid-extra",
+      "version": "1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/invalid-and-excluded-extra/pom.xml",
+          "accessPath": "/src/test/projects/invalid-and-excluded-extra/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.maven.its/invalid-extra@1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "groupId": "io.trino.maven.its",
+          "artifactId": "invalid-extra",
+          "version": "1.0",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "edb806f2ec0c242e",
+      "name": "invalid-extra",
+      "version": "1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/invalid-extra/pom.xml",
+          "accessPath": "/src/test/projects/invalid-extra/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.maven.its/invalid-extra@1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "groupId": "io.trino.maven.its",
+          "artifactId": "invalid-extra",
+          "version": "1.0",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "3f09cec9541a4598",
+      "name": "invalid-extra",
+      "version": "1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/invalid-skipped/pom.xml",
+          "accessPath": "/src/test/projects/invalid-skipped/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.maven.its/invalid-extra@1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "groupId": "io.trino.maven.its",
+          "artifactId": "invalid-extra",
+          "version": "1.0",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "11a5e8294557495c",
+      "name": "invalid-extra",
+      "version": "1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/two-excluded-extra/pom.xml",
+          "accessPath": "/src/test/projects/two-excluded-extra/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-extra:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_extra:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid-extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid_extra:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.maven.its/invalid-extra@1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "groupId": "io.trino.maven.its",
+          "artifactId": "invalid-extra",
+          "version": "1.0",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "0009f48fcb6ef403",
+      "name": "invalid-missing",
+      "version": "1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/invalid-missing/pom.xml",
+          "accessPath": "/src/test/projects/invalid-missing/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid-missing:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid_missing:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-missing:invalid-missing:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-missing:invalid_missing:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_missing:invalid-missing:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_missing:invalid_missing:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid-missing:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid_missing:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-missing:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_missing:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid-missing:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid_missing:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid-missing:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid_missing:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-missing:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_missing:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid-missing:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid_missing:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.maven.its/invalid-missing@1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "groupId": "io.trino.maven.its",
+          "artifactId": "invalid-missing",
+          "version": "1.0",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "444d787b1d82cdb6",
+      "name": "invalid-provided-trino-main",
+      "version": "1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/invalid-provided-trino-main/pom.xml",
+          "accessPath": "/src/test/projects/invalid-provided-trino-main/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:invalid-provided-trino-main:invalid-provided-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-provided-trino-main:invalid_provided_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_provided_trino_main:invalid-provided-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_provided_trino_main:invalid_provided_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-provided-trino:invalid-provided-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-provided-trino:invalid_provided_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_provided_trino:invalid-provided-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_provided_trino:invalid_provided_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid-provided-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid_provided_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-provided:invalid-provided-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-provided:invalid_provided_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_provided:invalid-provided-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_provided:invalid_provided_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid-provided-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid_provided_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-provided-trino-main:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_provided_trino_main:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid-provided-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid_provided_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid-provided-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid_provided_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-provided-trino-main:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_provided_trino_main:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid-provided-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid_provided_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-provided-trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_provided_trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-provided-trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_provided_trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-provided:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_provided:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-provided:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_provided:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.maven.its/invalid-provided-trino-main@1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "groupId": "io.trino.maven.its",
+          "artifactId": "invalid-provided-trino-main",
+          "version": "1.0",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "4a6e897782f4aa28",
+      "name": "invalid-runtime-trino-main",
+      "version": "1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/invalid-runtime-trino-main/pom.xml",
+          "accessPath": "/src/test/projects/invalid-runtime-trino-main/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:invalid-runtime-trino-main:invalid-runtime-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-runtime-trino-main:invalid_runtime_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_runtime_trino_main:invalid-runtime-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_runtime_trino_main:invalid_runtime_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-runtime-trino:invalid-runtime-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-runtime-trino:invalid_runtime_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_runtime_trino:invalid-runtime-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_runtime_trino:invalid_runtime_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid-runtime-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid_runtime_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-runtime:invalid-runtime-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-runtime:invalid_runtime_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_runtime:invalid-runtime-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_runtime:invalid_runtime_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid-runtime-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid_runtime_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-runtime-trino-main:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_runtime_trino_main:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid-runtime-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid_runtime_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid-runtime-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid_runtime_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-runtime-trino-main:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_runtime_trino_main:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid-runtime-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid_runtime_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-runtime-trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_runtime_trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-runtime-trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_runtime_trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-runtime:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_runtime:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-runtime:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_runtime:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.maven.its/invalid-runtime-trino-main@1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "groupId": "io.trino.maven.its",
+          "artifactId": "invalid-runtime-trino-main",
+          "version": "1.0",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "02b47c3b8708a4f5",
+      "name": "invalid-trino-main",
+      "version": "1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/invalid-trino-main/pom.xml",
+          "accessPath": "/src/test/projects/invalid-trino-main/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:invalid-trino-main:invalid-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-trino-main:invalid_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_trino_main:invalid-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_trino_main:invalid_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:invalid_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-trino:invalid-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-trino:invalid_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_trino:invalid-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_trino:invalid_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:invalid_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-trino-main:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_trino_main:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:invalid_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:invalid_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-trino-main:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_trino_main:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:invalid_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid-trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid_trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:invalid:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.maven.its/invalid-trino-main@1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "groupId": "io.trino.maven.its",
+          "artifactId": "invalid-trino-main",
+          "version": "1.0",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "57cb37d724b093fc",
+      "name": "jackson-annotations",
+      "version": "2.4.4",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/invalid-missing/pom.xml",
+          "accessPath": "/src/test/projects/invalid-missing/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.core:jackson-annotations:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.core:jackson_annotations:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-annotations:jackson-annotations:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-annotations:jackson_annotations:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_annotations:jackson-annotations:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_annotations:jackson_annotations:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.fasterxml.jackson.core:jackson:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson-annotations:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson_annotations:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-annotations:jackson:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson-annotations:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson_annotations:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_annotations:jackson:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson-annotations:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson_annotations:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson:2.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.4.4",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-annotations",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "dcb5cfea010a0e00",
+      "name": "junit-jupiter-api",
+      "version": "5.14.3",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter-api:junit-jupiter-api:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter-api:junit_jupiter_api:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter_api:junit-jupiter-api:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter_api:junit_jupiter_api:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.junit.jupiter:junit-jupiter-api:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.junit.jupiter:junit_jupiter_api:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter:junit-jupiter-api:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter:junit_jupiter_api:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter:junit-jupiter-api:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter:junit_jupiter_api:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jupiter:junit-jupiter-api:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jupiter:junit_jupiter_api:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit:junit-jupiter-api:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit:junit_jupiter_api:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.14.3",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-api",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "287f0b4879d1f904",
+      "name": "junit-jupiter-engine",
+      "version": "5.14.3",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter-engine:junit-jupiter-engine:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter-engine:junit_jupiter_engine:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter_engine:junit-jupiter-engine:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter_engine:junit_jupiter_engine:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.junit.jupiter:junit-jupiter-engine:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.junit.jupiter:junit_jupiter_engine:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter:junit-jupiter-engine:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter:junit_jupiter_engine:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter:junit-jupiter-engine:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter:junit_jupiter_engine:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jupiter:junit-jupiter-engine:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jupiter:junit_jupiter_engine:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit:junit-jupiter-engine:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit:junit_jupiter_engine:5.14.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.14.3",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "3eb08d8e7cbcc301",
+      "name": "maven-artifact",
+      "version": "3.9.14",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:maven-artifact:3.9.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:maven_artifact:3.9.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:maven:3.9.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.maven/maven-artifact@3.9.14",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.maven",
+          "artifactId": "maven-artifact",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "886cb48edce362dd",
+      "name": "maven-core",
+      "version": "3.9.14",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:maven-core:3.9.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:maven_core:3.9.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:maven:3.9.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.maven/maven-core@3.9.14",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.maven",
+          "artifactId": "maven-core",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "83b9a3e2443724b9",
+      "name": "maven-plugin-annotations",
+      "version": "3.15.2",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:maven-plugin-annotations:3.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:maven_plugin_annotations:3.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations@3.15.2",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.maven.plugin-tools",
+          "artifactId": "maven-plugin-annotations",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "15626e576346cd94",
+      "name": "maven-plugin-api",
+      "version": "3.9.14",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:maven-plugin-api:3.9.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:maven_plugin_api:3.9.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.maven/maven-plugin-api@3.9.14",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.maven",
+          "artifactId": "maven-plugin-api",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "9055a3f3284d5742",
+      "name": "maven-resolver-api",
+      "version": "2.0.16",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:maven-resolver-api:2.0.16:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:maven_resolver_api:2.0.16:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.maven.resolver/maven-resolver-api@2.0.16",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.maven.resolver",
+          "artifactId": "maven-resolver-api",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "4615ec90d056d8eb",
+      "name": "plexus-utils",
+      "version": "4.0.3",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.codehaus.plexus:plexus-utils:4.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.codehaus.plexus:plexus_utils:4.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.codehaus.plexus:plexus:4.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:plexus-utils:plexus-utils:4.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:plexus-utils:plexus_utils:4.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:plexus_utils:plexus-utils:4.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:plexus_utils:plexus_utils:4.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codehaus:plexus-utils:4.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codehaus:plexus_utils:4.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:plexus-utils:plexus:4.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:plexus:plexus-utils:4.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:plexus:plexus_utils:4.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:plexus_utils:plexus:4.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codehaus:plexus:4.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:plexus:plexus:4.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.codehaus.plexus/plexus-utils@4.0.3",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.codehaus.plexus",
+          "artifactId": "plexus-utils",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "681827b4b463bec7",
+      "name": "scala-library",
+      "version": "2.12.4",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/invalid-and-excluded-extra/pom.xml",
+          "accessPath": "/src/test/projects/invalid-and-excluded-extra/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.scala-lang:scala-library:2.12.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.scala-lang:scala_library:2.12.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:scala-library:scala-library:2.12.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:scala-library:scala_library:2.12.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:scala_library:scala-library:2.12.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:scala_library:scala_library:2.12.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:scala-lang:scala-library:2.12.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:scala-lang:scala_library:2.12.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:scala_lang:scala-library:2.12.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:scala_lang:scala_library:2.12.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:scala:scala-library:2.12.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:scala:scala_library:2.12.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.scala-lang/scala-library@2.12.4",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.scala-lang",
+          "artifactId": "scala-library",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "3eed7c940adf076e",
+      "name": "stats",
+      "version": "205",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/invalid-missing/pom.xml",
+          "accessPath": "/src/test/projects/invalid-missing/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.airlift:stats:205:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:airlift:stats:205:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:stats:stats:205:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.airlift/stats@205",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.airlift",
+          "artifactId": "stats",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "ad8f99de6390ff54",
+      "name": "takari-plugin-integration-testing",
+      "version": "3.1.1",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:takari-plugin-integration-testing:takari-plugin-integration-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari-plugin-integration-testing:takari_plugin_integration_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari_plugin_integration_testing:takari-plugin-integration-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari_plugin_integration_testing:takari_plugin_integration_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari-plugin-integration:takari-plugin-integration-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari-plugin-integration:takari_plugin_integration_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari_plugin_integration:takari-plugin-integration-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari_plugin_integration:takari_plugin_integration_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.takari.maven.plugins:takari-plugin-integration-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.takari.maven.plugins:takari_plugin_integration_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari-plugin:takari-plugin-integration-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari-plugin:takari_plugin_integration_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari_plugin:takari-plugin-integration-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari_plugin:takari_plugin_integration_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari:takari-plugin-integration-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari:takari_plugin_integration_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:takari-plugin-integration-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:takari_plugin_integration_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.takari.maven.plugins/takari-plugin-integration-testing@3.1.1",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.takari.maven.plugins",
+          "artifactId": "takari-plugin-integration-testing",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "ba0fc73d0482416d",
+      "name": "takari-plugin-testing",
+      "version": "3.1.1",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.takari.maven.plugins:takari-plugin-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.takari.maven.plugins:takari_plugin_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari-plugin-testing:takari-plugin-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari-plugin-testing:takari_plugin_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari_plugin_testing:takari-plugin-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari_plugin_testing:takari_plugin_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari-plugin:takari-plugin-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari-plugin:takari_plugin_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari_plugin:takari-plugin-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari_plugin:takari_plugin_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari:takari-plugin-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari:takari_plugin_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:takari-plugin-testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:takari_plugin_testing:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.takari.maven.plugins/takari-plugin-testing@3.1.1",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.takari.maven.plugins",
+          "artifactId": "takari-plugin-testing",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "ab264925eed042f9",
+      "name": "testing-trino-main",
+      "version": "1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/testing-trino-main/pom.xml",
+          "accessPath": "/src/test/projects/testing-trino-main/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:testing-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:testing_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing-trino-main:testing-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing-trino-main:testing_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing_trino_main:testing-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing_trino_main:testing_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing-trino:testing-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing-trino:testing_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing_trino:testing-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing_trino:testing_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing:testing-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing:testing_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:testing-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:testing_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing-trino-main:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing_trino_main:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:testing-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:testing_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.maven.its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:testing-trino-main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:testing_trino_main:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing-trino-main:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing_trino_main:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing-trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing_trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing-trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing_trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testing:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:maven:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:its:its:1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.maven.its/testing-trino-main@1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "groupId": "io.trino.maven.its",
+          "artifactId": "testing-trino-main",
+          "version": "1.0",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "e103a379ace1184a",
+      "name": "trino-main",
+      "version": "351",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/invalid-provided-trino-main/pom.xml",
+          "accessPath": "/src/test/projects/invalid-provided-trino-main/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:trino-main:trino-main:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino-main:trino_main:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino_main:trino-main:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino_main:trino_main:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino:trino-main:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino:trino_main:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:trino-main:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:trino_main:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino/trino-main@351",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.trino",
+          "artifactId": "trino-main",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "cc06c3c8ebe57c57",
+      "name": "trino-maven-plugin",
+      "version": "21-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache-2.0",
+          "spdxExpression": "Apache-2.0",
+          "type": "concluded",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/LICENSE",
+              "accessPath": "/LICENSE"
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:trino-maven-plugin:trino-maven-plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino-maven-plugin:trino_maven_plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino_maven_plugin:trino-maven-plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino_maven_plugin:trino_maven_plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino-maven:trino-maven-plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino-maven:trino_maven_plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino_maven:trino-maven-plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino_maven:trino_maven_plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.takari:trino-maven-plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.takari:trino_maven_plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino:trino-maven-plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino:trino_maven_plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari:trino-maven-plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari:trino_maven_plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:trino-maven-plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:trino_maven_plugin:21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino/trino-maven-plugin@21-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "io.takari",
+            "artifactId": "takari",
+            "version": "72"
+          },
+          "groupId": "io.trino",
+          "artifactId": "trino-maven-plugin",
+          "version": "21-SNAPSHOT",
+          "name": "Trino Maven Build Extension",
+          "description": "The Trino Maven Plugin provides a packing and lifecycle for Trino plugins",
+          "url": "https://github.com/trinodb/trino-maven-plugin"
+        }
+      }
+    },
+    {
+      "id": "05993297f76b8d15",
+      "name": "trino-spi",
+      "version": "351",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/abstract-plugin-class/pom.xml",
+          "accessPath": "/src/test/projects/abstract-plugin-class/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:trino-spi:trino-spi:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino-spi:trino_spi:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino_spi:trino-spi:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino_spi:trino_spi:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino:trino-spi:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino:trino_spi:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:trino-spi:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:trino_spi:351:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino/trino-spi@351",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.trino",
+          "artifactId": "trino-spi",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "194d76d22e67fcd3",
+      "name": "units",
+      "version": "1.13",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/src/test/projects/excluded-extra/pom.xml",
+          "accessPath": "/src/test/projects/excluded-extra/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.airlift:units:1.13:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:airlift:units:1.13:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:units:units:1.13:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.airlift/units@1.13",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.airlift",
+          "artifactId": "units",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "0009f48fcb6ef403",
+      "child": "5a03a939214c612f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "02b47c3b8708a4f5",
+      "child": "31c3faa97e180d6c",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "05993297f76b8d15",
+      "child": "0009f48fcb6ef403",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "05993297f76b8d15",
+      "child": "02b47c3b8708a4f5",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "05993297f76b8d15",
+      "child": "11a5e8294557495c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "05993297f76b8d15",
+      "child": "2dbca2b415a59b0d",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "05993297f76b8d15",
+      "child": "444d787b1d82cdb6",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "05993297f76b8d15",
+      "child": "4a6e897782f4aa28",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "05993297f76b8d15",
+      "child": "51209e56ffb77ad9",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "05993297f76b8d15",
+      "child": "814dcb57a1f59800",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "05993297f76b8d15",
+      "child": "ab264925eed042f9",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "05993297f76b8d15",
+      "child": "f1f66e558927e258",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "11a5e8294557495c",
+      "child": "ad17ac70095e5fdb",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "15626e576346cd94",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "15626e576346cd94",
+      "child": "b5ee65eab09bef92",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "17f85c44f7973c32",
+      "child": "cc210d8a1a5f5704",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "194d76d22e67fcd3",
+      "child": "11a5e8294557495c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "194d76d22e67fcd3",
+      "child": "1d3e509f7419cda7",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "27a3ef9dd91e45b4",
+      "child": "b716bc1981a7ad37",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "287f0b4879d1f904",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "287f0b4879d1f904",
+      "child": "b5ee65eab09bef92",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "0009f48fcb6ef403",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "02b47c3b8708a4f5",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "05993297f76b8d15",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "11a5e8294557495c",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "15626e576346cd94",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "17f85c44f7973c32",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "194d76d22e67fcd3",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "27a3ef9dd91e45b4",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "287f0b4879d1f904",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "2dbca2b415a59b0d",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "3eb08d8e7cbcc301",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "3eed7c940adf076e",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "3f09cec9541a4598",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "4428ab351a1cc94a",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "444d787b1d82cdb6",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "4615ec90d056d8eb",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "4a6e897782f4aa28",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "51209e56ffb77ad9",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "57cb37d724b093fc",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "5d9b9465463c521b",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "681827b4b463bec7",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "814dcb57a1f59800",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "825ffdfe41972172",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "83b9a3e2443724b9",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "886cb48edce362dd",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "9055a3f3284d5742",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "94af7383be2d5b1f",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "a4b16911174d8317",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "ab264925eed042f9",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "ad8f99de6390ff54",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "ba0fc73d0482416d",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "c99d4339ad7ca6d0",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "cc06c3c8ebe57c57",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "dcb5cfea010a0e00",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "e103a379ace1184a",
+      "type": "contains"
+    },
+    {
+      "parent": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+      "child": "edb806f2ec0c242e",
+      "type": "contains"
+    },
+    {
+      "parent": "2dbca2b415a59b0d",
+      "child": "f1f66e558927e258",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3eb08d8e7cbcc301",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3eb08d8e7cbcc301",
+      "child": "b5ee65eab09bef92",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "3eed7c940adf076e",
+      "child": "0009f48fcb6ef403",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "3eed7c940adf076e",
+      "child": "5a03a939214c612f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3f09cec9541a4598",
+      "child": "548539fe4a947553",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4428ab351a1cc94a",
+      "child": "1d3e509f7419cda7",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "444d787b1d82cdb6",
+      "child": "bc4757ac2f549ef3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4615ec90d056d8eb",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4615ec90d056d8eb",
+      "child": "b5ee65eab09bef92",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "4a6e897782f4aa28",
+      "child": "51d553ebb378b76d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "51209e56ffb77ad9",
+      "child": "e6f2a59ce1d3507a",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "57cb37d724b093fc",
+      "child": "0009f48fcb6ef403",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "57cb37d724b093fc",
+      "child": "5a03a939214c612f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5d9b9465463c521b",
+      "child": "cc210d8a1a5f5704",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "681827b4b463bec7",
+      "child": "11a5e8294557495c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "681827b4b463bec7",
+      "child": "d42654da4e39d423",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "814dcb57a1f59800",
+      "child": "51004c19ae088a88",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "825ffdfe41972172",
+      "child": "d42654da4e39d423",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "83b9a3e2443724b9",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "83b9a3e2443724b9",
+      "child": "b5ee65eab09bef92",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "886cb48edce362dd",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "886cb48edce362dd",
+      "child": "b5ee65eab09bef92",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "9055a3f3284d5742",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9055a3f3284d5742",
+      "child": "b5ee65eab09bef92",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "94af7383be2d5b1f",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "94af7383be2d5b1f",
+      "child": "b5ee65eab09bef92",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a4b16911174d8317",
+      "child": "cc210d8a1a5f5704",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ab264925eed042f9",
+      "child": "8cd3a8f9a29f0846",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ad8f99de6390ff54",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ad8f99de6390ff54",
+      "child": "b5ee65eab09bef92",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "ba0fc73d0482416d",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ba0fc73d0482416d",
+      "child": "b5ee65eab09bef92",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c99d4339ad7ca6d0",
+      "child": "b716bc1981a7ad37",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "cc06c3c8ebe57c57",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "dcb5cfea010a0e00",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "dcb5cfea010a0e00",
+      "child": "b5ee65eab09bef92",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e103a379ace1184a",
+      "child": "02b47c3b8708a4f5",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e103a379ace1184a",
+      "child": "444d787b1d82cdb6",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e103a379ace1184a",
+      "child": "4a6e897782f4aa28",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e103a379ace1184a",
+      "child": "ab264925eed042f9",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e103a379ace1184a",
+      "child": "bc4757ac2f549ef3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "edb806f2ec0c242e",
+      "child": "06746739d0096b3e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "b716bc1981a7ad37",
+      "location": {
+        "path": "/.github/workflows/ci.yaml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 371
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "bbf24ea4e63f5e95a61736dcd5192b835bbb8188"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "7862f529f7583933c1950c6fb76481fd0aadeb0d0e0c8ebb07170a30c2c508b7"
+        }
+      ]
+    },
+    {
+      "id": "cc210d8a1a5f5704",
+      "location": {
+        "path": "/.github/workflows/release.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 3241
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "3e6559f6a04cb5c41906e5f89b00bfe675d603f1"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "dd83d7bfa10239fe98e1ecc9b0eb46b7bf0b305cebd43e2794c7bd5dc9992bcc"
+        }
+      ]
+    },
+    {
+      "id": "0328106cb52bb1b0",
+      "location": {
+        "path": "/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 5249
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "a963da7a005e5a55f3c044e4b040874fe1277088"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "3c7fbe5f6a3e6a47be3d6f31d7e36987bdb60b32aa40bd5547cf89d582a6c923"
+        }
+      ]
+    },
+    {
+      "id": "f1f66e558927e258",
+      "location": {
+        "path": "/src/test/projects/abstract-plugin-class/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1119
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "c66c4fc396429bd70f188f85af9b4240cd76c484"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "d42212d65243c3b6db1b017befc60103890807f860cb9d3be27ec768bf416138"
+        }
+      ]
+    },
+    {
+      "id": "51004c19ae088a88",
+      "location": {
+        "path": "/src/test/projects/basic/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1103
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "e7d8bb5650ad0b5090a916117ba856a67fcfc521"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "02b214d3c7cfe64e9edff492cd81c26df02f60f2b7818b799d2313dd30cc10e7"
+        }
+      ]
+    },
+    {
+      "id": "1d3e509f7419cda7",
+      "location": {
+        "path": "/src/test/projects/excluded-extra/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1700
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "d46a484456288ce9c2afe05b4c3ad32528b13911"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "02864f460468e452cbb8fac845a87b8241cb57e2c70aa9dc9525b31d44034b21"
+        }
+      ]
+    },
+    {
+      "id": "e6f2a59ce1d3507a",
+      "location": {
+        "path": "/src/test/projects/interface-plugin-class/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1120
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "ab0dfca222658df61159153d27617aa0913b43dc"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "b910ea4807bffde5648a36f109c042ff179c08ca597b78f9f0553287714d5f40"
+        }
+      ]
+    },
+    {
+      "id": "d42654da4e39d423",
+      "location": {
+        "path": "/src/test/projects/invalid-and-excluded-extra/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 2003
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "5d9f3f5ac44ffcd31ac6117985cb533346f8bc89"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "234fb002b5b901a6d8c549fb4e9c8500b0d286036101fb470f999ab06a54cda3"
+        }
+      ]
+    },
+    {
+      "id": "06746739d0096b3e",
+      "location": {
+        "path": "/src/test/projects/invalid-extra/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1400
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "be5f205ce57c47af32f83a89a4666d660d9d3842"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "ad214420ca7f1d2a330919c5216b5672fd27a84eb3fbb08887e3735c15184e3c"
+        }
+      ]
+    },
+    {
+      "id": "5a03a939214c612f",
+      "location": {
+        "path": "/src/test/projects/invalid-missing/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1577
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "d489297b3bc40c5bf7e99bd7928035cae3c7f590"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "69b073f9f562b86c3374c580ddbf041657be2a90b2ce21189c5f6d3fb5fc68c8"
+        }
+      ]
+    },
+    {
+      "id": "bc4757ac2f549ef3",
+      "location": {
+        "path": "/src/test/projects/invalid-provided-trino-main/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1328
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "56d8f43f657f63c893bd245e7d15786e4b0654fd"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "b24c6140affc7d685d3a18496f3e19539e1c701a297dacb3469e103c64fdc1aa"
+        }
+      ]
+    },
+    {
+      "id": "51d553ebb378b76d",
+      "location": {
+        "path": "/src/test/projects/invalid-runtime-trino-main/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1326
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "3b0a2ae46bb831e37b341e31bc0d4a28663cd87f"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "c74fc0a5e051566c7502fa0cded51663117f3ac745f237b518360a3b23dd308f"
+        }
+      ]
+    },
+    {
+      "id": "548539fe4a947553",
+      "location": {
+        "path": "/src/test/projects/invalid-skipped/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1543
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "b3a5e0c3cede63e898514104b418aeda03bb91bc"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "ac7cffcd33e8438962147814cd9b22c0da7934262214634895dd4a4da639b331"
+        }
+      ]
+    },
+    {
+      "id": "31c3faa97e180d6c",
+      "location": {
+        "path": "/src/test/projects/invalid-trino-main/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1283
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "bdd8073a31ebd0220af06f397d42ef1f9f5e697f"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "f9a9457e622b60b2d7d2bbc5e8443dd829e7d9d8f4266e9774b7ff5a5f753ff4"
+        }
+      ]
+    },
+    {
+      "id": "8cd3a8f9a29f0846",
+      "location": {
+        "path": "/src/test/projects/testing-trino-main/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1315
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "a227350211bd05d5d895cfb00767a0fe49090d3f"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "57d889b2022bfb3e0e7375fbe2f4098e3e53920c1ad40dc0a81c35bf80e7183c"
+        }
+      ]
+    },
+    {
+      "id": "ad17ac70095e5fdb",
+      "location": {
+        "path": "/src/test/projects/two-excluded-extra/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 2149
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "2bc36afe00bcf02788ec62b57acf1abbc6932d94"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "cf7e7da38ff9269f41c23009f79372a1ba6669df6cf9eb5bddd728e110777eeb"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "2c80a6da86cbac7faf641639a6e915829981199267b49e038ca25d5d120918c1",
+    "name": "/workspaces/P1-ciberseguridad/data/repos/trino-maven-plugin",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/workspaces/P1-ciberseguridad/data/repos/trino-maven-plugin"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.44.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "deno-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "openldap-search-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/vscode/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/vscode/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}

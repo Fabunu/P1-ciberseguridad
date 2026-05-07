@@ -1,0 +1,159 @@
+{
+  "total_vulnerabilities": 13,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 13
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "hadoop-common",
+      "current_version": "3.2.0",
+      "vuln_id": "GHSA-8wm5-8h9c-47pc",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Hadoop argument injection vulnerability",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "gson",
+      "current_version": "2.7",
+      "vuln_id": "GHSA-4jrv-ppp4-jm57",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Deserialization of Untrusted Data in Gson",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "3.2.0",
+      "vuln_id": "GHSA-rmpj-7c96-mrg8",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Hadoop heap overflow before v2.10.2, v3.2.3, v3.3.2",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "libthrift",
+      "current_version": "0.9.3",
+      "vuln_id": "GHSA-g2fg-mr77-6vrm",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Uncontrolled Resource Consumption in Apache Thrift",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "libthrift",
+      "current_version": "0.9.3",
+      "vuln_id": "GHSA-rj7p-rfgp-852x",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Loop with Unreachable Exit Condition in Apache Thrift",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "libthrift",
+      "current_version": "0.9.3",
+      "vuln_id": "GHSA-vx85-mj8c-4qm6",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Thrift Node.js static web server sandbox escape",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "3.2.0",
+      "vuln_id": "GHSA-gx2c-fvhc-ph4j",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Path traversal in Hadoop",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "3.2.0",
+      "vuln_id": "GHSA-f8vc-wfc8-hxqh",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Improper Privilege Management in Apache Hadoop",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "libthrift",
+      "current_version": "0.9.3",
+      "vuln_id": "GHSA-wjxj-f8rg-99wx",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Improper Input Validation in Apache Thrift",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "guava",
+      "current_version": "26.0-jre",
+      "vuln_id": "GHSA-7g45-4rm6-3mm3",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Guava vulnerable to insecure use of temporary directory",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "3.2.0",
+      "vuln_id": "GHSA-f5fw-25gw-5m92",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Hadoop: Temporary File Local Information Disclosure",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "guava",
+      "current_version": "26.0-jre",
+      "vuln_id": "GHSA-5mg8-w23w-74h3",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Information Disclosure in Guava",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "commons-lang",
+      "current_version": "2.4",
+      "vuln_id": "GHSA-j288-q9x7-2f5v",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Commons Lang is vulnerable to Uncontrolled Recursion when processing long inputs",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/trino-rubix"
+  }
+}

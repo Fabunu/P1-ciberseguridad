@@ -1,0 +1,335 @@
+{
+  "total_vulnerabilities": 29,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 29
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "netty-handler",
+      "current_version": "4.1.100.Final",
+      "vuln_id": "GHSA-4g8c-wm8x-jfhw",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "SslHandler doesn't correctly validate packets which can lead to native crash when using native SSLEngine",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-handler",
+      "current_version": "4.1.77.Final",
+      "vuln_id": "GHSA-6mjq-h674-j845",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "netty-handler SniHandler 16MB allocation",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "jackson-databind",
+      "current_version": "2.12.6.1",
+      "vuln_id": "GHSA-jjjh-jjxp-wpff",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Uncontrolled Resource Consumption in Jackson-databind",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "ion-java",
+      "current_version": "1.0.2",
+      "vuln_id": "GHSA-264p-99wq-f4j6",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Ion Java StackOverflow vulnerability",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-common",
+      "current_version": "4.1.100.Final",
+      "vuln_id": "GHSA-xq3w-v528-46rv",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Denial of Service attack on windows app using netty",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-common",
+      "current_version": "4.1.77.Final",
+      "vuln_id": "GHSA-xq3w-v528-46rv",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Denial of Service attack on windows app using netty",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "jackson-databind",
+      "current_version": "2.12.6.1",
+      "vuln_id": "GHSA-rgv9-q543-rqg4",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Uncontrolled Resource Consumption in FasterXML jackson-databind",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "jackson-core",
+      "current_version": "2.12.6",
+      "vuln_id": "GHSA-h46c-h94j-95f3",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "jackson-core can throw a StackoverflowError when processing deeply nested data",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-codec-http",
+      "current_version": "4.1.100.Final",
+      "vuln_id": "GHSA-5jpm-x58v-624v",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Netty's HttpPostRequestDecoder can OOM",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-codec-http",
+      "current_version": "4.1.77.Final",
+      "vuln_id": "GHSA-5jpm-x58v-624v",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Netty's HttpPostRequestDecoder can OOM",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-common",
+      "current_version": "4.1.100.Final",
+      "vuln_id": "GHSA-389x-839f-4rhx",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Denial of Service attack on windows app using Netty",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-common",
+      "current_version": "4.1.77.Final",
+      "vuln_id": "GHSA-389x-839f-4rhx",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Denial of Service attack on windows app using Netty",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-codec-http2",
+      "current_version": "4.1.100.Final",
+      "vuln_id": "GHSA-prj3-ccx8-p6x4",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Netty affected by MadeYouReset HTTP/2 DDoS vulnerability",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-codec",
+      "current_version": "4.1.100.Final",
+      "vuln_id": "GHSA-3p8m-j85q-pgmj",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Netty's decoders vulnerable to DoS via zip bomb style attack",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-codec",
+      "current_version": "4.1.77.Final",
+      "vuln_id": "GHSA-3p8m-j85q-pgmj",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Netty's decoders vulnerable to DoS via zip bomb style attack",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-codec-http2",
+      "current_version": "4.1.100.Final",
+      "vuln_id": "GHSA-w9fj-cfpg-grvv",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Netty HTTP/2 CONTINUATION Frame Flood DoS via Zero-Byte Frame Bypass",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "3.3.4",
+      "vuln_id": "GHSA-f5fw-25gw-5m92",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Hadoop: Temporary File Local Information Disclosure",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postgresql",
+      "current_version": "42.7.3",
+      "vuln_id": "GHSA-98qh-xjc8-98pq",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "pgjdbc: Unbounded PBKDF2 iterations in SCRAM authentication allows CPU exhaustion DoS",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-codec-http",
+      "current_version": "4.1.100.Final",
+      "vuln_id": "GHSA-84h7-rjj3-6jx4",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Netty has a CRLF Injection vulnerability in io.netty.handler.codec.http.HttpRequestEncoder",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-codec-http",
+      "current_version": "4.1.77.Final",
+      "vuln_id": "GHSA-84h7-rjj3-6jx4",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Netty has a CRLF Injection vulnerability in io.netty.handler.codec.http.HttpRequestEncoder",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "jackson-core",
+      "current_version": "2.12.6",
+      "vuln_id": "GHSA-wf8f-6423-gfxg",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Jackson-core Vulnerable to Memory Disclosure via Source Snippet in JsonLocation",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-codec-http",
+      "current_version": "4.1.100.Final",
+      "vuln_id": "GHSA-fghv-69vj-qj49",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Netty vulnerable to request smuggling due to incorrect parsing of chunk extensions",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-codec-http",
+      "current_version": "4.1.77.Final",
+      "vuln_id": "GHSA-fghv-69vj-qj49",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Netty vulnerable to request smuggling due to incorrect parsing of chunk extensions",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-codec-http",
+      "current_version": "4.1.100.Final",
+      "vuln_id": "GHSA-pwqr-wmgm-9rr8",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Netty: HTTP Request Smuggling via Chunked Extension Quoted-String Parsing",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-codec-http",
+      "current_version": "4.1.77.Final",
+      "vuln_id": "GHSA-pwqr-wmgm-9rr8",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Netty: HTTP Request Smuggling via Chunked Extension Quoted-String Parsing",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "cloudfront",
+      "current_version": "2.24.6",
+      "vuln_id": "GHSA-443w-3rq3-5m5h",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "AWS SDK for Java 2.0: Improper Handling of Special Characters in CloudFront Signing Utilities",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "jackson-core",
+      "current_version": "2.12.6",
+      "vuln_id": "GHSA-72hv-8253-57qq",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-codec-http",
+      "current_version": "4.1.100.Final",
+      "vuln_id": "GHSA-v8h7-rr48-vmmv",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Netty: Start-Line Injection in DefaultHttpRequest.setUri() Allows HTTP Request Smuggling and RTSP Request Injection",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "netty-codec-http",
+      "current_version": "4.1.77.Final",
+      "vuln_id": "GHSA-v8h7-rr48-vmmv",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Netty: Start-Line Injection in DefaultHttpRequest.setUri() Allows HTTP Request Smuggling and RTSP Request Injection",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/aws-proxy"
+  }
+}

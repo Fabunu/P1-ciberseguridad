@@ -1,0 +1,115 @@
+{
+  "total_vulnerabilities": 9,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 9
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "dompurify",
+      "current_version": "3.2.7",
+      "vuln_id": "GHSA-crv5-9vww-q3g8",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "yaml",
+      "current_version": "1.10.2",
+      "vuln_id": "GHSA-48c2-rrv3-qjmp",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.2.7",
+      "vuln_id": "GHSA-v9jr-rg53-9pgp",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.2.7",
+      "vuln_id": "GHSA-h7mw-gpvr-xq4m",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix)",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.2.7",
+      "vuln_id": "GHSA-v2wj-7wpq-c8vv",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify contains a Cross-site Scripting vulnerability",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.2.7",
+      "vuln_id": "GHSA-39q2-94rc-95cp",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify's ADD_TAGS function form bypasses FORBID_TAGS due to short-circuit evaluation",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.2.7",
+      "vuln_id": "GHSA-cj63-jhhr-wcxv",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify USE_PROFILES prototype pollution allows event handlers",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.2.7",
+      "vuln_id": "GHSA-cjmm-f4jc-qw8r",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify ADD_ATTR predicate skips URI validation",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.2.7",
+      "vuln_id": "GHSA-h8r8-wccr-v5f2",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify is vulnerable to mutation-XSS via Re-Contextualization",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/trino-query-ui"
+  }
+}

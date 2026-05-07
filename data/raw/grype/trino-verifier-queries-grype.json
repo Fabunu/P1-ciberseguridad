@@ -1,0 +1,49 @@
+{
+  "total_vulnerabilities": 3,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 3
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "mysql-connector-java",
+      "current_version": "8.0.22",
+      "vuln_id": "GHSA-w6f2-8wx4-47r5",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Incorrect Authorization in MySQL Connector Java",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "mysql-connector-java",
+      "current_version": "8.0.22",
+      "vuln_id": "GHSA-m6vm-37g8-gqvh",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "MySQL Connectors takeover vulnerability",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "mysql-connector-java",
+      "current_version": "8.0.22",
+      "vuln_id": "GHSA-g76j-4cxx-23h9",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors Java",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/trino-verifier-queries"
+  }
+}

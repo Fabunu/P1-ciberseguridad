@@ -1,0 +1,49 @@
+{
+  "total_vulnerabilities": 3,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 3
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "lz4-java",
+      "current_version": "1.8.0",
+      "vuln_id": "GHSA-vqf4-7m7x-wgfc",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "LZ4 Java Compression has Out-of-bounds memory operations which can cause DoS",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "lz4-java",
+      "current_version": "1.8.0",
+      "vuln_id": "GHSA-cmp6-m4wj-q63q",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "yawkat LZ4 Java has a possible information leak in Java safe decompressor",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "3.3.5",
+      "vuln_id": "GHSA-f5fw-25gw-5m92",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Hadoop: Temporary File Local Information Disclosure",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/trino-hadoop-apache"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "total_vulnerabilities": 13,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 13
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "jackson-mapper-asl",
+      "current_version": "1.9.13",
+      "vuln_id": "GHSA-c27h-mcmw-48hv",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Deserialization of Untrusted Data in org.codehaus.jackson:jackson-mapper-asl",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "3.1.4",
+      "vuln_id": "GHSA-8wm5-8h9c-47pc",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Hadoop argument injection vulnerability",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "3.1.4",
+      "vuln_id": "GHSA-rmpj-7c96-mrg8",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Hadoop heap overflow before v2.10.2, v3.2.3, v3.3.2",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "avro",
+      "current_version": "1.10.2",
+      "vuln_id": "GHSA-r7pg-v2c8-mfg3",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Avro Java SDK: Arbitrary Code Execution when reading Avro Data (Java SDK)",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "parquet-avro",
+      "current_version": "1.12.3",
+      "vuln_id": "GHSA-2c59-37c4-qrx5",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Parquet Avro Module Vulnerable to Arbitrary Code Execution",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "jackson-mapper-asl",
+      "current_version": "1.9.13",
+      "vuln_id": "GHSA-r6j9-8759-g62w",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Improper Restriction of XML External Entity Reference in jackson-mapper-asl",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "parquet-avro",
+      "current_version": "1.12.3",
+      "vuln_id": "GHSA-53wx-pr6q-m3j5",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Parquet Java: Potential malicious code execution from trusted packages in the parquet-avro module when reading an Avro schema from a Parquet file metadata",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "protobuf-java",
+      "current_version": "2.5.0",
+      "vuln_id": "GHSA-wrvw-hg22-4m67",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "A potential Denial of Service issue in protobuf-java",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "protobuf-java",
+      "current_version": "2.5.0",
+      "vuln_id": "GHSA-h4h5-3hr4-j3g2",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "protobuf-java has a potential Denial of Service issue",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "protobuf-java",
+      "current_version": "2.5.0",
+      "vuln_id": "GHSA-735f-pc8j-v9w8",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "protobuf-java has potential Denial of Service issue",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hive-exec",
+      "current_version": "3.1.2",
+      "vuln_id": "GHSA-c476-j253-5rgq",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Hive Incorrectly Assigns Permissions for a Critical Resource",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "avro",
+      "current_version": "1.10.2",
+      "vuln_id": "GHSA-rhrv-645h-fjfh",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Avro Java SDK vulnerable to Improper Input Validation",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hadoop-common",
+      "current_version": "3.1.4",
+      "vuln_id": "GHSA-f5fw-25gw-5m92",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Apache Hadoop: Temporary File Local Information Disclosure",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/trino-hive-apache"
+  }
+}

@@ -1,0 +1,853 @@
+{
+  "artifacts": [
+    {
+      "id": "9c3b42f439d2fd6a",
+      "name": "actions/checkout",
+      "version": "v3",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v3",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v3"
+      }
+    },
+    {
+      "id": "9eb4338500f07f9e",
+      "name": "actions/checkout",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release.yml",
+          "accessPath": "/.github/workflows/release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v4",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v4"
+      }
+    },
+    {
+      "id": "979e83c31c9094fa",
+      "name": "actions/setup-java",
+      "version": "v3",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-java@v3",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-java@v3"
+      }
+    },
+    {
+      "id": "fbb92a20fd4b96bf",
+      "name": "actions/setup-java",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release.yml",
+          "accessPath": "/.github/workflows/release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-java@v4",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-java@v4"
+      }
+    },
+    {
+      "id": "201cbae96d526605",
+      "name": "github/lock",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release.yml",
+          "accessPath": "/.github/workflows/release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:github\\/lock:github\\/lock:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/github/lock@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "github/lock@v2"
+      }
+    },
+    {
+      "id": "0dc3ecff281da4a7",
+      "name": "hive-thrift",
+      "version": "4-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache-2.0",
+          "spdxExpression": "Apache-2.0",
+          "type": "concluded",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/LICENSE",
+              "accessPath": "/LICENSE"
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.trino.hive:hive-thrift:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.hive:hive_thrift:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-thrift:hive-thrift:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-thrift:hive_thrift:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_thrift:hive-thrift:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_thrift:hive_thrift:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.airlift:hive-thrift:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.airlift:hive_thrift:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:airlift:hive-thrift:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:airlift:hive_thrift:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.hive:hive:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:hive-thrift:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:hive_thrift:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-thrift:hive:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive:hive-thrift:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive:hive_thrift:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_thrift:hive:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.airlift:hive:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:airlift:hive:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:hive:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive:hive:4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.hive/hive-thrift@4-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "io.airlift",
+            "artifactId": "airbase",
+            "version": "346"
+          },
+          "groupId": "io.trino.hive",
+          "artifactId": "hive-thrift",
+          "version": "4-SNAPSHOT",
+          "name": "hive-thrift",
+          "description": "Compiled Hive Thrift API",
+          "url": "https://github.com/trinodb/hive-thrift"
+        }
+      }
+    },
+    {
+      "id": "fd2e6037d62218d6",
+      "name": "libthrift",
+      "version": "0.22.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:libthrift:0.22.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:thrift:0.22.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.thrift/libthrift@0.22.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.thrift",
+          "artifactId": "libthrift",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "31ad325b353b5c6b",
+      "name": "slf4j-api",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:slf4j-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:slf4j_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j-api:slf4j-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j-api:slf4j_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j_api:slf4j-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j_api:slf4j_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:slf4j-api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:slf4j_api:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": ""
+        }
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "0dc3ecff281da4a7",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "201cbae96d526605",
+      "child": "cc210d8a1a5f5704",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "31ad325b353b5c6b",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "31ad325b353b5c6b",
+      "child": "de6b2ebcd9b6cc02",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "60129f156963d3166f4aae63c0373ac630a4ff621dbd17b446c4e859b3397143",
+      "child": "0dc3ecff281da4a7",
+      "type": "contains"
+    },
+    {
+      "parent": "60129f156963d3166f4aae63c0373ac630a4ff621dbd17b446c4e859b3397143",
+      "child": "201cbae96d526605",
+      "type": "contains"
+    },
+    {
+      "parent": "60129f156963d3166f4aae63c0373ac630a4ff621dbd17b446c4e859b3397143",
+      "child": "31ad325b353b5c6b",
+      "type": "contains"
+    },
+    {
+      "parent": "60129f156963d3166f4aae63c0373ac630a4ff621dbd17b446c4e859b3397143",
+      "child": "979e83c31c9094fa",
+      "type": "contains"
+    },
+    {
+      "parent": "60129f156963d3166f4aae63c0373ac630a4ff621dbd17b446c4e859b3397143",
+      "child": "9c3b42f439d2fd6a",
+      "type": "contains"
+    },
+    {
+      "parent": "60129f156963d3166f4aae63c0373ac630a4ff621dbd17b446c4e859b3397143",
+      "child": "9eb4338500f07f9e",
+      "type": "contains"
+    },
+    {
+      "parent": "60129f156963d3166f4aae63c0373ac630a4ff621dbd17b446c4e859b3397143",
+      "child": "fbb92a20fd4b96bf",
+      "type": "contains"
+    },
+    {
+      "parent": "60129f156963d3166f4aae63c0373ac630a4ff621dbd17b446c4e859b3397143",
+      "child": "fd2e6037d62218d6",
+      "type": "contains"
+    },
+    {
+      "parent": "979e83c31c9094fa",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9c3b42f439d2fd6a",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9eb4338500f07f9e",
+      "child": "cc210d8a1a5f5704",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "fbb92a20fd4b96bf",
+      "child": "cc210d8a1a5f5704",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "fd2e6037d62218d6",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "fd2e6037d62218d6",
+      "child": "de6b2ebcd9b6cc02",
+      "type": "dependency-of"
+    }
+  ],
+  "files": [
+    {
+      "id": "7561d461b00ff11d",
+      "location": {
+        "path": "/.github/workflows/ci.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 302
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "2e70ba8d444f9b09bdb88a643cfb960a3543f6cd"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "397df1eb8878f834fe0dfddadf4d85c589ba1e88b944155b2678a3f0a3e94840"
+        }
+      ]
+    },
+    {
+      "id": "cc210d8a1a5f5704",
+      "location": {
+        "path": "/.github/workflows/release.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 3063
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "399c83afd16ad5eb5d0fa4edcad506232b8abc41"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "31658691cdef97d3d065fd963722b84930d47d63449edb06f3eaf5a0e84f4e01"
+        }
+      ]
+    },
+    {
+      "id": "0328106cb52bb1b0",
+      "location": {
+        "path": "/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 3582
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "0471e75040e048783d6f4670cee31332a70e778c"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "13e8a0e4221bfe01f2f51bc182380d236152fa66ea69f62db2108e1e4c9d9dfd"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "60129f156963d3166f4aae63c0373ac630a4ff621dbd17b446c4e859b3397143",
+    "name": "/workspaces/P1-ciberseguridad/data/repos/hive-thrift",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/workspaces/P1-ciberseguridad/data/repos/hive-thrift"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.44.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "deno-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "openldap-search-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/vscode/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/vscode/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}

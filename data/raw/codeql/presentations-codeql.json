@@ -1,0 +1,329 @@
+{
+  "total_issues": 22,
+  "issues_by_severity": {
+    "error": 0,
+    "warning": 22,
+    "note": 0
+  },
+  "issues": [
+    {
+      "rule_id": "js/xss",
+      "rule_index": 39,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to [user-provided value](1).",
+      "file": "reveal/plugin/notes/speaker-view.html",
+      "region": {
+        "startLine": 480,
+        "startColumn": 31,
+        "endColumn": 51
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/xss",
+      "rule_index": 39,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to [user-provided value](1).",
+      "file": "reveal/plugin/notes/speaker-view.html",
+      "region": {
+        "startLine": 483,
+        "startColumn": 31,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/xss",
+      "rule_index": 39,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to [user-provided value](1).",
+      "file": "reveal/plugin/notes/speaker-view.html",
+      "region": {
+        "startLine": 542,
+        "startColumn": 40,
+        "endColumn": 50
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/xss",
+      "rule_index": 39,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to [user-provided value](1).",
+      "file": "reveal/plugin/notes/speaker-view.html",
+      "region": {
+        "startLine": 548,
+        "startColumn": 41,
+        "endColumn": 52
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/xss-through-dom",
+      "rule_index": 40,
+      "level": "warning",
+      "message": "[DOM text](1) is reinterpreted as HTML without escaping meta-characters.",
+      "file": "reveal/js/controllers/notes.js",
+      "region": {
+        "startLine": 43,
+        "startColumn": 29,
+        "endColumn": 117
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/xss-through-dom",
+      "rule_index": 40,
+      "level": "warning",
+      "message": "[DOM text](1) is reinterpreted as HTML without escaping meta-characters.",
+      "file": "reveal/js/controllers/slidecontent.js",
+      "region": {
+        "startLine": 55,
+        "startColumn": 34,
+        "endColumn": 68
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/xss-through-dom",
+      "rule_index": 40,
+      "level": "warning",
+      "message": "[DOM text](1) is reinterpreted as HTML without escaping meta-characters.",
+      "file": "reveal/js/controllers/slidecontent.js",
+      "region": {
+        "startLine": 66,
+        "startColumn": 33,
+        "endColumn": 66
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/xss-through-dom",
+      "rule_index": 40,
+      "level": "warning",
+      "message": "[DOM text](1) is reinterpreted as HTML without escaping meta-characters.",
+      "file": "reveal/js/controllers/slidecontent.js",
+      "region": {
+        "startLine": 141,
+        "startColumn": 27,
+        "endColumn": 68
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/xss-through-dom",
+      "rule_index": 40,
+      "level": "warning",
+      "message": "[DOM text](1) is reinterpreted as HTML without escaping meta-characters.",
+      "file": "reveal/js/controllers/slidecontent.js",
+      "region": {
+        "startLine": 144,
+        "startColumn": 27,
+        "endColumn": 53
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/xss-through-dom",
+      "rule_index": 40,
+      "level": "warning",
+      "message": "[DOM text](1) is reinterpreted as HTML without escaping meta-characters.",
+      "file": "reveal/js/controllers/slidecontent.js",
+      "region": {
+        "startLine": 350,
+        "startColumn": 30,
+        "endColumn": 59
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/html-constructed-from-input",
+      "rule_index": 42,
+      "level": "warning",
+      "message": "This HTML construction which depends on [library input](1) might later allow [cross-site scripting](2).",
+      "file": "reveal/js/reveal.js",
+      "region": {
+        "startLine": 741,
+        "startColumn": 33,
+        "endColumn": 36
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/html-constructed-from-input",
+      "rule_index": 42,
+      "level": "warning",
+      "message": "This HTML construction which depends on [library input](1) might later allow [cross-site scripting](2).",
+      "file": "reveal/js/reveal.js",
+      "region": {
+        "startLine": 745,
+        "startColumn": 20,
+        "endColumn": 23
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unvalidated-dynamic-method-call",
+      "rule_index": 49,
+      "level": "warning",
+      "message": "Invocation of method with [user-controlled](1) name may dispatch to unexpected target and cause an exception.",
+      "file": "reveal/plugin/notes/speaker-view.html",
+      "region": {
+        "startLine": 404,
+        "startColumn": 8,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/client-side-unvalidated-url-redirection",
+      "rule_index": 53,
+      "level": "warning",
+      "message": "Untrusted URL redirection depends on a [user-provided value](1).",
+      "file": "reveal/plugin/notes/speaker-view.html",
+      "region": {
+        "startLine": 542,
+        "startColumn": 40,
+        "endColumn": 50
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/client-side-unvalidated-url-redirection",
+      "rule_index": 53,
+      "level": "warning",
+      "message": "Untrusted URL redirection depends on a [user-provided value](1).",
+      "file": "reveal/plugin/notes/speaker-view.html",
+      "region": {
+        "startLine": 548,
+        "startColumn": 41,
+        "endColumn": 52
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/regex/missing-regexp-anchor",
+      "rule_index": 93,
+      "level": "warning",
+      "message": "When this is used as a regular expression on a URL, it may match anywhere, and arbitrary hosts may come before or after it.",
+      "file": "reveal/js/controllers/slidecontent.js",
+      "region": {
+        "startLine": 405,
+        "startColumn": 9,
+        "endColumn": 32
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/regex/missing-regexp-anchor",
+      "rule_index": 93,
+      "level": "warning",
+      "message": "When this is used as a regular expression on a URL, it may match anywhere, and arbitrary hosts may come before or after it.",
+      "file": "reveal/js/controllers/slidecontent.js",
+      "region": {
+        "startLine": 409,
+        "startColumn": 14,
+        "endColumn": 36
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/missing-origin-check",
+      "rule_index": 94,
+      "level": "warning",
+      "message": "Postmessage handler has no origin check.",
+      "file": "reveal/js/reveal.js",
+      "region": {
+        "startLine": 2431,
+        "startColumn": 26,
+        "endColumn": 31
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/missing-origin-check",
+      "rule_index": 94,
+      "level": "warning",
+      "message": "Postmessage handler has no origin check.",
+      "file": "reveal/plugin/notes/plugin.js",
+      "region": {
+        "startLine": 173,
+        "startColumn": 26,
+        "endColumn": 31
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/missing-origin-check",
+      "rule_index": 94,
+      "level": "warning",
+      "message": "Postmessage handler has no origin check.",
+      "file": "reveal/plugin/notes/plugin.js",
+      "region": {
+        "startLine": 230,
+        "startColumn": 42,
+        "endColumn": 47
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/missing-origin-check",
+      "rule_index": 94,
+      "level": "warning",
+      "message": "Postmessage handler has no origin check.",
+      "file": "reveal/plugin/notes/speaker-view.html",
+      "region": {
+        "startLine": 384,
+        "startColumn": 51,
+        "endColumn": 56
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/remote-property-injection",
+      "rule_index": 99,
+      "level": "warning",
+      "message": "A property name to write to depends on a [user-provided value](1).",
+      "file": "reveal/plugin/notes/speaker-view.html",
+      "region": {
+        "startLine": 405,
+        "startColumn": 28,
+        "endColumn": 39
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    }
+  ],
+  "sarif_metadata": {
+    "version": "2.1.0",
+    "schema_uri": "https://json.schemastore.org/sarif-2.1.0.json",
+    "tool": {
+      "name": "CodeQL",
+      "version": "unknown",
+      "information_uri": ""
+    },
+    "tool_name": "CodeQL",
+    "tool_version": "unknown"
+  }
+}

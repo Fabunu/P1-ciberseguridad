@@ -1,0 +1,1723 @@
+{
+  "artifacts": [
+    {
+      "id": "7b459b197d7d9523",
+      "name": "actions/checkout",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v2"
+      }
+    },
+    {
+      "id": "143eca4435ecaf5c",
+      "name": "actions/setup-java",
+      "version": "v1",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-java@v1",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-java@v1"
+      }
+    },
+    {
+      "id": "d4142cf1b625ad62",
+      "name": "guava",
+      "version": "33.1.0-jre",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.google.guava:guava:33.1.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:guava:33.1.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guava:guava:33.1.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava@33.1.0-jre",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "a190624e3bc69739",
+      "name": "hadoop-apache",
+      "version": "3.3.5-4-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "http://www.apache.org/licenses/LICENSE-2.0"
+          ],
+          "locations": [
+            {
+              "path": "/pom.xml",
+              "accessPath": "/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.sonatype.oss:hadoop-apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.sonatype.oss:hadoop_apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.hadoop:hadoop-apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.hadoop:hadoop_apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hadoop-apache:hadoop-apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hadoop-apache:hadoop_apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hadoop_apache:hadoop-apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hadoop_apache:hadoop_apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.sonatype.oss:hadoop:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.hadoop:hadoop:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sonatype:hadoop-apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sonatype:hadoop_apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hadoop-apache:hadoop:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hadoop:hadoop-apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hadoop:hadoop_apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hadoop_apache:hadoop:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.sonatype.oss:oss:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.trino.hadoop:oss:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:hadoop-apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:hadoop_apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hadoop-apache:oss:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hadoop_apache:oss:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:oss:hadoop-apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:oss:hadoop_apache:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sonatype:hadoop:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hadoop:hadoop:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sonatype:oss:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:hadoop:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hadoop:oss:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:oss:hadoop:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:trino:oss:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:oss:oss:3.3.5-4-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.trino.hadoop/hadoop-apache@3.3.5-4-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "org.sonatype.oss",
+            "artifactId": "oss-parent",
+            "version": "7"
+          },
+          "groupId": "io.trino.hadoop",
+          "artifactId": "hadoop-apache",
+          "version": "3.3.5-4-SNAPSHOT",
+          "name": "hadoop-apache",
+          "description": "Shaded version of Apache Hadoop for Trino",
+          "url": "https://github.com/trinodb/trino-hadoop-apache"
+        }
+      }
+    },
+    {
+      "id": "cf68b0bb5682524c",
+      "name": "hadoop-azure",
+      "version": "3.3.5",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop-azure:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop_azure:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.hadoop/hadoop-azure@3.3.5",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.hadoop",
+          "artifactId": "hadoop-azure",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "aefd71aa73a9732d",
+      "name": "hadoop-azure-datalake",
+      "version": "3.3.5",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop-azure-datalake:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop_azure_datalake:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.hadoop/hadoop-azure-datalake@3.3.5",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.hadoop",
+          "artifactId": "hadoop-azure-datalake",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "2cfd2734bbfb5b2c",
+      "name": "hadoop-common",
+      "version": "3.3.5",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop-common:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop_common:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.hadoop/hadoop-common@3.3.5",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.hadoop",
+          "artifactId": "hadoop-common",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "e77dc63e2e90b3c8",
+      "name": "hadoop-hdfs",
+      "version": "3.3.5",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop-hdfs:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop_hdfs:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.hadoop/hadoop-hdfs@3.3.5",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.hadoop",
+          "artifactId": "hadoop-hdfs",
+          "version": "",
+          "scope": "runtime"
+        }
+      }
+    },
+    {
+      "id": "4be57f92288ff23e",
+      "name": "hadoop-mapreduce-client-core",
+      "version": "3.3.5",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop-mapreduce-client-core:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop_mapreduce_client_core:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop:3.3.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-core@3.3.5",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.hadoop",
+          "artifactId": "hadoop-mapreduce-client-core",
+          "version": "",
+          "scope": "runtime"
+        }
+      }
+    },
+    {
+      "id": "6e5c6faed5138b6a",
+      "name": "jcl-over-slf4j",
+      "version": "1.7.36",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:jcl-over-slf4j:jcl-over-slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl-over-slf4j:jcl_over_slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl_over_slf4j:jcl-over-slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl_over_slf4j:jcl_over_slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:jcl-over-slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:jcl_over_slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl-over:jcl-over-slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl-over:jcl_over_slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl_over:jcl-over-slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl_over:jcl_over_slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:jcl-over-slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:jcl_over_slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl:jcl-over-slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jcl:jcl_over_slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.slf4j",
+          "artifactId": "jcl-over-slf4j",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "ad018304e220314e",
+      "name": "log4j-over-slf4j",
+      "version": "1.7.36",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:log4j-over-slf4j:log4j-over-slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:log4j-over-slf4j:log4j_over_slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:log4j_over_slf4j:log4j-over-slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:log4j_over_slf4j:log4j_over_slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:log4j-over:log4j-over-slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:log4j-over:log4j_over_slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:log4j_over:log4j-over-slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:log4j_over:log4j_over_slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:log4j-over-slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:log4j_over_slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:log4j:log4j-over-slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:log4j:log4j_over_slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:log4j-over-slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:log4j_over_slf4j:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/log4j-over-slf4j@1.7.36",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.slf4j",
+          "artifactId": "log4j-over-slf4j",
+          "version": "",
+          "scope": "runtime"
+        }
+      }
+    },
+    {
+      "id": "ae84800c53ba2a09",
+      "name": "lz4-java",
+      "version": "1.8.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:lz4-java:lz4-java:1.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:lz4-java:lz4_java:1.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:lz4_java:lz4-java:1.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:lz4_java:lz4_java:1.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.lz4:lz4-java:1.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.lz4:lz4_java:1.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:lz4:lz4-java:1.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:lz4:lz4_java:1.8.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.lz4/lz4-java@1.8.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.lz4",
+          "artifactId": "lz4-java",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "64937b4190dbc34e",
+      "name": "slf4j-api",
+      "version": "1.7.36",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:slf4j-api:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:slf4j_api:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j-api:slf4j-api:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j-api:slf4j_api:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j_api:slf4j-api:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j_api:slf4j_api:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:slf4j-api:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:slf4j_api:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "d5e8a97ee0797cb3",
+      "name": "slf4j-nop",
+      "version": "1.7.36",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:slf4j-nop:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:slf4j_nop:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j-nop:slf4j-nop:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j-nop:slf4j_nop:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j_nop:slf4j-nop:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j_nop:slf4j_nop:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:slf4j-nop:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:slf4j_nop:1.7.36:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-nop@1.7.36",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-nop",
+          "version": "",
+          "scope": "runtime"
+        }
+      }
+    },
+    {
+      "id": "69e50928a89d9ce2",
+      "name": "snappy-java",
+      "version": "1.1.10.4",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.xerial.snappy:snappy-java:1.1.10.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.xerial.snappy:snappy_java:1.1.10.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.xerial.snappy:snappy:1.1.10.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:snappy-java:snappy-java:1.1.10.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:snappy-java:snappy_java:1.1.10.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:snappy_java:snappy-java:1.1.10.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:snappy_java:snappy_java:1.1.10.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:snappy-java:snappy:1.1.10.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:snappy:snappy-java:1.1.10.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:snappy:snappy_java:1.1.10.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:snappy_java:snappy:1.1.10.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:xerial:snappy-java:1.1.10.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:xerial:snappy_java:1.1.10.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:snappy:snappy:1.1.10.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:xerial:snappy:1.1.10.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.4",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.xerial.snappy",
+          "artifactId": "snappy-java",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "fe5c5dd48d1f202b",
+      "name": "testng",
+      "version": "6.2.1",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.testng:testng:6.2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testng:testng:6.2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.testng/testng@6.2.1",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.testng",
+          "artifactId": "testng",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "143eca4435ecaf5c",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2cfd2734bbfb5b2c",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2cfd2734bbfb5b2c",
+      "child": "a190624e3bc69739",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "143eca4435ecaf5c",
+      "type": "contains"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "2cfd2734bbfb5b2c",
+      "type": "contains"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "4be57f92288ff23e",
+      "type": "contains"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "64937b4190dbc34e",
+      "type": "contains"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "69e50928a89d9ce2",
+      "type": "contains"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "6e5c6faed5138b6a",
+      "type": "contains"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "7b459b197d7d9523",
+      "type": "contains"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "a190624e3bc69739",
+      "type": "contains"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "ad018304e220314e",
+      "type": "contains"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "ae84800c53ba2a09",
+      "type": "contains"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "aefd71aa73a9732d",
+      "type": "contains"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "cf68b0bb5682524c",
+      "type": "contains"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "d4142cf1b625ad62",
+      "type": "contains"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "d5e8a97ee0797cb3",
+      "type": "contains"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "e77dc63e2e90b3c8",
+      "type": "contains"
+    },
+    {
+      "parent": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+      "child": "fe5c5dd48d1f202b",
+      "type": "contains"
+    },
+    {
+      "parent": "4be57f92288ff23e",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4be57f92288ff23e",
+      "child": "a190624e3bc69739",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "64937b4190dbc34e",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "64937b4190dbc34e",
+      "child": "a190624e3bc69739",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "69e50928a89d9ce2",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "69e50928a89d9ce2",
+      "child": "a190624e3bc69739",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "6e5c6faed5138b6a",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "6e5c6faed5138b6a",
+      "child": "a190624e3bc69739",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "7b459b197d7d9523",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a190624e3bc69739",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ad018304e220314e",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ad018304e220314e",
+      "child": "a190624e3bc69739",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "ae84800c53ba2a09",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ae84800c53ba2a09",
+      "child": "a190624e3bc69739",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "aefd71aa73a9732d",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "aefd71aa73a9732d",
+      "child": "a190624e3bc69739",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "cf68b0bb5682524c",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "cf68b0bb5682524c",
+      "child": "a190624e3bc69739",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d4142cf1b625ad62",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d4142cf1b625ad62",
+      "child": "a190624e3bc69739",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d5e8a97ee0797cb3",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d5e8a97ee0797cb3",
+      "child": "a190624e3bc69739",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e77dc63e2e90b3c8",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e77dc63e2e90b3c8",
+      "child": "a190624e3bc69739",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "fe5c5dd48d1f202b",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "fe5c5dd48d1f202b",
+      "child": "a190624e3bc69739",
+      "type": "dependency-of"
+    }
+  ],
+  "files": [
+    {
+      "id": "7561d461b00ff11d",
+      "location": {
+        "path": "/.github/workflows/ci.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 546
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "e3649187894c91d358fc04fdd4a27c042c4c92fa"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "0a74baa077b029c5a60d604c3a92a52c1d2af583e7d681ffda78dc333b4eab99"
+        }
+      ]
+    },
+    {
+      "id": "0328106cb52bb1b0",
+      "location": {
+        "path": "/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 31239
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "2d821a1e046c5b859814525847699d5bb6a759cf"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "ea192682258610fca4b24193e91b9fe4175c905d16758044bca75da05a5a726a"
+        }
+      ]
+    },
+    {
+      "id": "f3690112a7d58c8c",
+      "location": {
+        "path": "/src/main/resources/nativelib/Linux-aarch64/libhadoop.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": true,
+        "hasEntrypoint": true,
+        "importedLibraries": [
+          "libdl.so.2",
+          "libpthread.so.0",
+          "libc.so.6",
+          "ld-linux-aarch64.so.1"
+        ],
+        "elfSecurityFeatures": {
+          "symbolTableStripped": false,
+          "stackCanary": true,
+          "nx": true,
+          "relRO": "partial",
+          "pie": false,
+          "dso": true,
+          "safeStack": false,
+          "cfi": false,
+          "fortify": true
+        }
+      },
+      "unknowns": [
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "a04e06d7f052e48d",
+      "location": {
+        "path": "/src/main/resources/nativelib/Linux-amd64/libhadoop.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": true,
+        "hasEntrypoint": true,
+        "importedLibraries": [
+          "libdl.so.2",
+          "libpthread.so.0",
+          "libc.so.6"
+        ],
+        "elfSecurityFeatures": {
+          "symbolTableStripped": false,
+          "stackCanary": true,
+          "nx": true,
+          "relRO": "partial",
+          "pie": false,
+          "dso": true,
+          "safeStack": false,
+          "cfi": false,
+          "fortify": true
+        }
+      },
+      "unknowns": [
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "888f6779051440be",
+      "location": {
+        "path": "/src/main/resources/nativelib/Linux-ppc64le/libhadoop.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": true,
+        "hasEntrypoint": true,
+        "importedLibraries": [
+          "libdl.so.2",
+          "libjvm.so",
+          "libpthread.so.0",
+          "libc.so.6"
+        ],
+        "elfSecurityFeatures": {
+          "symbolTableStripped": false,
+          "stackCanary": false,
+          "nx": true,
+          "relRO": "partial",
+          "pie": false,
+          "dso": true,
+          "safeStack": false,
+          "cfi": false,
+          "fortify": false
+        }
+      },
+      "unknowns": [
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "8ba8c523873c6f3a",
+      "location": {
+        "path": "/src/main/resources/nativelib/Mac_OS_X-aarch64/libhadoop.dylib"
+      },
+      "executable": {
+        "format": "macho",
+        "hasExports": true,
+        "hasEntrypoint": false,
+        "importedLibraries": [
+          "/usr/lib/libSystem.B.dylib",
+          "@rpath/libjvm.dylib"
+        ]
+      },
+      "unknowns": [
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "556612f822fc785f",
+      "location": {
+        "path": "/src/main/resources/nativelib/Mac_OS_X-x86_64/libhadoop.dylib"
+      },
+      "executable": {
+        "format": "macho",
+        "hasExports": true,
+        "hasEntrypoint": false,
+        "importedLibraries": [
+          "/usr/lib/libSystem.B.dylib",
+          "@rpath/libjvm.dylib"
+        ]
+      },
+      "unknowns": [
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    }
+  ],
+  "source": {
+    "id": "3c4d50ffb7574d3d10f36f3bf5ffaf2a8028bcc36241af559785cf1e39be7e79",
+    "name": "/workspaces/P1-ciberseguridad/data/repos/trino-hadoop-apache",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/workspaces/P1-ciberseguridad/data/repos/trino-hadoop-apache"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.44.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "deno-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "openldap-search-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/vscode/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/vscode/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}

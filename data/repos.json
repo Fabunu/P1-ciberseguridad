@@ -1,0 +1,188 @@
+{
+    "repositories": [
+        {
+            "url": "https://github.com/trinodb/tpch",
+            "path": "data/repos/tpch"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-maven-plugin",
+            "path": "data/repos/trino-maven-plugin"
+        },
+        {
+            "url": "https://github.com/trinodb/cla",
+            "path": "data/repos/cla"
+        },
+        {
+            "url": "https://github.com/trinodb/orc-protobuf",
+            "path": "data/repos/orc-protobuf"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-hive-apache",
+            "path": "data/repos/trino-hive-apache"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-hadoop-apache",
+            "path": "data/repos/trino-hadoop-apache"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-hive-jdbc",
+            "path": "data/repos/trino-hive-jdbc"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-cassandra-driver",
+            "path": "data/repos/trino-cassandra-driver"
+        },
+        {
+            "url": "https://github.com/trinodb/presto-cassandra-server",
+            "path": "data/repos/presto-cassandra-server"
+        },
+        {
+            "url": "https://github.com/trinodb/benchto",
+            "path": "data/repos/benchto"
+        },
+        {
+            "url": "https://github.com/trinodb/trino",
+            "path": "data/repos/trino"
+        },
+        {
+            "url": "https://github.com/trinodb/tempto",
+            "path": "data/repos/tempto"
+        },
+        {
+            "url": "https://github.com/trinodb/clabot-config",
+            "path": "data/repos/clabot-config"
+        },
+        {
+            "url": "https://github.com/trinodb/docker-images",
+            "path": "data/repos/docker-images"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-admin",
+            "path": "data/repos/trino-admin"
+        },
+        {
+            "url": "https://github.com/trinodb/trino.io",
+            "path": "data/repos/trino.io"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-yarn",
+            "path": "data/repos/trino-yarn"
+        },
+        {
+            "url": "https://github.com/trinodb/ambari-presto-service",
+            "path": "data/repos/ambari-presto-service"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-python-client",
+            "path": "data/repos/trino-python-client"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-the-definitive-guide",
+            "path": "data/repos/trino-the-definitive-guide"
+        },
+        {
+            "url": "https://github.com/trinodb/release-scripts",
+            "path": "data/repos/release-scripts"
+        },
+        {
+            "url": "https://github.com/trinodb/tpcds",
+            "path": "data/repos/tpcds"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-docker",
+            "path": "data/repos/trino-docker"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-go-client",
+            "path": "data/repos/trino-go-client"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-yugabyte-driver",
+            "path": "data/repos/trino-yugabyte-driver"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-rubix",
+            "path": "data/repos/trino-rubix"
+        },
+        {
+            "url": "https://github.com/trinodb/charts",
+            "path": "data/repos/charts"
+        },
+        {
+            "url": "https://github.com/trinodb/reports",
+            "path": "data/repos/reports"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-verifier-queries",
+            "path": "data/repos/trino-verifier-queries"
+        },
+        {
+            "url": "https://github.com/trinodb/grafana-trino",
+            "path": "data/repos/grafana-trino"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-js-client",
+            "path": "data/repos/trino-js-client"
+        },
+        {
+            "url": "https://github.com/trinodb/github-actions",
+            "path": "data/repos/github-actions"
+        },
+        {
+            "url": "https://github.com/trinodb/presentations",
+            "path": "data/repos/presentations"
+        },
+        {
+            "url": "https://github.com/trinodb/tutorials",
+            "path": "data/repos/tutorials"
+        },
+        {
+            "url": "https://github.com/trinodb/hive-thrift",
+            "path": "data/repos/hive-thrift"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-gateway",
+            "path": "data/repos/trino-gateway"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-coral",
+            "path": "data/repos/trino-coral"
+        },
+        {
+            "url": "https://github.com/trinodb/re2j",
+            "path": "data/repos/re2j"
+        },
+        {
+            "url": "https://github.com/trinodb/aws-proxy",
+            "path": "data/repos/aws-proxy"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-csharp-client",
+            "path": "data/repos/trino-csharp-client"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-query-ui",
+            "path": "data/repos/trino-query-ui"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-k8s-operator",
+            "path": "data/repos/trino-k8s-operator"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-wasm-python",
+            "path": "data/repos/trino-wasm-python"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-odbc",
+            "path": "data/repos/trino-odbc"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-packages",
+            "path": "data/repos/trino-packages"
+        },
+        {
+            "url": "https://github.com/trinodb/trino-opa-tools",
+            "path": "data/repos/trino-opa-tools"
+        }
+    ]
+}

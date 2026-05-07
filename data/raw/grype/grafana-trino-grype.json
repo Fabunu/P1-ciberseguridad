@@ -1,0 +1,49 @@
+{
+  "total_vulnerabilities": 3,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 3
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "google.golang.org/grpc",
+      "current_version": "v1.71.1",
+      "vuln_id": "GHSA-p77j-4mvh-x3m3",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "gRPC-Go has an authorization bypass via missing leading slash in :path",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "go.opentelemetry.io/otel/sdk",
+      "current_version": "v1.35.0",
+      "vuln_id": "GHSA-9h8m-3fm2-qjrq",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "OpenTelemetry Go SDK Vulnerable to Arbitrary Code Execution via PATH Hijacking",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "go.opentelemetry.io/otel/sdk",
+      "current_version": "v1.35.0",
+      "vuln_id": "GHSA-hfvc-g4fc-pqhx",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "opentelemetry-go: BSD kenv command not using absolute path enables PATH hijacking",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/grafana-trino"
+  }
+}

@@ -1,0 +1,5232 @@
+{
+  "artifacts": [
+    {
+      "id": "6382070a0dcc2b8a",
+      "name": "actions/cache",
+      "version": "v1",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-tests.yml",
+          "accessPath": "/.github/workflows/ci-tests.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/cache@v1",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/cache@v1"
+      }
+    },
+    {
+      "id": "319b729d256bd02a",
+      "name": "actions/checkout",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-tests.yml",
+          "accessPath": "/.github/workflows/ci-tests.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v2"
+      }
+    },
+    {
+      "id": "1e3d1cf54dfe9e2f",
+      "name": "actions/setup-java",
+      "version": "v1",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-tests.yml",
+          "accessPath": "/.github/workflows/ci-tests.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-java@v1",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-java@v1"
+      }
+    },
+    {
+      "id": "44d03560f84c005d",
+      "name": "allgood-consistent-hash",
+      "version": "1.0.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-spi/pom.xml",
+          "accessPath": "/rubix-spi/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:allgood-consistent-hash:allgood-consistent-hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:allgood-consistent-hash:allgood_consistent_hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:allgood_consistent_hash:allgood-consistent-hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:allgood_consistent_hash:allgood_consistent_hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.github.ishugaliy:allgood-consistent-hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.github.ishugaliy:allgood_consistent_hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:allgood-consistent:allgood-consistent-hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:allgood-consistent:allgood_consistent_hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:allgood_consistent:allgood-consistent-hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:allgood_consistent:allgood_consistent_hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ishugaliy:allgood-consistent-hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ishugaliy:allgood_consistent_hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:allgood:allgood-consistent-hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:allgood:allgood_consistent_hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github:allgood-consistent-hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github:allgood_consistent_hash:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.github.ishugaliy/allgood-consistent-hash@1.0.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.github.ishugaliy",
+          "artifactId": "allgood-consistent-hash",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "984ce9bb083af33e",
+      "name": "assembly",
+      "version": "0.3.21-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/assembly/pom.xml",
+          "accessPath": "/assembly/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "https://github.com/qubole/rubix/blob/master/LICENSE.txt"
+          ],
+          "locations": [
+            {
+              "path": "/assembly/pom.xml",
+              "accessPath": "/assembly/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:assembly:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:assembly:assembly:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:assembly:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:assembly:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:assembly:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.qubole.rubix/assembly@0.3.21-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "com.qubole.rubix",
+            "artifactId": "rubix-root",
+            "version": "0.3.21-SNAPSHOT"
+          },
+          "groupId": "com.qubole.rubix",
+          "artifactId": "assembly",
+          "version": "0.3.21-SNAPSHOT",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "539aad04f87ede68",
+      "name": "codecov/codecov-action",
+      "version": "v1",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-tests.yml",
+          "accessPath": "/.github/workflows/ci-tests.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov-action:codecov\\/codecov-action:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov-action:codecov\\/codecov_action:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov_action:codecov\\/codecov-action:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov_action:codecov\\/codecov_action:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov:codecov\\/codecov-action:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov:codecov\\/codecov_action:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/codecov/codecov-action@v1",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "codecov/codecov-action@v1"
+      }
+    },
+    {
+      "id": "b070ea64b7e9254a",
+      "name": "commons-lang",
+      "version": "2.4",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-bookkeeper/pom.xml",
+          "accessPath": "/rubix-bookkeeper/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:commons-lang:commons-lang:2.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons-lang:commons_lang:2.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons_lang:commons-lang:2.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons_lang:commons_lang:2.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons:commons-lang:2.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons:commons_lang:2.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/commons-lang/commons-lang@2.4",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "commons-lang",
+          "artifactId": "commons-lang",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "639e9e79c9aba8f7",
+      "name": "commons-logging",
+      "version": "1.1.3",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-bookkeeper/pom.xml",
+          "accessPath": "/rubix-bookkeeper/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:commons-logging:commons-logging:1.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons-logging:commons_logging:1.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons_logging:commons-logging:1.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons_logging:commons_logging:1.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons:commons-logging:1.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:commons:commons_logging:1.1.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/commons-logging/commons-logging@1.1.3",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "commons-logging",
+          "artifactId": "commons-logging",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "5201bfc4150330c0",
+      "name": "gcs-connector",
+      "version": "hadoop2-2.0.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-hadoop2/pom.xml",
+          "accessPath": "/rubix-hadoop2/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.google.cloud.bigdataoss:gcs-connector:hadoop2-2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.google.cloud.bigdataoss:gcs_connector:hadoop2-2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gcs-connector:gcs-connector:hadoop2-2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gcs-connector:gcs_connector:hadoop2-2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gcs_connector:gcs-connector:hadoop2-2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gcs_connector:gcs_connector:hadoop2-2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:bigdataoss:gcs-connector:hadoop2-2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:bigdataoss:gcs_connector:hadoop2-2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:gcs-connector:hadoop2-2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:gcs_connector:hadoop2-2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cloud:gcs-connector:hadoop2-2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cloud:gcs_connector:hadoop2-2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gcs:gcs-connector:hadoop2-2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gcs:gcs_connector:hadoop2-2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.google.cloud.bigdataoss/gcs-connector@hadoop2-2.0.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.google.cloud.bigdataoss",
+          "artifactId": "gcs-connector",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "e97c5aa720a9aebd",
+      "name": "gmetric4j",
+      "version": "1.0.2",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-common/pom.xml",
+          "accessPath": "/rubix-common/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:gmetric4j:gmetric4j:1.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/info.ganglia.gmetric4j/gmetric4j@1.0.2",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "info.ganglia.gmetric4j",
+          "artifactId": "gmetric4j",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "a2ceed6191033932",
+      "name": "gson",
+      "version": "2.7",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-hadoop2/pom.xml",
+          "accessPath": "/rubix-hadoop2/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.google.code.gson:gson:2.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:gson:2.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:code:gson:2.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gson:gson:2.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.gson/gson@2.7",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.google.code.gson",
+          "artifactId": "gson",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "b77ea6831b6b18ef",
+      "name": "guava",
+      "version": "26.0-jre",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-bookkeeper/pom.xml",
+          "accessPath": "/rubix-bookkeeper/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.google.guava:guava:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:guava:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guava:guava:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava@26.0-jre",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "5a5c4625b6fec30a",
+      "name": "guava-testlib",
+      "version": "26.0-jre",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-bookkeeper/pom.xml",
+          "accessPath": "/rubix-bookkeeper/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.google.guava:guava-testlib:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.google.guava:guava_testlib:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guava-testlib:guava-testlib:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guava-testlib:guava_testlib:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guava_testlib:guava-testlib:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guava_testlib:guava_testlib:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.google.guava:guava:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:guava-testlib:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:guava_testlib:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guava-testlib:guava:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guava:guava-testlib:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guava:guava_testlib:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guava_testlib:guava:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:guava:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guava:guava:26.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava-testlib@26.0-jre",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.google.guava",
+          "artifactId": "guava-testlib",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "c650c6515b548060",
+      "name": "hadoop-aliyun",
+      "version": "3.2.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-prestosql/pom.xml",
+          "accessPath": "/rubix-prestosql/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop-aliyun:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop_aliyun:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.hadoop/hadoop-aliyun@3.2.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.hadoop",
+          "artifactId": "hadoop-aliyun",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "208bbfb4694f536c",
+      "name": "hadoop-aws",
+      "version": "3.2.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-hadoop2/pom.xml",
+          "accessPath": "/rubix-hadoop2/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop-aws:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop_aws:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.hadoop/hadoop-aws@3.2.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.hadoop",
+          "artifactId": "hadoop-aws",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "c90ec04423d8ff17",
+      "name": "hadoop-azure",
+      "version": "3.2.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-hadoop2/pom.xml",
+          "accessPath": "/rubix-hadoop2/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop-azure:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop_azure:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.hadoop/hadoop-azure@3.2.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.hadoop",
+          "artifactId": "hadoop-azure",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "64a73bac97e06ca1",
+      "name": "hadoop-azure-datalake",
+      "version": "3.2.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-prestosql/pom.xml",
+          "accessPath": "/rubix-prestosql/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop-azure-datalake:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop_azure_datalake:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.hadoop/hadoop-azure-datalake@3.2.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.hadoop",
+          "artifactId": "hadoop-azure-datalake",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "d5bfa21083d9601e",
+      "name": "hadoop-common",
+      "version": "3.2.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-bookkeeper/pom.xml",
+          "accessPath": "/rubix-bookkeeper/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop-common:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop_common:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.hadoop/hadoop-common@3.2.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.hadoop",
+          "artifactId": "hadoop-common",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "1b19d16d7c6bf0fa",
+      "name": "hadoop-hdfs-client",
+      "version": "3.2.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-hadoop2/pom.xml",
+          "accessPath": "/rubix-hadoop2/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop-hdfs-client:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop_hdfs_client:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.2.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.hadoop",
+          "artifactId": "hadoop-hdfs-client",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "0196fa358a9ff350",
+      "name": "hadoop-yarn-api",
+      "version": "3.2.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-hadoop2/pom.xml",
+          "accessPath": "/rubix-hadoop2/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop-yarn-api:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop_yarn_api:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:hadoop:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.hadoop/hadoop-yarn-api@3.2.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.hadoop",
+          "artifactId": "hadoop-yarn-api",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "989bffd460ece33c",
+      "name": "jmxutils",
+      "version": "1.18",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-core/pom.xml",
+          "accessPath": "/rubix-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.weakref:jmxutils:1.18:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jmxutils:jmxutils:1.18:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:weakref:jmxutils:1.18:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.weakref/jmxutils@1.18",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.weakref",
+          "artifactId": "jmxutils",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "717a213b62736c5e",
+      "name": "libthrift",
+      "version": "0.9.3",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-spi/pom.xml",
+          "accessPath": "/rubix-spi/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:libthrift:0.9.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:thrift:0.9.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.thrift/libthrift@0.9.3",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.thrift",
+          "artifactId": "libthrift",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "913fda556e6b0c89",
+      "name": "metrics-core",
+      "version": "3.1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-bookkeeper/pom.xml",
+          "accessPath": "/rubix-bookkeeper/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.dropwizard.metrics:metrics-core:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.dropwizard.metrics:metrics_core:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.dropwizard.metrics:metrics:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics-core:metrics-core:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics-core:metrics_core:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics_core:metrics-core:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics_core:metrics_core:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:dropwizard:metrics-core:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:dropwizard:metrics_core:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics-core:metrics:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics:metrics-core:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics:metrics_core:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics_core:metrics:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:dropwizard:metrics:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics:metrics:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.dropwizard.metrics/metrics-core@3.1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.dropwizard.metrics",
+          "artifactId": "metrics-core",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "a01ea330f3e60e41",
+      "name": "metrics-ganglia",
+      "version": "3.1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-common/pom.xml",
+          "accessPath": "/rubix-common/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.dropwizard.metrics:metrics-ganglia:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.dropwizard.metrics:metrics_ganglia:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics-ganglia:metrics-ganglia:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics-ganglia:metrics_ganglia:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics_ganglia:metrics-ganglia:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics_ganglia:metrics_ganglia:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.dropwizard.metrics:metrics:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:dropwizard:metrics-ganglia:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:dropwizard:metrics_ganglia:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics-ganglia:metrics:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics:metrics-ganglia:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics:metrics_ganglia:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics_ganglia:metrics:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:dropwizard:metrics:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics:metrics:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.dropwizard.metrics/metrics-ganglia@3.1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.dropwizard.metrics",
+          "artifactId": "metrics-ganglia",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "d4a95c89851937e7",
+      "name": "metrics-jvm",
+      "version": "3.1.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-bookkeeper/pom.xml",
+          "accessPath": "/rubix-bookkeeper/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.dropwizard.metrics:metrics-jvm:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.dropwizard.metrics:metrics_jvm:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.dropwizard.metrics:metrics:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics-jvm:metrics-jvm:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics-jvm:metrics_jvm:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics_jvm:metrics-jvm:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics_jvm:metrics_jvm:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:dropwizard:metrics-jvm:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:dropwizard:metrics_jvm:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics-jvm:metrics:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics:metrics-jvm:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics:metrics_jvm:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics_jvm:metrics:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:dropwizard:metrics:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics:metrics:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.dropwizard.metrics/metrics-jvm@3.1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.dropwizard.metrics",
+          "artifactId": "metrics-jvm",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "515d0529dd829b73",
+      "name": "metrics-statsd-common",
+      "version": "4.2.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-common/pom.xml",
+          "accessPath": "/rubix-common/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:metrics-statsd-common:metrics-statsd-common:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics-statsd-common:metrics_statsd_common:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics_statsd_common:metrics-statsd-common:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics_statsd_common:metrics_statsd_common:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics-statsd:metrics-statsd-common:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics-statsd:metrics_statsd_common:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics_statsd:metrics-statsd-common:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics_statsd:metrics_statsd_common:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.readytalk:metrics-statsd-common:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.readytalk:metrics_statsd_common:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:readytalk:metrics-statsd-common:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:readytalk:metrics_statsd_common:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics:metrics-statsd-common:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics:metrics_statsd_common:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.readytalk/metrics-statsd-common@4.2.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.readytalk",
+          "artifactId": "metrics-statsd-common",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "82bd470c66e2486b",
+      "name": "metrics3-statsd",
+      "version": "4.2.0",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-common/pom.xml",
+          "accessPath": "/rubix-common/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:metrics3-statsd:metrics3-statsd:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics3-statsd:metrics3_statsd:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics3_statsd:metrics3-statsd:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics3_statsd:metrics3_statsd:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.readytalk:metrics3-statsd:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.readytalk:metrics3_statsd:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:readytalk:metrics3-statsd:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:readytalk:metrics3_statsd:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics3:metrics3-statsd:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:metrics3:metrics3_statsd:4.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.readytalk/metrics3-statsd@4.2.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.readytalk",
+          "artifactId": "metrics3-statsd",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "7e91e3355970566b",
+      "name": "mockito-core",
+      "version": "2.18.3",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-bookkeeper/pom.xml",
+          "accessPath": "/rubix-bookkeeper/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:mockito-core:mockito-core:2.18.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mockito-core:mockito_core:2.18.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mockito_core:mockito-core:2.18.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mockito_core:mockito_core:2.18.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.mockito:mockito-core:2.18.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.mockito:mockito_core:2.18.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mockito:mockito-core:2.18.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mockito:mockito_core:2.18.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.mockito/mockito-core@2.18.3",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.mockito",
+          "artifactId": "mockito-core",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "fd54f55945b3a685",
+      "name": "oncrpc",
+      "version": "1.0.7",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-common/pom.xml",
+          "accessPath": "/rubix-common/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.acplt:oncrpc:1.0.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:oncrpc:oncrpc:1.0.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:acplt:oncrpc:1.0.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.acplt/oncrpc@1.0.7",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.acplt",
+          "artifactId": "oncrpc",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "1430e09555c8017b",
+      "name": "presto-hive",
+      "version": "0.208",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-presto/pom.xml",
+          "accessPath": "/rubix-presto/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.facebook.presto:presto-hive:0.208:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.facebook.presto:presto_hive:0.208:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.facebook.presto:presto:0.208:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-hive:presto-hive:0.208:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-hive:presto_hive:0.208:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_hive:presto-hive:0.208:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_hive:presto_hive:0.208:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:facebook:presto-hive:0.208:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:facebook:presto_hive:0.208:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-hive:presto:0.208:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto-hive:0.208:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto_hive:0.208:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_hive:presto:0.208:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:facebook:presto:0.208:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto:0.208:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.facebook.presto/presto-hive@0.208",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.facebook.presto",
+          "artifactId": "presto-hive",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "8631cca54c849aa4",
+      "name": "presto-hive",
+      "version": "322",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-prestosql/pom.xml",
+          "accessPath": "/rubix-prestosql/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.prestosql:presto-hive:322:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql:presto_hive:322:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-hive:presto-hive:322:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-hive:presto_hive:322:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_hive:presto-hive:322:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_hive:presto_hive:322:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto-hive:322:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto_hive:322:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto-hive:322:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto_hive:322:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.prestosql/presto-hive@322",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.prestosql",
+          "artifactId": "presto-hive",
+          "version": "",
+          "scope": "provided"
+        }
+      }
+    },
+    {
+      "id": "24990cd4ef1889a3",
+      "name": "rubix-bookkeeper",
+      "version": "0.3.21-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-bookkeeper/pom.xml",
+          "accessPath": "/rubix-bookkeeper/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "https://github.com/qubole/rubix/blob/master/LICENSE.txt"
+          ],
+          "locations": [
+            {
+              "path": "/rubix-bookkeeper/pom.xml",
+              "accessPath": "/rubix-bookkeeper/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix-bookkeeper:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix_bookkeeper:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-bookkeeper:rubix-bookkeeper:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-bookkeeper:rubix_bookkeeper:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_bookkeeper:rubix-bookkeeper:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_bookkeeper:rubix_bookkeeper:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix-bookkeeper:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix_bookkeeper:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-bookkeeper:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix-bookkeeper:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix_bookkeeper:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_bookkeeper:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.qubole.rubix/rubix-bookkeeper@0.3.21-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "com.qubole.rubix",
+            "artifactId": "rubix-root",
+            "version": "0.3.21-SNAPSHOT"
+          },
+          "groupId": "com.qubole.rubix",
+          "artifactId": "rubix-bookkeeper",
+          "version": "0.3.21-SNAPSHOT",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "06e25a7379c14991",
+      "name": "rubix-build",
+      "version": "0.3.21-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-build/pom.xml",
+          "accessPath": "/rubix-build/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "https://github.com/qubole/rubix/blob/master/LICENSE.txt"
+          ],
+          "locations": [
+            {
+              "path": "/rubix-build/pom.xml",
+              "accessPath": "/rubix-build/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix-build:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix_build:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-build:rubix-build:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-build:rubix_build:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_build:rubix-build:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_build:rubix_build:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix-build:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix_build:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-build:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix-build:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix_build:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_build:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.qubole.rubix/rubix-build@0.3.21-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "com.qubole.rubix",
+            "artifactId": "rubix-root",
+            "version": "0.3.21-SNAPSHOT"
+          },
+          "groupId": "com.qubole.rubix",
+          "artifactId": "rubix-build",
+          "version": "0.3.21-SNAPSHOT",
+          "name": "rubix-build"
+        }
+      }
+    },
+    {
+      "id": "ccfac410f6ea0b9e",
+      "name": "rubix-client",
+      "version": "0.3.21-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-client/pom.xml",
+          "accessPath": "/rubix-client/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "https://github.com/qubole/rubix/blob/master/LICENSE.txt"
+          ],
+          "locations": [
+            {
+              "path": "/rubix-client/pom.xml",
+              "accessPath": "/rubix-client/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix-client:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix_client:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-client:rubix-client:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-client:rubix_client:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_client:rubix-client:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_client:rubix_client:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix-client:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix_client:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-client:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix-client:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix_client:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_client:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.qubole.rubix/rubix-client@0.3.21-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "com.qubole.rubix",
+            "artifactId": "rubix-root",
+            "version": "0.3.21-SNAPSHOT"
+          },
+          "groupId": "com.qubole.rubix",
+          "artifactId": "rubix-client",
+          "version": "0.3.21-SNAPSHOT",
+          "name": "rubix-client"
+        }
+      }
+    },
+    {
+      "id": "eb16ca7f22fb164e",
+      "name": "rubix-common",
+      "version": "0.3.21-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-common/pom.xml",
+          "accessPath": "/rubix-common/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "https://github.com/qubole/rubix/blob/master/LICENSE.txt"
+          ],
+          "locations": [
+            {
+              "path": "/rubix-common/pom.xml",
+              "accessPath": "/rubix-common/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix-common:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix_common:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-common:rubix-common:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-common:rubix_common:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_common:rubix-common:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_common:rubix_common:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix-common:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix_common:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-common:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix-common:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix_common:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_common:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.qubole.rubix/rubix-common@0.3.21-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "com.qubole.rubix",
+            "artifactId": "rubix-root",
+            "version": "0.3.21-SNAPSHOT"
+          },
+          "groupId": "com.qubole.rubix",
+          "artifactId": "rubix-common",
+          "version": "0.3.21-SNAPSHOT",
+          "name": "rubix-common"
+        }
+      }
+    },
+    {
+      "id": "0a5ac298907dc99a",
+      "name": "rubix-core",
+      "version": "0.3.21-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-core/pom.xml",
+          "accessPath": "/rubix-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "https://github.com/qubole/rubix/blob/master/LICENSE.txt"
+          ],
+          "locations": [
+            {
+              "path": "/rubix-core/pom.xml",
+              "accessPath": "/rubix-core/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix-core:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix_core:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-core:rubix-core:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-core:rubix_core:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_core:rubix-core:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_core:rubix_core:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix-core:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix_core:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-core:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix-core:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix_core:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_core:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.qubole.rubix/rubix-core@0.3.21-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "com.qubole.rubix",
+            "artifactId": "rubix-root",
+            "version": "0.3.21-SNAPSHOT"
+          },
+          "groupId": "com.qubole.rubix",
+          "artifactId": "rubix-core",
+          "version": "0.3.21-SNAPSHOT",
+          "name": "rubix-core"
+        }
+      }
+    },
+    {
+      "id": "03ebc8fe3442282f",
+      "name": "rubix-hadoop2",
+      "version": "0.3.21-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-hadoop2/pom.xml",
+          "accessPath": "/rubix-hadoop2/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "https://github.com/qubole/rubix/blob/master/LICENSE.txt"
+          ],
+          "locations": [
+            {
+              "path": "/rubix-hadoop2/pom.xml",
+              "accessPath": "/rubix-hadoop2/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix-hadoop2:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix_hadoop2:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-hadoop2:rubix-hadoop2:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-hadoop2:rubix_hadoop2:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_hadoop2:rubix-hadoop2:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_hadoop2:rubix_hadoop2:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix-hadoop2:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix_hadoop2:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-hadoop2:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix-hadoop2:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix_hadoop2:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_hadoop2:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.qubole.rubix/rubix-hadoop2@0.3.21-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "com.qubole.rubix",
+            "artifactId": "rubix-root",
+            "version": "0.3.21-SNAPSHOT"
+          },
+          "groupId": "com.qubole.rubix",
+          "artifactId": "rubix-hadoop2",
+          "version": "0.3.21-SNAPSHOT",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "bde859dfac72ec3c",
+      "name": "rubix-presto",
+      "version": "0.3.21-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-presto/pom.xml",
+          "accessPath": "/rubix-presto/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "https://github.com/qubole/rubix/blob/master/LICENSE.txt"
+          ],
+          "locations": [
+            {
+              "path": "/rubix-presto/pom.xml",
+              "accessPath": "/rubix-presto/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix-presto:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix_presto:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-presto:rubix-presto:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-presto:rubix_presto:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_presto:rubix-presto:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_presto:rubix_presto:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix-presto:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix_presto:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-presto:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix-presto:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix_presto:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_presto:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.qubole.rubix/rubix-presto@0.3.21-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "com.qubole.rubix",
+            "artifactId": "rubix-root",
+            "version": "0.3.21-SNAPSHOT"
+          },
+          "groupId": "com.qubole.rubix",
+          "artifactId": "rubix-presto",
+          "version": "0.3.21-SNAPSHOT",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "a518f338245f17a3",
+      "name": "rubix-presto-shaded",
+      "version": "0.3.21-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-presto-shaded/pom.xml",
+          "accessPath": "/rubix-presto-shaded/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "https://github.com/qubole/rubix/blob/master/LICENSE.txt"
+          ],
+          "locations": [
+            {
+              "path": "/rubix-presto-shaded/pom.xml",
+              "accessPath": "/rubix-presto-shaded/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:rubix-presto-shaded:rubix-presto-shaded:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-presto-shaded:rubix_presto_shaded:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_presto_shaded:rubix-presto-shaded:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_presto_shaded:rubix_presto_shaded:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix-presto-shaded:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix_presto_shaded:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-presto:rubix-presto-shaded:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-presto:rubix_presto_shaded:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_presto:rubix-presto-shaded:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_presto:rubix_presto_shaded:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix-presto-shaded:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix_presto_shaded:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-presto-shaded:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix-presto-shaded:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix_presto_shaded:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_presto_shaded:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-presto:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_presto:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.qubole.rubix/rubix-presto-shaded@0.3.21-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "com.qubole.rubix",
+            "artifactId": "rubix-root",
+            "version": "0.3.21-SNAPSHOT"
+          },
+          "groupId": "com.qubole.rubix",
+          "artifactId": "rubix-presto-shaded",
+          "version": "0.3.21-SNAPSHOT",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "5985a30c8633a95f",
+      "name": "rubix-prestosql",
+      "version": "0.3.21-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-prestosql/pom.xml",
+          "accessPath": "/rubix-prestosql/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "https://github.com/qubole/rubix/blob/master/LICENSE.txt"
+          ],
+          "locations": [
+            {
+              "path": "/rubix-prestosql/pom.xml",
+              "accessPath": "/rubix-prestosql/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix-prestosql:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix_prestosql:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-prestosql:rubix-prestosql:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-prestosql:rubix_prestosql:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_prestosql:rubix-prestosql:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_prestosql:rubix_prestosql:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix-prestosql:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix_prestosql:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-prestosql:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix-prestosql:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix_prestosql:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_prestosql:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.qubole.rubix/rubix-prestosql@0.3.21-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "com.qubole.rubix",
+            "artifactId": "rubix-root",
+            "version": "0.3.21-SNAPSHOT"
+          },
+          "groupId": "com.qubole.rubix",
+          "artifactId": "rubix-prestosql",
+          "version": "0.3.21-SNAPSHOT",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "8bb17f1a56548714",
+      "name": "rubix-root",
+      "version": "0.3.21-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "https://github.com/qubole/rubix/blob/master/LICENSE.txt"
+          ],
+          "locations": [
+            {
+              "path": "/pom.xml",
+              "accessPath": "/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix-root:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix_root:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-root:rubix-root:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-root:rubix_root:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_root:rubix-root:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_root:rubix_root:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix-root:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix_root:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-root:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix-root:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix_root:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_root:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.qubole.rubix/rubix-root@0.3.21-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "groupId": "com.qubole.rubix",
+          "artifactId": "rubix-root",
+          "version": "0.3.21-SNAPSHOT",
+          "name": "rubix",
+          "description": "Caching Framework for Big Data Engines",
+          "url": "http://github.com/qubole/rubix"
+        }
+      }
+    },
+    {
+      "id": "33a393234ca5f90c",
+      "name": "rubix-rpm",
+      "version": "0.3.21-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-rpm/pom.xml",
+          "accessPath": "/rubix-rpm/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "https://github.com/qubole/rubix/blob/master/LICENSE.txt"
+          ],
+          "locations": [
+            {
+              "path": "/rubix-rpm/pom.xml",
+              "accessPath": "/rubix-rpm/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix-rpm:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix_rpm:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-rpm:rubix-rpm:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-rpm:rubix_rpm:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_rpm:rubix-rpm:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_rpm:rubix_rpm:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix-rpm:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix_rpm:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-rpm:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix-rpm:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix_rpm:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_rpm:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.qubole.rubix/rubix-rpm@0.3.21-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "com.qubole.rubix",
+            "artifactId": "rubix-root",
+            "version": "0.3.21-SNAPSHOT"
+          },
+          "groupId": "com.qubole.rubix",
+          "artifactId": "rubix-rpm",
+          "version": "0.3.21-SNAPSHOT",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "85e7ec34a87f7e9d",
+      "name": "rubix-spi",
+      "version": "0.3.21-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-spi/pom.xml",
+          "accessPath": "/rubix-spi/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "https://github.com/qubole/rubix/blob/master/LICENSE.txt"
+          ],
+          "locations": [
+            {
+              "path": "/rubix-spi/pom.xml",
+              "accessPath": "/rubix-spi/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix-spi:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix_spi:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-spi:rubix-spi:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-spi:rubix_spi:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_spi:rubix-spi:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_spi:rubix_spi:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix-spi:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix_spi:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-spi:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix-spi:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix_spi:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_spi:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.qubole.rubix/rubix-spi@0.3.21-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "com.qubole.rubix",
+            "artifactId": "rubix-root",
+            "version": "0.3.21-SNAPSHOT"
+          },
+          "groupId": "com.qubole.rubix",
+          "artifactId": "rubix-spi",
+          "version": "0.3.21-SNAPSHOT",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "a59294149ffbb580",
+      "name": "rubix-tests",
+      "version": "0.3.21-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-tests/pom.xml",
+          "accessPath": "/rubix-tests/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "https://github.com/qubole/rubix/blob/master/LICENSE.txt"
+          ],
+          "locations": [
+            {
+              "path": "/rubix-tests/pom.xml",
+              "accessPath": "/rubix-tests/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix-tests:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix_tests:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-tests:rubix-tests:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-tests:rubix_tests:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_tests:rubix-tests:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_tests:rubix_tests:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.qubole.rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix-tests:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix_tests:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix-tests:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix-tests:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix_tests:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix_tests:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qubole:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:rubix:rubix:0.3.21-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.qubole.rubix/rubix-tests@0.3.21-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "com.qubole.rubix",
+            "artifactId": "rubix-root",
+            "version": "0.3.21-SNAPSHOT"
+          },
+          "groupId": "com.qubole.rubix",
+          "artifactId": "rubix-tests",
+          "version": "0.3.21-SNAPSHOT",
+          "name": ""
+        }
+      }
+    },
+    {
+      "id": "5697e6e675bec071",
+      "name": "slf4j-api",
+      "version": "1.7.5",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-core/pom.xml",
+          "accessPath": "/rubix-core/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:slf4j_api:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j-api:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j-api:slf4j_api:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j_api:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j_api:slf4j_api:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:slf4j_api:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.5",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "03fc5eda617af07b",
+      "name": "testng",
+      "version": "6.9.8",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/rubix-bookkeeper/pom.xml",
+          "accessPath": "/rubix-bookkeeper/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.testng:testng:6.9.8:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:testng:testng:6.9.8:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.testng/testng@6.9.8",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.testng",
+          "artifactId": "testng",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "0196fa358a9ff350",
+      "child": "03ebc8fe3442282f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0196fa358a9ff350",
+      "child": "fbc00bba2229bbe3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "03ebc8fe3442282f",
+      "child": "06e25a7379c14991",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03ebc8fe3442282f",
+      "child": "24990cd4ef1889a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03ebc8fe3442282f",
+      "child": "33a393234ca5f90c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03ebc8fe3442282f",
+      "child": "984ce9bb083af33e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03ebc8fe3442282f",
+      "child": "fbc00bba2229bbe3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "03fc5eda617af07b",
+      "child": "03ebc8fe3442282f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03fc5eda617af07b",
+      "child": "0a5ac298907dc99a",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03fc5eda617af07b",
+      "child": "24990cd4ef1889a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03fc5eda617af07b",
+      "child": "5985a30c8633a95f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03fc5eda617af07b",
+      "child": "6191493828d9c3a8",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "03fc5eda617af07b",
+      "child": "85e7ec34a87f7e9d",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03fc5eda617af07b",
+      "child": "a59294149ffbb580",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03fc5eda617af07b",
+      "child": "bde859dfac72ec3c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03fc5eda617af07b",
+      "child": "ccfac410f6ea0b9e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03fc5eda617af07b",
+      "child": "eb16ca7f22fb164e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "06e25a7379c14991",
+      "child": "f79656a8dd28d075",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "0a5ac298907dc99a",
+      "child": "03ebc8fe3442282f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0a5ac298907dc99a",
+      "child": "06e25a7379c14991",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0a5ac298907dc99a",
+      "child": "1ec0354d622b3916",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "0a5ac298907dc99a",
+      "child": "33a393234ca5f90c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0a5ac298907dc99a",
+      "child": "5985a30c8633a95f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0a5ac298907dc99a",
+      "child": "984ce9bb083af33e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0a5ac298907dc99a",
+      "child": "a518f338245f17a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0a5ac298907dc99a",
+      "child": "a59294149ffbb580",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0a5ac298907dc99a",
+      "child": "bde859dfac72ec3c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0a5ac298907dc99a",
+      "child": "ccfac410f6ea0b9e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "1430e09555c8017b",
+      "child": "bde859dfac72ec3c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "1430e09555c8017b",
+      "child": "c0d5e85076b8fc59",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1b19d16d7c6bf0fa",
+      "child": "03ebc8fe3442282f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "1b19d16d7c6bf0fa",
+      "child": "5985a30c8633a95f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "1b19d16d7c6bf0fa",
+      "child": "fbc00bba2229bbe3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1e3d1cf54dfe9e2f",
+      "child": "b10da6d6119ae09e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "208bbfb4694f536c",
+      "child": "03ebc8fe3442282f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "208bbfb4694f536c",
+      "child": "fbc00bba2229bbe3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "24990cd4ef1889a3",
+      "child": "06e25a7379c14991",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "24990cd4ef1889a3",
+      "child": "33a393234ca5f90c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "24990cd4ef1889a3",
+      "child": "6191493828d9c3a8",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "24990cd4ef1889a3",
+      "child": "984ce9bb083af33e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "24990cd4ef1889a3",
+      "child": "a518f338245f17a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "24990cd4ef1889a3",
+      "child": "a59294149ffbb580",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "319b729d256bd02a",
+      "child": "b10da6d6119ae09e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "33a393234ca5f90c",
+      "child": "f4d8f2d47125acfa",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "44d03560f84c005d",
+      "child": "85e7ec34a87f7e9d",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "44d03560f84c005d",
+      "child": "d72b9d7b9c33fa9d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "515d0529dd829b73",
+      "child": "cdb79dcf2363aea3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "515d0529dd829b73",
+      "child": "eb16ca7f22fb164e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "5201bfc4150330c0",
+      "child": "03ebc8fe3442282f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "5201bfc4150330c0",
+      "child": "5985a30c8633a95f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "5201bfc4150330c0",
+      "child": "bde859dfac72ec3c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "5201bfc4150330c0",
+      "child": "fbc00bba2229bbe3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "539aad04f87ede68",
+      "child": "b10da6d6119ae09e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5697e6e675bec071",
+      "child": "0a5ac298907dc99a",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "5697e6e675bec071",
+      "child": "1ec0354d622b3916",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5697e6e675bec071",
+      "child": "a59294149ffbb580",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "5985a30c8633a95f",
+      "child": "06e25a7379c14991",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "5985a30c8633a95f",
+      "child": "a518f338245f17a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "5985a30c8633a95f",
+      "child": "d30390e517c99826",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5a5c4625b6fec30a",
+      "child": "24990cd4ef1889a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "5a5c4625b6fec30a",
+      "child": "6191493828d9c3a8",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "6382070a0dcc2b8a",
+      "child": "b10da6d6119ae09e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "639e9e79c9aba8f7",
+      "child": "24990cd4ef1889a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "639e9e79c9aba8f7",
+      "child": "6191493828d9c3a8",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "64a73bac97e06ca1",
+      "child": "5985a30c8633a95f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "64a73bac97e06ca1",
+      "child": "d30390e517c99826",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "717a213b62736c5e",
+      "child": "85e7ec34a87f7e9d",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "717a213b62736c5e",
+      "child": "d72b9d7b9c33fa9d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "7e91e3355970566b",
+      "child": "24990cd4ef1889a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "7e91e3355970566b",
+      "child": "6191493828d9c3a8",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "7e91e3355970566b",
+      "child": "85e7ec34a87f7e9d",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "7e91e3355970566b",
+      "child": "ccfac410f6ea0b9e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "82bd470c66e2486b",
+      "child": "cdb79dcf2363aea3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "82bd470c66e2486b",
+      "child": "eb16ca7f22fb164e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "85e7ec34a87f7e9d",
+      "child": "03ebc8fe3442282f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "85e7ec34a87f7e9d",
+      "child": "06e25a7379c14991",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "85e7ec34a87f7e9d",
+      "child": "0a5ac298907dc99a",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "85e7ec34a87f7e9d",
+      "child": "24990cd4ef1889a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "85e7ec34a87f7e9d",
+      "child": "33a393234ca5f90c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "85e7ec34a87f7e9d",
+      "child": "984ce9bb083af33e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "85e7ec34a87f7e9d",
+      "child": "a518f338245f17a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "85e7ec34a87f7e9d",
+      "child": "ccfac410f6ea0b9e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "85e7ec34a87f7e9d",
+      "child": "d72b9d7b9c33fa9d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "85e7ec34a87f7e9d",
+      "child": "eb16ca7f22fb164e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "8631cca54c849aa4",
+      "child": "5985a30c8633a95f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "8631cca54c849aa4",
+      "child": "d30390e517c99826",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "8bb17f1a56548714",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "913fda556e6b0c89",
+      "child": "24990cd4ef1889a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "913fda556e6b0c89",
+      "child": "6191493828d9c3a8",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "913fda556e6b0c89",
+      "child": "a59294149ffbb580",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "913fda556e6b0c89",
+      "child": "eb16ca7f22fb164e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "984ce9bb083af33e",
+      "child": "b836d0d2cf97cb92",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "989bffd460ece33c",
+      "child": "0a5ac298907dc99a",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "989bffd460ece33c",
+      "child": "1ec0354d622b3916",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a01ea330f3e60e41",
+      "child": "cdb79dcf2363aea3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a01ea330f3e60e41",
+      "child": "eb16ca7f22fb164e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a2ceed6191033932",
+      "child": "03ebc8fe3442282f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a2ceed6191033932",
+      "child": "5985a30c8633a95f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a2ceed6191033932",
+      "child": "bde859dfac72ec3c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a2ceed6191033932",
+      "child": "fbc00bba2229bbe3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a518f338245f17a3",
+      "child": "952df1364ae82304",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a59294149ffbb580",
+      "child": "33a393234ca5f90c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a59294149ffbb580",
+      "child": "984ce9bb083af33e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a59294149ffbb580",
+      "child": "a9babe73c59cf0d2",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b070ea64b7e9254a",
+      "child": "24990cd4ef1889a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b070ea64b7e9254a",
+      "child": "6191493828d9c3a8",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b77ea6831b6b18ef",
+      "child": "03ebc8fe3442282f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b77ea6831b6b18ef",
+      "child": "0a5ac298907dc99a",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b77ea6831b6b18ef",
+      "child": "24990cd4ef1889a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b77ea6831b6b18ef",
+      "child": "5985a30c8633a95f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b77ea6831b6b18ef",
+      "child": "6191493828d9c3a8",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b77ea6831b6b18ef",
+      "child": "85e7ec34a87f7e9d",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b77ea6831b6b18ef",
+      "child": "bde859dfac72ec3c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "bde859dfac72ec3c",
+      "child": "06e25a7379c14991",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "bde859dfac72ec3c",
+      "child": "24990cd4ef1889a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "bde859dfac72ec3c",
+      "child": "33a393234ca5f90c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "bde859dfac72ec3c",
+      "child": "984ce9bb083af33e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "bde859dfac72ec3c",
+      "child": "c0d5e85076b8fc59",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c650c6515b548060",
+      "child": "5985a30c8633a95f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c650c6515b548060",
+      "child": "d30390e517c99826",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c90ec04423d8ff17",
+      "child": "03ebc8fe3442282f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c90ec04423d8ff17",
+      "child": "5985a30c8633a95f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c90ec04423d8ff17",
+      "child": "bde859dfac72ec3c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c90ec04423d8ff17",
+      "child": "fbc00bba2229bbe3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ccfac410f6ea0b9e",
+      "child": "06e25a7379c14991",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "ccfac410f6ea0b9e",
+      "child": "86ac74d70f166a4d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d4a95c89851937e7",
+      "child": "24990cd4ef1889a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d4a95c89851937e7",
+      "child": "6191493828d9c3a8",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d4a95c89851937e7",
+      "child": "a59294149ffbb580",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d5bfa21083d9601e",
+      "child": "03ebc8fe3442282f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d5bfa21083d9601e",
+      "child": "0a5ac298907dc99a",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d5bfa21083d9601e",
+      "child": "24990cd4ef1889a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d5bfa21083d9601e",
+      "child": "5985a30c8633a95f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d5bfa21083d9601e",
+      "child": "6191493828d9c3a8",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d5bfa21083d9601e",
+      "child": "85e7ec34a87f7e9d",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d5bfa21083d9601e",
+      "child": "a59294149ffbb580",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d5bfa21083d9601e",
+      "child": "bde859dfac72ec3c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d5bfa21083d9601e",
+      "child": "ccfac410f6ea0b9e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d5bfa21083d9601e",
+      "child": "eb16ca7f22fb164e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e97c5aa720a9aebd",
+      "child": "cdb79dcf2363aea3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e97c5aa720a9aebd",
+      "child": "eb16ca7f22fb164e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "eb16ca7f22fb164e",
+      "child": "06e25a7379c14991",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "eb16ca7f22fb164e",
+      "child": "0a5ac298907dc99a",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "eb16ca7f22fb164e",
+      "child": "24990cd4ef1889a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "eb16ca7f22fb164e",
+      "child": "33a393234ca5f90c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "eb16ca7f22fb164e",
+      "child": "5985a30c8633a95f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "eb16ca7f22fb164e",
+      "child": "984ce9bb083af33e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "eb16ca7f22fb164e",
+      "child": "a518f338245f17a3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "eb16ca7f22fb164e",
+      "child": "bde859dfac72ec3c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "eb16ca7f22fb164e",
+      "child": "cdb79dcf2363aea3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "0196fa358a9ff350",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "03ebc8fe3442282f",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "03fc5eda617af07b",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "06e25a7379c14991",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "0a5ac298907dc99a",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "1430e09555c8017b",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "1b19d16d7c6bf0fa",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "1e3d1cf54dfe9e2f",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "208bbfb4694f536c",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "24990cd4ef1889a3",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "319b729d256bd02a",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "33a393234ca5f90c",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "44d03560f84c005d",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "515d0529dd829b73",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "5201bfc4150330c0",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "539aad04f87ede68",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "5697e6e675bec071",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "5985a30c8633a95f",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "5a5c4625b6fec30a",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "6382070a0dcc2b8a",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "639e9e79c9aba8f7",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "64a73bac97e06ca1",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "717a213b62736c5e",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "7e91e3355970566b",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "82bd470c66e2486b",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "85e7ec34a87f7e9d",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "8631cca54c849aa4",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "8bb17f1a56548714",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "913fda556e6b0c89",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "984ce9bb083af33e",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "989bffd460ece33c",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "a01ea330f3e60e41",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "a2ceed6191033932",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "a518f338245f17a3",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "a59294149ffbb580",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "b070ea64b7e9254a",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "b77ea6831b6b18ef",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "bde859dfac72ec3c",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "c650c6515b548060",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "c90ec04423d8ff17",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "ccfac410f6ea0b9e",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "d4a95c89851937e7",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "d5bfa21083d9601e",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "e97c5aa720a9aebd",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "eb16ca7f22fb164e",
+      "type": "contains"
+    },
+    {
+      "parent": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+      "child": "fd54f55945b3a685",
+      "type": "contains"
+    },
+    {
+      "parent": "fd54f55945b3a685",
+      "child": "cdb79dcf2363aea3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "fd54f55945b3a685",
+      "child": "eb16ca7f22fb164e",
+      "type": "dependency-of"
+    }
+  ],
+  "files": [
+    {
+      "id": "b10da6d6119ae09e",
+      "location": {
+        "path": "/.github/workflows/ci-tests.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 868
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "3518a9d67928788cd32b910802c93f3736ac749b"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "9546dd9c7eafd8ff664ecd754fd2b528cc7dca2f8ab41a8f6af2646d377cfc9c"
+        }
+      ]
+    },
+    {
+      "id": "b836d0d2cf97cb92",
+      "location": {
+        "path": "/assembly/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 3951
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "ce46a6cd6304abdb0eb28458506875afe3665b26"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "ae1c6c5a5e8712ea3c55bda3fbf9c9ba551eb2249f34044f8a263974b00acb5a"
+        }
+      ]
+    },
+    {
+      "id": "0328106cb52bb1b0",
+      "location": {
+        "path": "/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 14016
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "668957a498add11960eec304a5e49ccb0c311fb7"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "2c44b1f4b6b82f408d703f6f5492f52c7de7fd6fc13c2057eea3c1a25f86cc8e"
+        }
+      ]
+    },
+    {
+      "id": "6191493828d9c3a8",
+      "location": {
+        "path": "/rubix-bookkeeper/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 4903
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "0f4fdf090eb8e48b8d2485a86e291a8593a66005"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "6e6878fa6fcb25cea0e2f153d13de3150f64db7ef0e1a5996839aea6e2fa59cc"
+        }
+      ]
+    },
+    {
+      "id": "f79656a8dd28d075",
+      "location": {
+        "path": "/rubix-build/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 5024
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "3c1662c300b4af2a58b9414c9bac76d192760bd3"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "e6c19bf7e7b43c79e22d69074df292e311661d3fb6f716127605b38fd437f48b"
+        }
+      ]
+    },
+    {
+      "id": "86ac74d70f166a4d",
+      "location": {
+        "path": "/rubix-client/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 2612
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "492ff94fafe6058840b568c9a972fdbc2e20027a"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "1416ff6965522d31cf6e4c4204bfbc06e8b9220fcdc8a488283555bafb2daf5d"
+        }
+      ]
+    },
+    {
+      "id": "cdb79dcf2363aea3",
+      "location": {
+        "path": "/rubix-common/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 5171
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "cf4ee14fa5f6d67aa997366a7bc64db2e83dedf4"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "0400e9a987dc9432793480874f20a552e3451b4181d1423a2230526cc9291457"
+        }
+      ]
+    },
+    {
+      "id": "1ec0354d622b3916",
+      "location": {
+        "path": "/rubix-core/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 4379
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "0bb474e6fd424e12b0fb6b2077e449acd4f6f7fe"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "2b4ab70cb0db097d9d6c5731510a7d4c55b96ab1e1b00200ffd0a86e142b17b9"
+        }
+      ]
+    },
+    {
+      "id": "fbc00bba2229bbe3",
+      "location": {
+        "path": "/rubix-hadoop2/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 4424
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "e34587d2358dded6c851d3c567b44f0e1d22f4fb"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "1fbb8eec556447f3a9fb79a51a65ea4aacf6b4e3a24e6fda8eb5cce299f4d90d"
+        }
+      ]
+    },
+    {
+      "id": "952df1364ae82304",
+      "location": {
+        "path": "/rubix-presto-shaded/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 4451
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "e5ce93f9d6e2d79b46ef43d021e6eab8946a8c2c"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "427431f37fb76fe264f4a3b07e26eb5fa4efbee923266f1331540bbb3b0c83fd"
+        }
+      ]
+    },
+    {
+      "id": "c0d5e85076b8fc59",
+      "location": {
+        "path": "/rubix-presto/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 5352
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "cf452fcfc96e34a1b3d5a257f72f2eabac05f7df"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "d6e9914365db2be12c1277e483dfa78ef30e9b4c03485a84960793c6ba71c7a8"
+        }
+      ]
+    },
+    {
+      "id": "d30390e517c99826",
+      "location": {
+        "path": "/rubix-prestosql/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 6095
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "c4c6ff34acb0d8b8316e5645f8afab456ea6ef83"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "a10a28dfd08b4aad9648df6c27811af46a6018ac6f15c371e225262e56ad71b0"
+        }
+      ]
+    },
+    {
+      "id": "f4d8f2d47125acfa",
+      "location": {
+        "path": "/rubix-rpm/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 6783
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "139973dc8643bc6ee845e83016912ffb35a78543"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "5db4da965c768d9d490c9b2db1a571e92e65c85e575eb32e37e36d646baf58ef"
+        }
+      ]
+    },
+    {
+      "id": "d72b9d7b9c33fa9d",
+      "location": {
+        "path": "/rubix-spi/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 4990
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "f92d24aa8542f85940d1f0b488b40f411d353cee"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "32ba97ef7defcc7e58a013dd3498c46f89ebd39546d4c947e772473290f79145"
+        }
+      ]
+    },
+    {
+      "id": "76f5e0196e42f938",
+      "location": {
+        "path": "/rubix-stress/requirements.txt"
+      },
+      "unknowns": [
+        "python-package-cataloger: unable to determine package version in requirements.txt line: \"qds-sdk\""
+      ]
+    },
+    {
+      "id": "a9babe73c59cf0d2",
+      "location": {
+        "path": "/rubix-tests/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 4938
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "0653c0f106e09314073543b693c9344284e4e3ab"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "e09fa6346c49881948d942e6fe93ba73c4175c282c1e5919ed31fcce31f87479"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "eb4028d6e2372638c7d3c97dc358ab83a8ab2e0804bf48cb44e1865e91a8666f",
+    "name": "/workspaces/P1-ciberseguridad/data/repos/trino-rubix",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/workspaces/P1-ciberseguridad/data/repos/trino-rubix"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.44.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "deno-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "openldap-search-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/vscode/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/vscode/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}

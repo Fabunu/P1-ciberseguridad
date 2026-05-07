@@ -1,0 +1,27 @@
+{
+  "total_vulnerabilities": 1,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 1
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "addressable",
+      "current_version": "2.8.7",
+      "vuln_id": "GHSA-h27x-rffw-24p4",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Addressable has a Regular Expression Denial of Service in Addressable templates",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/trino.io"
+  }
+}

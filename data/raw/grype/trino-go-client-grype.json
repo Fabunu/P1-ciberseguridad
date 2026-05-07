@@ -1,0 +1,104 @@
+{
+  "total_vulnerabilities": 8,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 8
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "github.com/opencontainers/runc",
+      "current_version": "v1.3.1",
+      "vuln_id": "GHSA-qw9x-cqr3-wc7r",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "runc container escape with malicious config due to /dev/console mount and related races",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "github.com/docker/cli",
+      "current_version": "v28.4.0+incompatible",
+      "vuln_id": "GHSA-p436-gjf2-799p",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Docker CLI Plugins: Uncontrolled Search Path Element Leads to Local Privilege Escalation on Windows",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "github.com/opencontainers/runc",
+      "current_version": "v1.3.1",
+      "vuln_id": "GHSA-9493-h29p-rfm2",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "runc container escape via \"masked path\" abuse due to mount race conditions",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "github.com/opencontainers/runc",
+      "current_version": "v1.3.1",
+      "vuln_id": "GHSA-cgrx-mc8f-2prm",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "runc container escape and denial of service due to arbitrary write gadgets and procfs write redirects",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "github.com/docker/docker",
+      "current_version": "v28.4.0+incompatible",
+      "vuln_id": "GHSA-pxq6-2prw-chj9",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Moby has an Off-by-one error in its plugin privilege validation",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "github.com/docker/docker",
+      "current_version": "v28.4.0+incompatible",
+      "vuln_id": "GHSA-x744-4wpc-v9h2",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Moby has AuthZ plugin bypass when provided oversized request bodies",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream",
+      "current_version": "v1.7.1",
+      "vuln_id": "GHSA-xmrv-pmrh-hhx2",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Denial of Service due to Panic in AWS SDK for Go v2 SDK EventStream Decoder",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "github.com/aws/aws-sdk-go-v2/service/s3",
+      "current_version": "v1.88.1",
+      "vuln_id": "GHSA-xmrv-pmrh-hhx2",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Denial of Service due to Panic in AWS SDK for Go v2 SDK EventStream Decoder",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/P1-ciberseguridad/data/repos/trino-go-client"
+  }
+}

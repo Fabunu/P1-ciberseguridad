@@ -1,0 +1,1911 @@
+{
+  "artifacts": [
+    {
+      "id": "6227943265cb32d3",
+      "name": "hive-apache-jdbc",
+      "version": "0.13.1-6",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/presto-yarn-test/pom.xml",
+          "accessPath": "/presto-yarn-test/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.hive:hive-apache-jdbc:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.hive:hive_apache_jdbc:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-apache-jdbc:hive-apache-jdbc:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-apache-jdbc:hive_apache_jdbc:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_apache_jdbc:hive-apache-jdbc:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_apache_jdbc:hive_apache_jdbc:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-apache:hive-apache-jdbc:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-apache:hive_apache_jdbc:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_apache:hive-apache-jdbc:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_apache:hive_apache_jdbc:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:hive-apache-jdbc:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:hive_apache_jdbc:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.hive:hive:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-apache-jdbc:hive:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive:hive-apache-jdbc:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive:hive_apache_jdbc:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_apache_jdbc:hive:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive-apache:hive:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive_apache:hive:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:hive:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:hive:hive:0.13.1-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.prestosql.hive/hive-apache-jdbc@0.13.1-6",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.prestosql.hive",
+          "artifactId": "hive-apache-jdbc",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "9b5c8271767a7586",
+      "name": "maven-wrapper",
+      "version": "0.1.2-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/.mvn/wrapper/maven-wrapper.jar",
+          "accessPath": "/.mvn/wrapper/maven-wrapper.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:maven-wrapper:maven-wrapper:0.1.2-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven-wrapper:maven_wrapper:0.1.2-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven_wrapper:maven-wrapper:0.1.2-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven_wrapper:maven_wrapper:0.1.2-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.takari:maven-wrapper:0.1.2-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.takari:maven_wrapper:0.1.2-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari:maven-wrapper:0.1.2-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari:maven_wrapper:0.1.2-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven-wrapper:0.1.2-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven_wrapper:0.1.2-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.takari/maven-wrapper@0.1.2-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/.mvn/wrapper/maven-wrapper.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "maven-wrapper"
+            },
+            {
+              "key": "Implementation-Version",
+              "value": "0.1.2-SNAPSHOT"
+            },
+            {
+              "key": "Implementation-Vendor-Id",
+              "value": "io.takari"
+            },
+            {
+              "key": "Build-Jdk",
+              "value": "1.7.0_67"
+            },
+            {
+              "key": "Built-By",
+              "value": "jvanzyl"
+            },
+            {
+              "key": "Specification-Title",
+              "value": "maven-wrapper"
+            },
+            {
+              "key": "Created-By",
+              "value": "Takari Inc."
+            },
+            {
+              "key": "Specification-Version",
+              "value": "0.1.2-SNAPSHOT"
+            },
+            {
+              "key": "Archiver-Version",
+              "value": "Provisio Archiver"
+            }
+          ]
+        },
+        "pomProperties": {
+          "path": "META-INF/maven/io.takari/maven-wrapper/pom.properties",
+          "name": "",
+          "groupId": "io.takari",
+          "artifactId": "maven-wrapper",
+          "version": "0.1.2-SNAPSHOT"
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "0e472561e3847ad172f57bbee8061002c01f8e86"
+          }
+        ]
+      }
+    },
+    {
+      "id": "493e2540fddf42c6",
+      "name": "presto-jdbc",
+      "version": "332",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/presto-yarn-test/pom.xml",
+          "accessPath": "/presto-yarn-test/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.prestosql:presto-jdbc:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql:presto_jdbc:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-jdbc:presto-jdbc:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-jdbc:presto_jdbc:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_jdbc:presto-jdbc:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_jdbc:presto_jdbc:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto-jdbc:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto_jdbc:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto-jdbc:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto_jdbc:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.prestosql/presto-jdbc@332",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.prestosql",
+          "artifactId": "presto-jdbc",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "cfdcdd5c2f70bf52",
+      "name": "presto-ml",
+      "version": "332",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/presto-yarn-test/pom.xml",
+          "accessPath": "/presto-yarn-test/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.prestosql:presto-ml:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql:presto_ml:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-ml:presto-ml:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-ml:presto_ml:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_ml:presto-ml:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_ml:presto_ml:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto-ml:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto_ml:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto-ml:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto_ml:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.prestosql/presto-ml@332",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.prestosql",
+          "artifactId": "presto-ml",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "7d82a6f91ad55f53",
+      "name": "presto-server",
+      "version": "332",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/presto-yarn-package/pom.xml",
+          "accessPath": "/presto-yarn-package/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:presto-server:presto-server:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-server:presto_server:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_server:presto-server:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_server:presto_server:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql:presto-server:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql:presto_server:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto-server:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto_server:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto-server:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto_server:332:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.prestosql/presto-server@332",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "io.prestosql",
+          "artifactId": "presto-server",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "fe96316930cf7b43",
+      "name": "presto-yarn",
+      "version": "1.6-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/pom.xml",
+          "accessPath": "/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "The Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          ],
+          "locations": [
+            {
+              "path": "/pom.xml",
+              "accessPath": "/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.presto-yarn:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.presto-yarn:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.presto-yarn:oss:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.sonatype.oss:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.sonatype.oss:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.sonatype.oss:oss:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sonatype:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sonatype:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:oss:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:oss:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn:oss:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn:oss:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:oss:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:sonatype:oss:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:oss:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:oss:oss:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.prestosql.presto-yarn/presto-yarn@1.6-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "org.sonatype.oss",
+            "artifactId": "oss-parent",
+            "version": "9"
+          },
+          "groupId": "io.prestosql.presto-yarn",
+          "artifactId": "presto-yarn",
+          "version": "1.6-SNAPSHOT",
+          "name": "presto-yarn",
+          "description": "Presto-YARN Integration",
+          "url": "https://github.com/prestosql/presto-yarn"
+        }
+      }
+    },
+    {
+      "id": "c129fcabe782c08d",
+      "name": "presto-yarn-docs",
+      "version": "1.6-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/presto-yarn-docs/pom.xml",
+          "accessPath": "/presto-yarn-docs/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "The Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          ],
+          "locations": [
+            {
+              "path": "/presto-yarn-docs/pom.xml",
+              "accessPath": "/presto-yarn-docs/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.presto-yarn:presto-yarn-docs:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.presto-yarn:presto_yarn_docs:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.presto-yarn:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.presto-yarn:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn-docs:presto-yarn-docs:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn-docs:presto_yarn_docs:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn_docs:presto-yarn-docs:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn_docs:presto_yarn_docs:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn-docs:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn-docs:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn:presto-yarn-docs:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn:presto_yarn_docs:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn:presto-yarn-docs:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn:presto_yarn_docs:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn_docs:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn_docs:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto-yarn-docs:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto_yarn_docs:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto-yarn-docs:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto_yarn_docs:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.prestosql.presto-yarn/presto-yarn-docs@1.6-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "io.prestosql.presto-yarn",
+            "artifactId": "presto-yarn",
+            "version": "1.6-SNAPSHOT"
+          },
+          "groupId": "io.prestosql.presto-yarn",
+          "artifactId": "presto-yarn-docs",
+          "version": "1.6-SNAPSHOT",
+          "name": "presto-yarn-docs"
+        }
+      }
+    },
+    {
+      "id": "871e18af5a895a83",
+      "name": "presto-yarn-package",
+      "version": "1.6-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/presto-yarn-package/pom.xml",
+          "accessPath": "/presto-yarn-package/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "The Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          ],
+          "locations": [
+            {
+              "path": "/presto-yarn-package/pom.xml",
+              "accessPath": "/presto-yarn-package/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.presto-yarn:presto-yarn-package:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.presto-yarn:presto_yarn_package:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn-package:presto-yarn-package:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn-package:presto_yarn_package:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn_package:presto-yarn-package:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn_package:presto_yarn_package:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.presto-yarn:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.presto-yarn:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn-package:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn-package:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn:presto-yarn-package:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn:presto_yarn_package:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn:presto-yarn-package:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn:presto_yarn_package:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn_package:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn_package:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto-yarn-package:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto_yarn_package:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto-yarn-package:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto_yarn_package:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.prestosql.presto-yarn/presto-yarn-package@1.6-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "io.prestosql.presto-yarn",
+            "artifactId": "presto-yarn",
+            "version": "1.6-SNAPSHOT"
+          },
+          "groupId": "io.prestosql.presto-yarn",
+          "artifactId": "presto-yarn-package",
+          "version": "1.6-SNAPSHOT",
+          "name": "presto-yarn-package",
+          "description": "Presto App Package"
+        }
+      }
+    },
+    {
+      "id": "ac524ecfb4eb2588",
+      "name": "presto-yarn-test",
+      "version": "1.6-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/presto-yarn-test/pom.xml",
+          "accessPath": "/presto-yarn-test/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "The Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          ],
+          "locations": [
+            {
+              "path": "/presto-yarn-test/pom.xml",
+              "accessPath": "/presto-yarn-test/pom.xml",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.presto-yarn:presto-yarn-test:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.presto-yarn:presto_yarn_test:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.presto-yarn:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.prestosql.presto-yarn:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn-test:presto-yarn-test:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn-test:presto_yarn_test:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn_test:presto-yarn-test:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn_test:presto_yarn_test:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn-test:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn-test:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn:presto-yarn-test:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn:presto_yarn_test:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn:presto-yarn-test:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn:presto_yarn_test:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn_test:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn_test:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto-yarn-test:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto_yarn_test:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto-yarn:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto-yarn-test:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto_yarn_test:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto_yarn:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:prestosql:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto-yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:presto:presto_yarn:1.6-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.prestosql.presto-yarn/presto-yarn-test@1.6-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "io.prestosql.presto-yarn",
+            "artifactId": "presto-yarn",
+            "version": "1.6-SNAPSHOT"
+          },
+          "groupId": "io.prestosql.presto-yarn",
+          "artifactId": "presto-yarn-test",
+          "version": "1.6-SNAPSHOT",
+          "name": "presto-yarn-test",
+          "description": "Presto Yarn Test"
+        }
+      }
+    },
+    {
+      "id": "b7380ce790a668cf",
+      "name": "slf4j-log4j12",
+      "version": "1.7.5",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/presto-yarn-test/pom.xml",
+          "accessPath": "/presto-yarn-test/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:slf4j-log4j12:slf4j-log4j12:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j-log4j12:slf4j_log4j12:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j_log4j12:slf4j-log4j12:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j_log4j12:slf4j_log4j12:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:slf4j-log4j12:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.slf4j:slf4j_log4j12:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:slf4j-log4j12:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:slf4j:slf4j_log4j12:1.7.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.5",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-log4j12",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "3a23800b5b5dc472",
+      "name": "tempto-core",
+      "version": "1.4",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/presto-yarn-test/pom.xml",
+          "accessPath": "/presto-yarn-test/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.teradata.tempto:tempto-core:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.teradata.tempto:tempto_core:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.teradata.tempto:tempto:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-core:tempto-core:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-core:tempto_core:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_core:tempto-core:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_core:tempto_core:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:teradata:tempto-core:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:teradata:tempto_core:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-core:tempto:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto-core:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto_core:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_core:tempto:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:teradata:tempto:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.teradata.tempto/tempto-core@1.4",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.teradata.tempto",
+          "artifactId": "tempto-core",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "c1ee47f95c383616",
+      "name": "tempto-runner",
+      "version": "1.4",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/presto-yarn-test/pom.xml",
+          "accessPath": "/presto-yarn-test/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:com.teradata.tempto:tempto-runner:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.teradata.tempto:tempto_runner:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-runner:tempto-runner:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-runner:tempto_runner:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_runner:tempto-runner:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_runner:tempto_runner:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.teradata.tempto:tempto:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:teradata:tempto-runner:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:teradata:tempto_runner:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto-runner:tempto:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto-runner:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto_runner:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto_runner:tempto:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:teradata:tempto:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tempto:tempto:1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.teradata.tempto/tempto-runner@1.4",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "com.teradata.tempto",
+          "artifactId": "tempto-runner",
+          "version": ""
+        }
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "3a23800b5b5dc472",
+      "child": "ac524ecfb4eb2588",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "3a23800b5b5dc472",
+      "child": "cd0e84c47b4fc64d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "493e2540fddf42c6",
+      "child": "ac524ecfb4eb2588",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "493e2540fddf42c6",
+      "child": "cd0e84c47b4fc64d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "6227943265cb32d3",
+      "child": "ac524ecfb4eb2588",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "6227943265cb32d3",
+      "child": "cd0e84c47b4fc64d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "7d82a6f91ad55f53",
+      "child": "80179dc1b00813f6",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "7d82a6f91ad55f53",
+      "child": "871e18af5a895a83",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "871e18af5a895a83",
+      "child": "80179dc1b00813f6",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9b597cc978da3af4af5866415a599e9b9620a7e4c822c194650cd5dc93d738e8",
+      "child": "3a23800b5b5dc472",
+      "type": "contains"
+    },
+    {
+      "parent": "9b597cc978da3af4af5866415a599e9b9620a7e4c822c194650cd5dc93d738e8",
+      "child": "493e2540fddf42c6",
+      "type": "contains"
+    },
+    {
+      "parent": "9b597cc978da3af4af5866415a599e9b9620a7e4c822c194650cd5dc93d738e8",
+      "child": "6227943265cb32d3",
+      "type": "contains"
+    },
+    {
+      "parent": "9b597cc978da3af4af5866415a599e9b9620a7e4c822c194650cd5dc93d738e8",
+      "child": "7d82a6f91ad55f53",
+      "type": "contains"
+    },
+    {
+      "parent": "9b597cc978da3af4af5866415a599e9b9620a7e4c822c194650cd5dc93d738e8",
+      "child": "871e18af5a895a83",
+      "type": "contains"
+    },
+    {
+      "parent": "9b597cc978da3af4af5866415a599e9b9620a7e4c822c194650cd5dc93d738e8",
+      "child": "9b5c8271767a7586",
+      "type": "contains"
+    },
+    {
+      "parent": "9b597cc978da3af4af5866415a599e9b9620a7e4c822c194650cd5dc93d738e8",
+      "child": "ac524ecfb4eb2588",
+      "type": "contains"
+    },
+    {
+      "parent": "9b597cc978da3af4af5866415a599e9b9620a7e4c822c194650cd5dc93d738e8",
+      "child": "b7380ce790a668cf",
+      "type": "contains"
+    },
+    {
+      "parent": "9b597cc978da3af4af5866415a599e9b9620a7e4c822c194650cd5dc93d738e8",
+      "child": "c129fcabe782c08d",
+      "type": "contains"
+    },
+    {
+      "parent": "9b597cc978da3af4af5866415a599e9b9620a7e4c822c194650cd5dc93d738e8",
+      "child": "c1ee47f95c383616",
+      "type": "contains"
+    },
+    {
+      "parent": "9b597cc978da3af4af5866415a599e9b9620a7e4c822c194650cd5dc93d738e8",
+      "child": "cfdcdd5c2f70bf52",
+      "type": "contains"
+    },
+    {
+      "parent": "9b597cc978da3af4af5866415a599e9b9620a7e4c822c194650cd5dc93d738e8",
+      "child": "fe96316930cf7b43",
+      "type": "contains"
+    },
+    {
+      "parent": "9b5c8271767a7586",
+      "child": "82e731f52a2ab432",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ac524ecfb4eb2588",
+      "child": "cd0e84c47b4fc64d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b7380ce790a668cf",
+      "child": "ac524ecfb4eb2588",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b7380ce790a668cf",
+      "child": "cd0e84c47b4fc64d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c129fcabe782c08d",
+      "child": "5ed07e3ab2e79284",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c1ee47f95c383616",
+      "child": "ac524ecfb4eb2588",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c1ee47f95c383616",
+      "child": "cd0e84c47b4fc64d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "cfdcdd5c2f70bf52",
+      "child": "ac524ecfb4eb2588",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "cfdcdd5c2f70bf52",
+      "child": "cd0e84c47b4fc64d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "fe96316930cf7b43",
+      "child": "0328106cb52bb1b0",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "82e731f52a2ab432",
+      "location": {
+        "path": "/.mvn/wrapper/maven-wrapper.jar"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "application/zip",
+        "size": 49519
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "0e472561e3847ad172f57bbee8061002c01f8e86"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "c4ad2d091e089e6293664b62a07fa6538eb9b74612247d4b51812ad4c571d3a1"
+        }
+      ]
+    },
+    {
+      "id": "0328106cb52bb1b0",
+      "location": {
+        "path": "/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/html",
+        "size": 6549
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "9a6db8f93cd3f47621b6be5d7091114a1482bb07"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "426c372826554c4b82fdf4627ee77da949dff3ddae4cb0ac6b0bffb5809fc9e9"
+        }
+      ]
+    },
+    {
+      "id": "5ed07e3ab2e79284",
+      "location": {
+        "path": "/presto-yarn-docs/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 2685
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "e36f73c3190cdc21240ffaacaa243682dde2de85"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "e2259d0f5d73b54092dce4be27574d3164c04dbbc5cc07ea9754e3d46ad481ed"
+        }
+      ]
+    },
+    {
+      "id": "80179dc1b00813f6",
+      "location": {
+        "path": "/presto-yarn-package/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 4866
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "c3e6b3423892911f9d9f18be52fb60290c129e60"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "c1a6fdd631575034c6b5b85eedab5f1eb3ab04c266ddfbaf3451879ce4559c71"
+        }
+      ]
+    },
+    {
+      "id": "cd0e84c47b4fc64d",
+      "location": {
+        "path": "/presto-yarn-test/pom.xml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 10786
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "367f88dd03d71908032ae3149252d2782277de6b"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "ee15d93cecbc0f965fb7b494b7c2f86502691984da1e28a8064b2196e435fe1d"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "9b597cc978da3af4af5866415a599e9b9620a7e4c822c194650cd5dc93d738e8",
+    "name": "/workspaces/P1-ciberseguridad/data/repos/trino-yarn",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/workspaces/P1-ciberseguridad/data/repos/trino-yarn"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.44.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "deno-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "openldap-search-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/vscode/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/vscode/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}
