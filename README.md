@@ -28,6 +28,13 @@ El análisis cubre los **42 repositorios públicos** listados en `data/repos.jso
 
 ## Arquitectura del proyecto
 
+<p align="center">
+  <img src="Arquitectura.png" alt="Arquitectura" width="1000"/>
+  <br>
+</p>
+
+
+Estructura de Carpetas
 ```
 P1-ciberseguridad/
 ├── miner/                          # Capa de extracción y normalización
@@ -71,40 +78,6 @@ P1-ciberseguridad/
     └── add_submodules.py           # Script de clonado de repositorios
 ```
 
-### Flujo de datos
-
-```
-Repositorios (git clone)
-    ↓
-┌─────────────────┐
-│  MINER           │
-│  ├─ Syft (SBOM)  │  → data/raw/syft/
-│  ├─ Grype (SCA)  │  → data/raw/grype/
-│  ├─ CodeQL (SAST)│  → data/raw/codeql/
-│  └─ Checkov (CI) │  → data/results/
-└─────────────────┘
-    ↓  run_normalization.py
-┌─────────────────────┐
-│  NORMALIZED (Parquet)│
-│  ├─ repositories    │
-│  ├─ dependencies    │
-│  ├─ dep_vulns       │
-│  └─ code_vulns      │
-└─────────────────────┘
-    ↓  export_gold_dataset.py
-┌────────────────┐
-│  ANALYZER       │
-│  ├─ metrics.py  │
-│  └─ notebooks/  │
-└────────────────┘
-    ↓  datasets (Parquet)
-┌────────────────────┐
-│  VISUALIZER         │
-│  ├─ DuckDB-WASM    │  (SQL in-browser)
-│  ├─ Recharts       │  (gráficos)
-│  └─ React          │  (UI)
-└────────────────────┘
-```
 
 ### Decisiones de diseño
 
@@ -284,3 +257,12 @@ cp analyzer/outputs/*.parquet visualizer/public/parquet/
 # 6. Iniciar dashboard
 cd visualizer && npm run dev
 ```
+
+---
+
+## Screenshot Visualizer
+
+<p align="center">
+  <img src="Visualizer.png" alt="Visualizer" width="1000"/>
+  <br>
+</p>
