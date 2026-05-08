@@ -113,51 +113,188 @@ def normalize_grype() -> tuple[list[dict], dict[str, int]]:
         return vulnerabilities, repo_vuln_count
 
     for json_file in sorted(GRYPE_RAW_PATH.glob("*-raw.json")):
-        repo_name = json_file.name.replace("-grype", "").replace(".json", "")
+
+        repo_name = (
+            json_file.name
+            .replace("-grype-raw.json", "")
+            .replace("-raw.json", "")
+            .replace(".json", "")
+        )
+
         repository_id = sha1_hash(repo_name)
 
         LOGGER.info("Normalizing Grype: %s", repo_name)
 
         try:
-            data = json.loads(json_file.read_text(encoding="utf-8"))
+            data = json.loads(
+                json_file.read_text(encoding="utf-8")
+            )
+
         except Exception as error:
-            LOGGER.error("Failed to load %s: %s", json_file.name, error)
+            LOGGER.error(
+                "Failed to load %s: %s",
+                json_file.name,
+                error,
+            )
             continue
 
-        vulns = data.get("vulnerabilities", [])
+        matches = data.get("matches", [])
 
-        repo_vuln_count[repo_name] = len(vulns)
+        repo_vuln_count[repo_name] = len(matches)
 
-        for vuln in vulns:
-            package_name = vuln.get("package_name")
-            package_version = vuln.get("current_version")
-            vulnerability_id = vuln.get("vuln_id")
+        for match in matches:
+
+            vulnerability = match.get("vulnerability", {})
+            artifact = match.get("artifact", {})
+
+            package_name = artifact.get("name")
+            package_version = artifact.get("version")
+            package_type = artifact.get("type")
+            language = artifact.get("language")
+            purl = artifact.get("purl")
+
+            vulnerability_id = vulnerability.get("id")
 
             dependency_id = sha1_hash(
                 f"{repo_name}:{package_name}:{package_version}"
             )
 
             vulnerability_record_id = sha1_hash(
-                f"{repo_name}:{package_name}:{vulnerability_id}"
+                f"{repo_name}:{package_name}:{package_version}:{vulnerability_id}"
             )
+
+            # Related CVE
+            related_vulns = match.get(
+                "relatedVulnerabilities",
+                []
+            )
+
+            related_cve = None
+
+            if related_vulns:
+                related_cve = related_vulns[0].get("id")
+
+            # CVSS
+            cvss_entries = vulnerability.get("cvss", [])
+
+            cvss_score = None
+
+            if cvss_entries:
+                metrics = cvss_entries[0].get("metrics", {})
+                cvss_score = metrics.get("baseScore")
+
+            # EPSS
+            epss_entries = vulnerability.get("epss", [])
+
+            epss_score = None
+
+            if epss_entries:
+                epss_score = epss_entries[0].get("epss")
+
+            # CWE
+            cwe_entries = vulnerability.get("cwes", [])
+
+            cwe_list = [
+                cwe.get("cwe")
+                for cwe in cwe_entries
+                if cwe.get("cwe")
+            ]
+
+            # Fix information
+            fix = vulnerability.get("fix", {})
+
+            fix_state = fix.get("state")
+
+            fix_versions = fix.get("versions", [])
+
+            # Location
+            locations = artifact.get("locations", [])
+
+            location = None
+
+            if locations:
+                location = locations[0].get("path")
 
             vulnerabilities.append(
                 {
-                    "vulnerability_record_id": vulnerability_record_id,
-                    "repository_id": repository_id,
-                    "dependency_id": dependency_id,
-                    "package_name": package_name,
-                    "package_version": package_version,
-                    "vulnerability_id": vulnerability_id,
-                    "severity": vuln.get("vuln_severity"),
-                    "cvss_score": vuln.get("cvss_score"),
-                    "cwe": vuln.get("cwe"),
-                    "fix_version": vuln.get("fix_version"),
-                    "description": vuln.get("message"),
-                    "tool": "grype",
-                    "analyzed_at": utc_now(),
+                    "vulnerability_record_id":
+                        vulnerability_record_id,
+
+                    "repository_id":
+                        repository_id,
+
+                    "repository":
+                        repo_name,
+
+                    "dependency_id":
+                        dependency_id,
+
+                    "package_name":
+                        package_name,
+
+                    "package_version":
+                        package_version,
+
+                    "package_type":
+                        package_type,
+
+                    "language":
+                        language,
+
+                    "purl":
+                        purl,
+
+                    "location":
+                        location,
+
+                    "vulnerability_id":
+                        vulnerability_id,
+
+                    "related_cve":
+                        related_cve,
+
+                    "severity":
+                        vulnerability.get("severity"),
+
+                    "cvss_score":
+                        cvss_score,
+
+                    "epss":
+                        epss_score,
+
+                    "risk":
+                        vulnerability.get("risk"),
+
+                    "cwe":
+                        cwe_list,
+
+                    "fix_state":
+                        fix_state,
+
+                    "fix_versions":
+                        fix_versions,
+
+                    "description":
+                        vulnerability.get("description"),
+
+                    "data_source":
+                        vulnerability.get("dataSource"),
+
+                    "namespace":
+                        vulnerability.get("namespace"),
+
+                    "tool":
+                        "grype",
+
+                    "analyzed_at":
+                        utc_now(),
                 }
             )
+
+    LOGGER.info(
+        "Normalized %s dependency vulnerabilities",
+        len(vulnerabilities),
+    )
 
     return vulnerabilities, repo_vuln_count
 
