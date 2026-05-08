@@ -1,0 +1,43 @@
+{
+  "total_issues": 4,
+  "issues_by_severity": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "UNKNOWN": 4
+  },
+  "issues": [
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/ci.yml",
+      "resource": "on(ci)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/cleanup.yml",
+      "resource": "on(cleanup)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/milestone.yml",
+      "resource": "on(milestone)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/ok-to-test.yml",
+      "resource": "on(Ok To Test)",
+      "severity": null,
+      "guideline": null
+    }
+  ]
+}

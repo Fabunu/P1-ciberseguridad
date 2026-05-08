@@ -1,0 +1,43 @@
+{
+  "total_issues": 4,
+  "issues_by_severity": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "UNKNOWN": 4
+  },
+  "issues": [
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/codeql-analysis.yml",
+      "resource": "on(CodeQL)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/it-tests.yml",
+      "resource": "on(IT tests)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/main.yml",
+      "resource": "on(Main)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/release.yml",
+      "resource": "on(Publish Package to npmjs)",
+      "severity": null,
+      "guideline": null
+    }
+  ]
+}

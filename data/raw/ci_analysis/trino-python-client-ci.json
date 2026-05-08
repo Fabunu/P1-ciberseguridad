@@ -1,0 +1,27 @@
+{
+  "total_issues": 2,
+  "issues_by_severity": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "UNKNOWN": 2
+  },
+  "issues": [
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/ci.yml",
+      "resource": "on(ci)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/release.yml",
+      "resource": "on(trino-python-client release)",
+      "severity": null,
+      "guideline": null
+    }
+  ]
+}

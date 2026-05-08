@@ -35,22 +35,16 @@ class MetricsBuilder:
 
         self.dependencies = loader.dependencies.copy()
 
-        self.dep_vulns = (
-            loader.dependency_vulnerabilities.copy()
+        self.dep_vulns = loader.dependency_vulnerabilities.copy()
+
+        self.code_vulns = loader.code_vulnerabilities.copy()
+
+        self.dep_vulns["normalized_severity"] = self.dep_vulns["severity"].apply(
+            normalize_severity
         )
 
-        self.code_vulns = (
-            loader.code_vulnerabilities.copy()
-        )
-
-        self.dep_vulns["normalized_severity"] = (
-            self.dep_vulns["severity"]
-            .apply(normalize_severity)
-        )
-
-        self.code_vulns["normalized_severity"] = (
-            self.code_vulns["severity"]
-            .apply(normalize_severity)
+        self.code_vulns["normalized_severity"] = self.code_vulns["severity"].apply(
+            normalize_severity
         )
 
     # =========================================================
@@ -58,7 +52,6 @@ class MetricsBuilder:
     # =========================================================
 
     def unified_vulnerabilities(self):
-
         dep = self.dep_vulns[
             [
                 "repository_id",
@@ -100,12 +93,10 @@ class MetricsBuilder:
     # =========================================================
 
     def repository_summary(self):
-
         unified = self.unified_vulnerabilities()
 
         summary = (
-            unified
-            .groupby("repository")
+            unified.groupby("repository")
             .agg(
                 total_vulnerabilities=(
                     "vulnerability_id",
@@ -129,12 +120,10 @@ class MetricsBuilder:
     # =========================================================
 
     def severity_distribution(self):
-
         unified = self.unified_vulnerabilities()
 
         severity = (
-            unified
-            .groupby(
+            unified.groupby(
                 [
                     "repository",
                     "normalized_severity",
@@ -154,19 +143,14 @@ class MetricsBuilder:
     # =========================================================
 
     def repository_risk(self):
-
         unified = self.unified_vulnerabilities()
 
-        pivot = (
-            unified
-            .pivot_table(
-                index="repository",
-                columns="normalized_severity",
-                aggfunc="size",
-                fill_value=0,
-            )
-            .reset_index()
-        )
+        pivot = unified.pivot_table(
+            index="repository",
+            columns="normalized_severity",
+            aggfunc="size",
+            fill_value=0,
+        ).reset_index()
 
         for severity in [
             "CRITICAL",
@@ -178,18 +162,15 @@ class MetricsBuilder:
             if severity not in pivot.columns:
                 pivot[severity] = 0
 
-        pivot["total_vulnerabilities"] = (
-            pivot[
-                [
-                    "CRITICAL",
-                    "HIGH",
-                    "MEDIUM",
-                    "LOW",
-                    "UNKNOWN",
-                ]
+        pivot["total_vulnerabilities"] = pivot[
+            [
+                "CRITICAL",
+                "HIGH",
+                "MEDIUM",
+                "LOW",
+                "UNKNOWN",
             ]
-            .sum(axis=1)
-        )
+        ].sum(axis=1)
 
         pivot["risk_score"] = (
             pivot["CRITICAL"] * 5
@@ -218,10 +199,8 @@ class MetricsBuilder:
     # =========================================================
 
     def top_vulnerable_packages(self):
-
         result = (
-            self.dep_vulns
-            .groupby("package_name")
+            self.dep_vulns.groupby("package_name")
             .agg(
                 affected_repositories=(
                     "repository",
@@ -237,15 +216,11 @@ class MetricsBuilder:
                 ),
                 critical_vulnerabilities=(
                     "normalized_severity",
-                    lambda x: (
-                        x == "CRITICAL"
-                    ).sum(),
+                    lambda x: (x == "CRITICAL").sum(),
                 ),
                 high_vulnerabilities=(
                     "normalized_severity",
-                    lambda x: (
-                        x == "HIGH"
-                    ).sum(),
+                    lambda x: (x == "HIGH").sum(),
                 ),
                 average_cvss=(
                     "cvss_score",
@@ -277,18 +252,14 @@ class MetricsBuilder:
     # =========================================================
 
     def top_cwes(self):
-
         dep = self.dep_vulns.copy()
 
         dep = dep.explode("cwe")
 
-        dep = dep[
-            dep["cwe"].notna()
-        ]
+        dep = dep[dep["cwe"].notna()]
 
         cwes = (
-            dep
-            .groupby("cwe")
+            dep.groupby("cwe")
             .agg(
                 frequency=(
                     "vulnerability_id",
@@ -306,6 +277,10 @@ class MetricsBuilder:
                     "cvss_score",
                     "max",
                 ),
+                description=(
+                    "description",
+                    "first",
+                ),
             )
             .reset_index()
         )
@@ -320,10 +295,8 @@ class MetricsBuilder:
     # =========================================================
 
     def language_risk(self):
-
         result = (
-            self.dep_vulns
-            .groupby("language")
+            self.dep_vulns.groupby("language")
             .agg(
                 total_vulnerabilities=(
                     "vulnerability_id",
@@ -335,15 +308,11 @@ class MetricsBuilder:
                 ),
                 critical_count=(
                     "normalized_severity",
-                    lambda x: (
-                        x == "CRITICAL"
-                    ).sum(),
+                    lambda x: (x == "CRITICAL").sum(),
                 ),
                 high_count=(
                     "normalized_severity",
-                    lambda x: (
-                        x == "HIGH"
-                    ).sum(),
+                    lambda x: (x == "HIGH").sum(),
                 ),
                 average_cvss=(
                     "cvss_score",
@@ -367,10 +336,8 @@ class MetricsBuilder:
     # =========================================================
 
     def repository_dependency_stats(self):
-
         stats = (
-            self.dep_vulns
-            .groupby("repository")
+            self.dep_vulns.groupby("repository")
             .agg(
                 total_dependency_vulnerabilities=(
                     "vulnerability_id",
@@ -386,9 +353,7 @@ class MetricsBuilder:
                 ),
                 critical_dependency_vulnerabilities=(
                     "normalized_severity",
-                    lambda x: (
-                        x == "CRITICAL"
-                    ).sum(),
+                    lambda x: (x == "CRITICAL").sum(),
                 ),
                 average_cvss=(
                     "cvss_score",
@@ -408,10 +373,8 @@ class MetricsBuilder:
     # =========================================================
 
     def repository_codeql_stats(self):
-
         stats = (
-            self.code_vulns
-            .groupby("repository_id")
+            self.code_vulns.groupby("repository_id")
             .agg(
                 total_code_vulnerabilities=(
                     "finding_id",
@@ -423,15 +386,11 @@ class MetricsBuilder:
                 ),
                 high_severity_findings=(
                     "normalized_severity",
-                    lambda x: (
-                        x == "HIGH"
-                    ).sum(),
+                    lambda x: (x == "HIGH").sum(),
                 ),
                 medium_severity_findings=(
                     "normalized_severity",
-                    lambda x: (
-                        x == "MEDIUM"
-                    ).sum(),
+                    lambda x: (x == "MEDIUM").sum(),
                 ),
             )
             .reset_index()
@@ -447,10 +406,8 @@ class MetricsBuilder:
     # =========================================================
 
     def cross_repository_patterns(self):
-
         patterns = (
-            self.dep_vulns
-            .groupby("vulnerability_id")
+            self.dep_vulns.groupby("vulnerability_id")
             .agg(
                 affected_repositories=(
                     "repository",
@@ -467,6 +424,10 @@ class MetricsBuilder:
                 average_cvss=(
                     "cvss_score",
                     "mean",
+                ),
+                description=(
+                    "description",
+                    "first",
                 ),
             )
             .reset_index()

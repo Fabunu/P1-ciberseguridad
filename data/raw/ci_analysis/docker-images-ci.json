@@ -1,0 +1,35 @@
+{
+  "total_issues": 3,
+  "issues_by_severity": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "UNKNOWN": 3
+  },
+  "issues": [
+    {
+      "check_id": "CKV_GHA_7",
+      "check_name": "The build output cannot be affected by user parameters other than the build entry point and the top-level source location. GitHub Actions workflow_dispatch inputs MUST be empty. ",
+      "file": "/release.yml",
+      "resource": "on(release)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/ci.yml",
+      "resource": "on(ci)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/release.yml",
+      "resource": "on(release)",
+      "severity": null,
+      "guideline": null
+    }
+  ]
+}

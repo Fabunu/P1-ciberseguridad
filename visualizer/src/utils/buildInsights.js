@@ -65,7 +65,11 @@ export function buildInsights(data) {
         topCwe.frequency
       )} ocurrencias en ${formatNumber(
         topCwe.repositories_affected
-      )} repositorios.`,
+      )} repositorios.${
+        topCwe.description
+          ? ` Contexto: ${topCwe.description}`
+          : ""
+      }`,
     });
   }
 
@@ -78,7 +82,11 @@ export function buildInsights(data) {
         topCrossRepo.affected_repositories
       )} repositorios y aparece ${formatNumber(
         topCrossRepo.total_occurrences
-      )} veces. Es una candidata fuerte para remediación centralizada.`,
+      )} veces.${
+        topCrossRepo.description
+          ? ` ${topCrossRepo.description}`
+          : ""
+      }`,
     });
   }
 

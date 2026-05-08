@@ -1,0 +1,43 @@
+{
+  "total_issues": 4,
+  "issues_by_severity": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "UNKNOWN": 4
+  },
+  "issues": [
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/optimize.yml",
+      "resource": "on(Optimize)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/reports.yml",
+      "resource": "on(Reports)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/sync-slack.yml",
+      "resource": "on(Incremental Slack sync)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/sync.yml",
+      "resource": "on(Incremental GitHub sync)",
+      "severity": null,
+      "guideline": null
+    }
+  ]
+}

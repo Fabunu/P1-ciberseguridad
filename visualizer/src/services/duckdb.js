@@ -101,6 +101,20 @@ await db.registerFileURL(
   false
 );
 
+await db.registerFileURL(
+  "repository_codeql_stats.parquet",
+  "/parquet/repository_codeql_stats.parquet",
+  duckdb.DuckDBDataProtocol.HTTP,
+  false
+);
+
+await db.registerFileURL(
+  "repository_summary.parquet",
+  "/parquet/repository_summary.parquet",
+  duckdb.DuckDBDataProtocol.HTTP,
+  false
+);
+
   console.log(
     "[DuckDB] initialized"
   );
