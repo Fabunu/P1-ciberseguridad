@@ -16,17 +16,15 @@ RAW_PATH = PROJECT_ROOT / "data" / "raw"
 SYFT_RAW_PATH = RAW_PATH / "syft"
 GRYPE_RAW_PATH = RAW_PATH / "grype"
 CODEQL_RAW_PATH = RAW_PATH / "codeql"
+CI_RAW_PATH = RAW_PATH / "ci_analysis"
 
 NORMALIZED_PATH = PROJECT_ROOT / "data" / "normalized"
 
 REPOSITORIES_PARQUET = NORMALIZED_PATH / "repositories.parquet"
 DEPENDENCIES_PARQUET = NORMALIZED_PATH / "dependencies.parquet"
-DEPENDENCY_VULNS_PARQUET = (
-    NORMALIZED_PATH / "dependency_vulnerabilities.parquet"
-)
-CODE_VULNS_PARQUET = (
-    NORMALIZED_PATH / "code_vulnerabilities.parquet"
-)
+DEPENDENCY_VULNS_PARQUET = NORMALIZED_PATH / "dependency_vulnerabilities.parquet"
+CODE_VULNS_PARQUET = NORMALIZED_PATH / "code_vulnerabilities.parquet"
+CI_VULNS_PARQUET = NORMALIZED_PATH / "ci_vulnerabilities.parquet"
 
 
 if not logging.getLogger().handlers:
@@ -55,11 +53,7 @@ def normalize_syft() -> tuple[list[dict], dict[str, int]]:
         return dependencies, repo_dependency_count
 
     for json_file in sorted(SYFT_RAW_PATH.glob("*.json")):
-        repo_name = (
-            json_file.name
-            .replace("-sbom", "")
-            .replace(".json", "")
-        )
+        repo_name = json_file.name.replace("-sbom", "").replace(".json", "")
         repository_id = sha1_hash(repo_name)
 
         LOGGER.info("Normalizing Syft: %s", repo_name)
@@ -78,9 +72,7 @@ def normalize_syft() -> tuple[list[dict], dict[str, int]]:
             artifact_name = artifact.get("name")
             artifact_version = artifact.get("version")
 
-            dependency_id = sha1_hash(
-                f"{repo_name}:{artifact_name}:{artifact_version}"
-            )
+            dependency_id = sha1_hash(f"{repo_name}:{artifact_name}:{artifact_version}")
 
             dependencies.append(
                 {
@@ -113,10 +105,8 @@ def normalize_grype() -> tuple[list[dict], dict[str, int]]:
         return vulnerabilities, repo_vuln_count
 
     for json_file in sorted(GRYPE_RAW_PATH.glob("*-raw.json")):
-
         repo_name = (
-            json_file.name
-            .replace("-grype-raw.json", "")
+            json_file.name.replace("-grype-raw.json", "")
             .replace("-raw.json", "")
             .replace(".json", "")
         )
@@ -126,9 +116,7 @@ def normalize_grype() -> tuple[list[dict], dict[str, int]]:
         LOGGER.info("Normalizing Grype: %s", repo_name)
 
         try:
-            data = json.loads(
-                json_file.read_text(encoding="utf-8")
-            )
+            data = json.loads(json_file.read_text(encoding="utf-8"))
 
         except Exception as error:
             LOGGER.error(
@@ -143,7 +131,6 @@ def normalize_grype() -> tuple[list[dict], dict[str, int]]:
         repo_vuln_count[repo_name] = len(matches)
 
         for match in matches:
-
             vulnerability = match.get("vulnerability", {})
             artifact = match.get("artifact", {})
 
@@ -155,19 +142,14 @@ def normalize_grype() -> tuple[list[dict], dict[str, int]]:
 
             vulnerability_id = vulnerability.get("id")
 
-            dependency_id = sha1_hash(
-                f"{repo_name}:{package_name}:{package_version}"
-            )
+            dependency_id = sha1_hash(f"{repo_name}:{package_name}:{package_version}")
 
             vulnerability_record_id = sha1_hash(
                 f"{repo_name}:{package_name}:{package_version}:{vulnerability_id}"
             )
 
             # Related CVE
-            related_vulns = match.get(
-                "relatedVulnerabilities",
-                []
-            )
+            related_vulns = match.get("relatedVulnerabilities", [])
 
             related_cve = None
 
@@ -194,11 +176,7 @@ def normalize_grype() -> tuple[list[dict], dict[str, int]]:
             # CWE
             cwe_entries = vulnerability.get("cwes", [])
 
-            cwe_list = [
-                cwe.get("cwe")
-                for cwe in cwe_entries
-                if cwe.get("cwe")
-            ]
+            cwe_list = [cwe.get("cwe") for cwe in cwe_entries if cwe.get("cwe")]
 
             # Fix information
             fix = vulnerability.get("fix", {})
@@ -217,77 +195,30 @@ def normalize_grype() -> tuple[list[dict], dict[str, int]]:
 
             vulnerabilities.append(
                 {
-                    "vulnerability_record_id":
-                        vulnerability_record_id,
-
-                    "repository_id":
-                        repository_id,
-
-                    "repository":
-                        repo_name,
-
-                    "dependency_id":
-                        dependency_id,
-
-                    "package_name":
-                        package_name,
-
-                    "package_version":
-                        package_version,
-
-                    "package_type":
-                        package_type,
-
-                    "language":
-                        language,
-
-                    "purl":
-                        purl,
-
-                    "location":
-                        location,
-
-                    "vulnerability_id":
-                        vulnerability_id,
-
-                    "related_cve":
-                        related_cve,
-
-                    "severity":
-                        vulnerability.get("severity"),
-
-                    "cvss_score":
-                        cvss_score,
-
-                    "epss":
-                        epss_score,
-
-                    "risk":
-                        vulnerability.get("risk"),
-
-                    "cwe":
-                        cwe_list,
-
-                    "fix_state":
-                        fix_state,
-
-                    "fix_versions":
-                        fix_versions,
-
-                    "description":
-                        vulnerability.get("description"),
-
-                    "data_source":
-                        vulnerability.get("dataSource"),
-
-                    "namespace":
-                        vulnerability.get("namespace"),
-
-                    "tool":
-                        "grype",
-
-                    "analyzed_at":
-                        utc_now(),
+                    "vulnerability_record_id": vulnerability_record_id,
+                    "repository_id": repository_id,
+                    "repository": repo_name,
+                    "dependency_id": dependency_id,
+                    "package_name": package_name,
+                    "package_version": package_version,
+                    "package_type": package_type,
+                    "language": language,
+                    "purl": purl,
+                    "location": location,
+                    "vulnerability_id": vulnerability_id,
+                    "related_cve": related_cve,
+                    "severity": vulnerability.get("severity"),
+                    "cvss_score": cvss_score,
+                    "epss": epss_score,
+                    "risk": vulnerability.get("risk"),
+                    "cwe": cwe_list,
+                    "fix_state": fix_state,
+                    "fix_versions": fix_versions,
+                    "description": vulnerability.get("description"),
+                    "data_source": vulnerability.get("dataSource"),
+                    "namespace": vulnerability.get("namespace"),
+                    "tool": "grype",
+                    "analyzed_at": utc_now(),
                 }
             )
 
@@ -331,9 +262,7 @@ def normalize_codeql() -> tuple[list[dict], dict[str, int]]:
 
             start_line = region.get("startLine")
 
-            finding_id = sha1_hash(
-                f"{repo_name}:{rule_id}:{file_path}:{start_line}"
-            )
+            finding_id = sha1_hash(f"{repo_name}:{rule_id}:{file_path}:{start_line}")
 
             findings.append(
                 {
@@ -356,16 +285,71 @@ def normalize_codeql() -> tuple[list[dict], dict[str, int]]:
     return findings, repo_finding_count
 
 
+def normalize_checkov() -> tuple[list[dict], dict[str, int]]:
+    findings = []
+    repo_finding_count = {}
+
+    if not CI_RAW_PATH.exists():
+        LOGGER.warning("Checkov raw path does not exist.")
+        return findings, repo_finding_count
+
+    for json_file in sorted(CI_RAW_PATH.glob("*.json")):
+        repo_name = json_file.name.replace("-ci", "").replace(".json", "")
+        repository_id = sha1_hash(repo_name)
+
+        LOGGER.info("Normalizing Checkov: %s", repo_name)
+
+        try:
+            data = json.loads(json_file.read_text(encoding="utf-8"))
+        except Exception as error:
+            LOGGER.error("Failed to load %s: %s", json_file.name, error)
+            continue
+
+        issues = data.get("issues", [])
+
+        repo_finding_count[repo_name] = len(issues)
+
+        for issue in issues:
+            check_id = issue.get("check_id")
+            file_path = issue.get("file")
+            resource = issue.get("resource")
+
+            finding_id = sha1_hash(f"{repo_name}:{check_id}:{file_path}:{resource}")
+
+            findings.append(
+                {
+                    "finding_id": finding_id,
+                    "repository_id": repository_id,
+                    "repository_name": repo_name,
+                    "check_id": check_id,
+                    "check_name": issue.get("check_name"),
+                    "file_path": file_path,
+                    "resource": resource,
+                    "severity": issue.get("severity"),
+                    "guideline": issue.get("guideline"),
+                    "tool": "checkov",
+                    "analyzed_at": utc_now(),
+                }
+            )
+
+    return findings, repo_finding_count
+
+
 def build_repositories_dataset(
     dependency_counts: dict[str, int],
     dependency_vuln_counts: dict[str, int],
     code_vuln_counts: dict[str, int],
+    ci_vuln_counts: dict[str, int] | None = None,
 ) -> list[dict]:
+    if ci_vuln_counts is None:
+        ci_vuln_counts = {}
+
     repo_names = set()
 
     repo_names.update(dependency_counts.keys())
     repo_names.update(dependency_vuln_counts.keys())
     repo_names.update(code_vuln_counts.keys())
+    repo_names.update(ci_vuln_counts.keys())
 
     repositories = []
 
@@ -378,9 +362,8 @@ def build_repositories_dataset(
                 "total_dependency_vulnerabilities": (
                     dependency_vuln_counts.get(repo_name, 0)
                 ),
-                "total_code_vulnerabilities": (
-                    code_vuln_counts.get(repo_name, 0)
-                ),
+                "total_code_vulnerabilities": (code_vuln_counts.get(repo_name, 0)),
+                "total_ci_vulnerabilities": (ci_vuln_counts.get(repo_name, 0)),
                 "analyzed_at": utc_now(),
                 "analysis_status": "completed",
             }
@@ -414,10 +397,13 @@ def main() -> int:
 
     code_vulns, code_vuln_counts = normalize_codeql()
 
+    ci_vulns, ci_vuln_counts = normalize_checkov()
+
     repositories = build_repositories_dataset(
         dependency_counts=dependency_counts,
         dependency_vuln_counts=dependency_vuln_counts,
         code_vuln_counts=code_vuln_counts,
+        ci_vuln_counts=ci_vuln_counts,
     )
 
     save_parquet(repositories, REPOSITORIES_PARQUET)
@@ -432,6 +418,11 @@ def main() -> int:
     save_parquet(
         code_vulns,
         CODE_VULNS_PARQUET,
+    )
+
+    save_parquet(
+        ci_vulns,
+        CI_VULNS_PARQUET,
     )
 
     LOGGER.info("=" * 80)

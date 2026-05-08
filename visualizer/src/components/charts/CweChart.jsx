@@ -2,11 +2,17 @@ import {
     Bar,
     BarChart,
     CartesianGrid,
+    Cell,
     ResponsiveContainer,
     Tooltip,
     XAxis,
     YAxis,
 } from "recharts";
+
+const PALETTE = [
+    "#0891b2", "#7c3aed", "#ea580c", "#16a34a", "#dc2626",
+    "#2563eb", "#d946ef", "#ca8a04", "#64748b", "#0d9488",
+];
 
 export default function CweChart({ data }) {
     return (
@@ -28,7 +34,14 @@ export default function CweChart({ data }) {
 
                     <Tooltip />
 
-                    <Bar dataKey="frequency" name="Frequency" />
+                    <Bar dataKey="frequency" name="Frequency">
+                        {data.map((_, index) => (
+                            <Cell
+                                key={index}
+                                fill={PALETTE[index % PALETTE.length]}
+                            />
+                        ))}
+                    </Bar>
                 </BarChart>
             </ResponsiveContainer>
         </div>

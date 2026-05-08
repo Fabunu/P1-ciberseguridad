@@ -7,15 +7,14 @@ import subprocess
 from pathlib import Path
 
 
-RUTA_BASE = Path(__file__).resolve().parents[1]
+RUTA_BASE = Path(__file__).resolve().parents[2]
 RUTA_REPOS = RUTA_BASE / "data" / "repos"
-RUTA_RESULTADOS = RUTA_BASE / "data" / "results"
+RUTA_RESULTADOS = RUTA_BASE / "data" / "raw" / "ci_analysis"
 SUFIJO_CI = "-ci.json"
 
 
 if not logging.getLogger().handlers:
-    logging.basicConfig(level=logging.INFO,
-                        format="%(levelname)s | %(message)s")
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
 
 LOGGER = logging.getLogger(__name__)
 
@@ -58,9 +57,12 @@ class CIAnalyzer:
         result = subprocess.run(
             [
                 "checkov",
-                "-d", str(workflows_path),
-                "--framework", "github_actions",
-                "-o", "json",
+                "-d",
+                str(workflows_path),
+                "--framework",
+                "github_actions",
+                "-o",
+                "json",
             ],
             capture_output=True,
             text=True,
@@ -142,8 +144,7 @@ class CIAnalyzer:
                 continue
 
             if self.dry_run:
-                LOGGER.info(
-                    f"{repo.name}: {len(workflows)} workflows encontrados")
+                LOGGER.info(f"{repo.name}: {len(workflows)} workflows encontrados")
                 continue
 
             try:

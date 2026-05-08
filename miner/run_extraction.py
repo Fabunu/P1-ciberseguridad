@@ -13,6 +13,7 @@ SCRIPTS = [
     ("Syft", PROJECT_ROOT / "miner" / "adapters" / "generate_sboms.py"),
     ("Grype", PROJECT_ROOT / "miner" / "adapters" / "generate_grype.py"),
     ("CodeQL", PROJECT_ROOT / "miner" / "adapters" / "generate_codeql.py"),
+    ("Checkov", PROJECT_ROOT / "miner" / "adapters" / "generate_ci_analysis.py"),
 ]
 
 
@@ -50,9 +51,7 @@ def run_script(script_name: str, script_path: Path, dry_run: bool = False) -> No
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(
-        description="Run all raw extraction tools."
-    )
+    parser = argparse.ArgumentParser(description="Run all raw extraction tools.")
 
     parser.add_argument(
         "--dry-run",

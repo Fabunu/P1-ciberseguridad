@@ -35,17 +35,20 @@ export default function LanguageRiskChart({ data }) {
                         dataKey="critical_count"
                         name="Critical"
                         stackId="severity"
+                        fill="#7f1d1d"
                     />
 
                     <Bar
                         dataKey="high_count"
                         name="High"
                         stackId="severity"
+                        fill="#dc2626"
                     />
 
                     <Bar
                         dataKey="total_vulnerabilities"
                         name="Total"
+                        fill="#2563eb"
                     />
                 </BarChart>
             </ResponsiveContainer>

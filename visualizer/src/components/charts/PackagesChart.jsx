@@ -2,11 +2,17 @@ import {
     Bar,
     BarChart,
     CartesianGrid,
+    Cell,
     ResponsiveContainer,
     Tooltip,
     XAxis,
     YAxis,
 } from "recharts";
+
+const PALETTE = [
+    "#ea580c", "#d97706", "#ca8a04", "#65a30d", "#16a34a",
+    "#0d9488", "#0891b2", "#2563eb", "#7c3aed", "#a21caf",
+];
 
 export default function PackagesChart({ data }) {
     return (
@@ -31,7 +37,14 @@ export default function PackagesChart({ data }) {
                     <Bar
                         dataKey="vulnerability_count"
                         name="Vulnerabilities"
-                    />
+                    >
+                        {data.map((_, index) => (
+                            <Cell
+                                key={index}
+                                fill={PALETTE[index % PALETTE.length]}
+                            />
+                        ))}
+                    </Bar>
                 </BarChart>
             </ResponsiveContainer>
         </div>
