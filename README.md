@@ -1,4 +1,4 @@
-# SBOM Analysis — Proyecto 1 de Ciberseguridad
+# Análisis de Vulnerabilidades — Proyecto 1 de Ciberseguridad
 
 ## Integrantes del grupo
 
@@ -44,7 +44,7 @@ P1-ciberseguridad/
 │   │   ├── load_data.py            # Carga de datasets normalizados
 │   │   ├── metrics.py              # Métricas y transformaciones analíticas
 │   │   ├── aggregations.py         # Pipeline de agregaciones
-│   │   └── export_gold_dataset.py  # Exportación a gold datasets (Parquet)
+│   │   └── export_gold_dataset.py  # Exportación a datasets (Parquet)
 │   ├── notebooks/                  # Jupyter notebooks por dominio
 │   │   ├── 00_data_validation.ipynb
 │   │   ├── 01_repository_overview.ipynb
@@ -52,13 +52,13 @@ P1-ciberseguridad/
 │   │   ├── 03_codeql_analysis.ipynb
 │   │   ├── 04_risk_scoring.ipynb
 │   │   └── 05_cross_repository_patterns.ipynb
-│   └── outputs/                    # Gold datasets generados (Parquet)
+│   └── outputs/                    # datasets generados (Parquet)
 ├── visualizer/                     # Dashboard web interactivo (React + DuckDB-WASM)
 │   ├── src/
 │   │   ├── components/             # Componentes UI (KPIs, tablas, charts)
 │   │   ├── services/               # Conexión DuckDB-WASM + queries SQL
 │   │   └── utils/                  # Normalizadores y generación de insights
-│   └── public/parquet/             # Gold datasets servidos estáticamente
+│   └── public/parquet/             # datasets servidos estáticamente
 ├── data/
 │   ├── repos.json                  # Catálogo de repositorios (TrinoDB)
 │   ├── repos/                      # Repos clonados (git clone --depth 1)
@@ -97,7 +97,7 @@ Repositorios (git clone)
 │  ├─ metrics.py  │
 │  └─ notebooks/  │
 └────────────────┘
-    ↓  gold datasets (Parquet)
+    ↓  datasets (Parquet)
 ┌────────────────────┐
 │  VISUALIZER         │
 │  ├─ DuckDB-WASM    │  (SQL in-browser)
@@ -195,7 +195,7 @@ Convierte los JSON crudos a 4 tablas Parquet en `data/normalized/`:
 - `dependency_vulnerabilities.parquet` — vulnerabilidades SCA (Grype)
 - `code_vulnerabilities.parquet` — hallazgos SAST (CodeQL)
 
-### 4. Análisis y gold datasets (Analyzer)
+### 4. Análisis y datasets (Analyzer)
 
 ```bash
 python analyzer/scripts/export_gold_dataset.py
@@ -230,7 +230,7 @@ jupyter lab
 # 05_cross_repository_patterns.ipynb → Patrones entre repos
 ```
 
-### 6. Copiar gold datasets al visualizador
+### 6. Copiar datasets al visualizador
 
 ```bash
 # Los scripts de análisis copian los Parquet a visualizer/public/parquet/
@@ -275,7 +275,7 @@ python miner/run_pipeline.py
 # 3. Normalizar
 python miner/run_normalization.py
 
-# 4. Generar gold datasets
+# 4. Generar datasets
 python analyzer/scripts/export_gold_dataset.py
 
 # 5. Copiar al visualizador
